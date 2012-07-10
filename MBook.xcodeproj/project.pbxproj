@@ -94,6 +94,26 @@
 		4A2ED87115ABFA020077A181 /* 关闭按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED87015ABFA000077A181 /* 关闭按钮.png */; };
 		4A4B327B15AC2D57004229AB /* musicInform.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A4B327A15AC2D57004229AB /* musicInform.plist */; };
 		4A4B328C15AC5634004229AB /* MScorePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B328A15AC560D004229AB /* MScorePlayViewController.m */; };
+		4A63C20B15AC77C2006A2DBA /* Deleteicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1F715AC77C2006A2DBA /* Deleteicon.png */; };
+		4A63C20C15AC77C2006A2DBA /* NavigationBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1F815AC77C2006A2DBA /* NavigationBar.png */; };
+		4A63C20D15AC77C2006A2DBA /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1F915AC77C2006A2DBA /* search.png */; };
+		4A63C20E15AC77C2006A2DBA /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1FA15AC77C2006A2DBA /* Settings.png */; };
+		4A63C20F15AC77C2006A2DBA /* SettingsPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1FB15AC77C2006A2DBA /* SettingsPressed.png */; };
+		4A63C21015AC77C2006A2DBA /* zoomGloass.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1FC15AC77C2006A2DBA /* zoomGloass.png */; };
+		4A63C21115AC77C2006A2DBA /* 书城icon press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1FD15AC77C2006A2DBA /* 书城icon press.png */; };
+		4A63C21215AC77C2006A2DBA /* 书城icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1FE15AC77C2006A2DBA /* 书城icon.png */; };
+		4A63C21315AC77C2006A2DBA /* 书架.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1FF15AC77C2006A2DBA /* 书架.png */; };
+		4A63C21415AC77C2006A2DBA /* 书架背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20015AC77C2006A2DBA /* 书架背景.png */; };
+		4A63C21515AC77C2006A2DBA /* 书架（长）.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20115AC77C2006A2DBA /* 书架（长）.png */; };
+		4A63C21615AC77C2006A2DBA /* 删除.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20215AC77C2006A2DBA /* 删除.png */; };
+		4A63C21715AC77C2006A2DBA /* 删除icon press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20315AC77C2006A2DBA /* 删除icon press.png */; };
+		4A63C21815AC77C2006A2DBA /* 删除icon大.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20415AC77C2006A2DBA /* 删除icon大.png */; };
+		4A63C21915AC77C2006A2DBA /* 删除icon小.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20515AC77C2006A2DBA /* 删除icon小.png */; };
+		4A63C21A15AC77C2006A2DBA /* 删除press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20615AC77C2006A2DBA /* 删除press.png */; };
+		4A63C21B15AC77C2006A2DBA /* 删除背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20715AC77C2006A2DBA /* 删除背景.png */; };
+		4A63C21C15AC77C2006A2DBA /* 取消.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20815AC77C2006A2DBA /* 取消.png */; };
+		4A63C21D15AC77C2006A2DBA /* 取消press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20915AC77C2006A2DBA /* 取消press.png */; };
+		4A63C21E15AC77C2006A2DBA /* 标记.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20A15AC77C2006A2DBA /* 标记.png */; };
 		CAA8D29B15AB098A00EE67E4 /* Pagination.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA8D29A15AB098A00EE67E4 /* Pagination.m */; };
 		CAA8D2AF15AB0A8400EE67E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA8D2AE15AB0A8400EE67E4 /* QuartzCore.framework */; };
 		CAA8D2C015AB0CDE00EE67E4 /* book_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA8D2B115AB0CDE00EE67E4 /* book_bg@2x.png */; };
@@ -235,6 +255,26 @@
 		4A4B328915AC560D004229AB /* MScorePlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MScorePlayViewController.h; sourceTree = "<group>"; };
 		4A4B328A15AC560D004229AB /* MScorePlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MScorePlayViewController.m; sourceTree = "<group>"; };
 		4A4B328B15AC560D004229AB /* MScorePlayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MScorePlayViewController.xib; sourceTree = "<group>"; };
+		4A63C1F715AC77C2006A2DBA /* Deleteicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Deleteicon.png; sourceTree = "<group>"; };
+		4A63C1F815AC77C2006A2DBA /* NavigationBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationBar.png; sourceTree = "<group>"; };
+		4A63C1F915AC77C2006A2DBA /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		4A63C1FA15AC77C2006A2DBA /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		4A63C1FB15AC77C2006A2DBA /* SettingsPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsPressed.png; sourceTree = "<group>"; };
+		4A63C1FC15AC77C2006A2DBA /* zoomGloass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoomGloass.png; sourceTree = "<group>"; };
+		4A63C1FD15AC77C2006A2DBA /* 书城icon press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "书城icon press.png"; sourceTree = "<group>"; };
+		4A63C1FE15AC77C2006A2DBA /* 书城icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "书城icon.png"; sourceTree = "<group>"; };
+		4A63C1FF15AC77C2006A2DBA /* 书架.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "书架.png"; sourceTree = "<group>"; };
+		4A63C20015AC77C2006A2DBA /* 书架背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "书架背景.png"; sourceTree = "<group>"; };
+		4A63C20115AC77C2006A2DBA /* 书架（长）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "书架（长）.png"; sourceTree = "<group>"; };
+		4A63C20215AC77C2006A2DBA /* 删除.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除.png"; sourceTree = "<group>"; };
+		4A63C20315AC77C2006A2DBA /* 删除icon press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除icon press.png"; sourceTree = "<group>"; };
+		4A63C20415AC77C2006A2DBA /* 删除icon大.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除icon大.png"; sourceTree = "<group>"; };
+		4A63C20515AC77C2006A2DBA /* 删除icon小.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除icon小.png"; sourceTree = "<group>"; };
+		4A63C20615AC77C2006A2DBA /* 删除press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除press.png"; sourceTree = "<group>"; };
+		4A63C20715AC77C2006A2DBA /* 删除背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除背景.png"; sourceTree = "<group>"; };
+		4A63C20815AC77C2006A2DBA /* 取消.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消.png"; sourceTree = "<group>"; };
+		4A63C20915AC77C2006A2DBA /* 取消press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消press.png"; sourceTree = "<group>"; };
+		4A63C20A15AC77C2006A2DBA /* 标记.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标记.png"; sourceTree = "<group>"; };
 		CAA8D29915AB098A00EE67E4 /* Pagination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pagination.h; sourceTree = "<group>"; };
 		CAA8D29A15AB098A00EE67E4 /* Pagination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pagination.m; sourceTree = "<group>"; };
 		CAA8D2AE15AB0A8400EE67E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -410,6 +450,34 @@
 				4A2ED85915ABF7700077A181 /* music2.mp3 */,
 			);
 			name = DemoMusics;
+			sourceTree = "<group>";
+		};
+		4A63C1F615AC77C2006A2DBA /* BooksshelfIcons */ = {
+			isa = PBXGroup;
+			children = (
+				4A63C1F715AC77C2006A2DBA /* Deleteicon.png */,
+				4A63C1F815AC77C2006A2DBA /* NavigationBar.png */,
+				4A63C1F915AC77C2006A2DBA /* search.png */,
+				4A63C1FA15AC77C2006A2DBA /* Settings.png */,
+				4A63C1FB15AC77C2006A2DBA /* SettingsPressed.png */,
+				4A63C1FC15AC77C2006A2DBA /* zoomGloass.png */,
+				4A63C1FD15AC77C2006A2DBA /* 书城icon press.png */,
+				4A63C1FE15AC77C2006A2DBA /* 书城icon.png */,
+				4A63C1FF15AC77C2006A2DBA /* 书架.png */,
+				4A63C20015AC77C2006A2DBA /* 书架背景.png */,
+				4A63C20115AC77C2006A2DBA /* 书架（长）.png */,
+				4A63C20215AC77C2006A2DBA /* 删除.png */,
+				4A63C20315AC77C2006A2DBA /* 删除icon press.png */,
+				4A63C20415AC77C2006A2DBA /* 删除icon大.png */,
+				4A63C20515AC77C2006A2DBA /* 删除icon小.png */,
+				4A63C20615AC77C2006A2DBA /* 删除press.png */,
+				4A63C20715AC77C2006A2DBA /* 删除背景.png */,
+				4A63C20815AC77C2006A2DBA /* 取消.png */,
+				4A63C20915AC77C2006A2DBA /* 取消press.png */,
+				4A63C20A15AC77C2006A2DBA /* 标记.png */,
+			);
+			name = BooksshelfIcons;
+			path = Manager/BooksshelfIcons;
 			sourceTree = "<group>";
 		};
 		4A6CB29315AC0C77000F3198 /* image */ = {
@@ -594,6 +662,7 @@
 		CAB26F9615A48720009E4435 /* MBook */ = {
 			isa = PBXGroup;
 			children = (
+				4A63C1F615AC77C2006A2DBA /* BooksshelfIcons */,
 				CAA8D2B015AB0CDD00EE67E4 /* Image */,
 				CAB26FCA15A498A6009E4435 /* Util */,
 				CAB26FB215A48EBC009E4435 /* Controller */,
@@ -783,6 +852,26 @@
 				4A2ED86C15ABF7700077A181 /* music2.mp3 in Resources */,
 				4A2ED87115ABFA020077A181 /* 关闭按钮.png in Resources */,
 				4A4B327B15AC2D57004229AB /* musicInform.plist in Resources */,
+				4A63C20B15AC77C2006A2DBA /* Deleteicon.png in Resources */,
+				4A63C20C15AC77C2006A2DBA /* NavigationBar.png in Resources */,
+				4A63C20D15AC77C2006A2DBA /* search.png in Resources */,
+				4A63C20E15AC77C2006A2DBA /* Settings.png in Resources */,
+				4A63C20F15AC77C2006A2DBA /* SettingsPressed.png in Resources */,
+				4A63C21015AC77C2006A2DBA /* zoomGloass.png in Resources */,
+				4A63C21115AC77C2006A2DBA /* 书城icon press.png in Resources */,
+				4A63C21215AC77C2006A2DBA /* 书城icon.png in Resources */,
+				4A63C21315AC77C2006A2DBA /* 书架.png in Resources */,
+				4A63C21415AC77C2006A2DBA /* 书架背景.png in Resources */,
+				4A63C21515AC77C2006A2DBA /* 书架（长）.png in Resources */,
+				4A63C21615AC77C2006A2DBA /* 删除.png in Resources */,
+				4A63C21715AC77C2006A2DBA /* 删除icon press.png in Resources */,
+				4A63C21815AC77C2006A2DBA /* 删除icon大.png in Resources */,
+				4A63C21915AC77C2006A2DBA /* 删除icon小.png in Resources */,
+				4A63C21A15AC77C2006A2DBA /* 删除press.png in Resources */,
+				4A63C21B15AC77C2006A2DBA /* 删除背景.png in Resources */,
+				4A63C21C15AC77C2006A2DBA /* 取消.png in Resources */,
+				4A63C21D15AC77C2006A2DBA /* 取消press.png in Resources */,
+				4A63C21E15AC77C2006A2DBA /* 标记.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
