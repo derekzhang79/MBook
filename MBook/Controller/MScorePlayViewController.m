@@ -29,15 +29,15 @@
 
 
 
-//- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-//{
-//    self = [super initWithNibName:@"MScorePlayViewController" bundle:nil];
-//    if (self) {
-//        // Custom initialization
-//        NSLog(@"MScorePlayViewController");
-//    }
-//    return self;
-//}
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:@"MScorePlayViewController" bundle:nil];
+    if (self) {
+        // Custom initialization
+        NSLog(@"MScorePlayViewController");
+    }
+    return self;
+}
 
 - (void)didReceiveMemoryWarning
 {
