@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<dict>
+		<key>data</key>
+		<string>row_file</string>
+		<key>picture</key>
+		<string>musicPicture@2x</string>
+		<key>music1</key>
+		<string>music2</string>
+		<key>music2</key>
+		<string>music1</string>
+		<key>dataType</key>
+		<string>txt</string>
+		<key>pictureType</key>
+		<string>jpg</string>
+		<key>music1Type</key>
+		<string>mp3</string>
+		<key>music2Type</key>
+		<string>mp3</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>data</key>
+		<string>row_file</string>
+		<key>picture</key>
+		<string>musicPicture2@2x</string>
+		<key>music1</key>
+		<string>music3</string>
+		<key>music2</key>
+		<string>music4</string>
+		<key>dataType</key>
+		<string>txt</string>
+		<key>pictureType</key>
+		<string>jpg</string>
+		<key>music1Type</key>
+		<string>mp3</string>
+		<key>music2Type</key>
+		<string>mp3</string>
+	</dict>
+</dict>
+</plist>
