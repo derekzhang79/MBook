@@ -76,5 +76,6 @@
 -(void)unlockTheThread;
 -(IBAction)selectPre;
 -(IBAction)selectNext;
+- (IBAction)backButton:(id)sender;
 
 @end

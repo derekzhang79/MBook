@@ -34,7 +34,6 @@
     self = [super initWithNibName:@"MScorePlayViewController" bundle:nil];
     if (self) {
         // Custom initialization
-        NSLog(@"MScorePlayViewController");
     }
     return self;
 }
@@ -159,6 +158,13 @@
     [self clean];
     
     [self initTheData:++currentLinkID];
+}
+
+- (IBAction)backButton:(id)sender {
+    
+    [self.audioPlayer pause];
+    [self.backgroundPlayer pause];
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 -(id)initWithLink:(NSInteger)linkId{
