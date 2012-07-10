@@ -93,7 +93,7 @@
 		4A63C21C15AC77C2006A2DBA /* 取消.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20815AC77C2006A2DBA /* 取消.png */; };
 		4A63C21D15AC77C2006A2DBA /* 取消press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20915AC77C2006A2DBA /* 取消press.png */; };
 		4A63C21E15AC77C2006A2DBA /* 标记.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20A15AC77C2006A2DBA /* 标记.png */; };
-		4A63C22B15AC82A7006A2DBA /* Deleteicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C22A15AC82A7006A2DBA /* Deleteicon.png */; };
+		4A63C22D15AC870E006A2DBA /* Deleteicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C22C15AC870E006A2DBA /* Deleteicon.png */; };
 		CAA8D29B15AB098A00EE67E4 /* Pagination.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA8D29A15AB098A00EE67E4 /* Pagination.m */; };
 		CAA8D2AF15AB0A8400EE67E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA8D2AE15AB0A8400EE67E4 /* QuartzCore.framework */; };
 		CAA8D2C015AB0CDE00EE67E4 /* book_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA8D2B115AB0CDE00EE67E4 /* book_bg@2x.png */; };
@@ -254,7 +254,7 @@
 		4A63C20815AC77C2006A2DBA /* 取消.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消.png"; sourceTree = "<group>"; };
 		4A63C20915AC77C2006A2DBA /* 取消press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消press.png"; sourceTree = "<group>"; };
 		4A63C20A15AC77C2006A2DBA /* 标记.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标记.png"; sourceTree = "<group>"; };
-		4A63C22A15AC82A7006A2DBA /* Deleteicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Deleteicon.png; sourceTree = "<group>"; };
+		4A63C22C15AC870E006A2DBA /* Deleteicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Deleteicon.png; sourceTree = "<group>"; };
 		CAA8D29915AB098A00EE67E4 /* Pagination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pagination.h; sourceTree = "<group>"; };
 		CAA8D29A15AB098A00EE67E4 /* Pagination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pagination.m; sourceTree = "<group>"; };
 		CAA8D2AE15AB0A8400EE67E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -435,7 +435,7 @@
 		4A63C1F615AC77C2006A2DBA /* BooksshelfIcons */ = {
 			isa = PBXGroup;
 			children = (
-				4A63C22A15AC82A7006A2DBA /* Deleteicon.png */,
+				4A63C22C15AC870E006A2DBA /* Deleteicon.png */,
 				4A63C1F815AC77C2006A2DBA /* NavigationBar.png */,
 				4A63C1F915AC77C2006A2DBA /* search.png */,
 				4A63C1FA15AC77C2006A2DBA /* Settings.png */,
@@ -831,7 +831,7 @@
 				4A63C21C15AC77C2006A2DBA /* 取消.png in Resources */,
 				4A63C21D15AC77C2006A2DBA /* 取消press.png in Resources */,
 				4A63C21E15AC77C2006A2DBA /* 标记.png in Resources */,
-				4A63C22B15AC82A7006A2DBA /* Deleteicon.png in Resources */,
+				4A63C22D15AC870E006A2DBA /* Deleteicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
