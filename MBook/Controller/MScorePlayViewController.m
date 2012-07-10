@@ -7,7 +7,6 @@
 //
 
 #import "MScorePlayViewController.h"
-#import "MusicScoreViewController.h"
 
 @implementation MScorePlayViewController
 
@@ -113,12 +112,10 @@
     //return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
     if (interfaceOrientation ==UIInterfaceOrientationPortrait ||interfaceOrientation==UIInterfaceOrientationPortraitUpsideDown) {
         
+        [self.audioPlayer pause];
+        [self.backgroundPlayer pause];
         [self dismissModalViewControllerAnimated:YES];
-        
-//        MusicScoreViewController *musicScoreViewController = [[MusicScoreViewController alloc]initWithNibName:nil bundle:nil];
-//        
-//        [self.navigationController popToViewController:musicScoreViewController animated:YES];
-//        NSLog(@"dsafassdfasdfsadfasdfadfad");
+
     }
     
     return (interfaceOrientation== UIInterfaceOrientationLandscapeLeft||
