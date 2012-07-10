@@ -52,26 +52,6 @@
 		4A2ED81115ABD38E0077A181 /* SelectedBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E615ABD38E0077A181 /* SelectedBookDetailViewController.m */; };
 		4A2ED81215ABD38E0077A181 /* SelectedBookDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E715ABD38E0077A181 /* SelectedBookDetailViewController.xib */; };
 		4A2ED81315ABD38E0077A181 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E915ABD38E0077A181 /* ViewController.m */; };
-		4A2ED82915ABD3EA0077A181 /* Deleteicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED81515ABD3EA0077A181 /* Deleteicon.png */; };
-		4A2ED82A15ABD3EA0077A181 /* NavigationBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED81615ABD3EA0077A181 /* NavigationBar.png */; };
-		4A2ED82B15ABD3EA0077A181 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED81715ABD3EA0077A181 /* search.png */; };
-		4A2ED82C15ABD3EA0077A181 /* zoomGloass.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED81815ABD3EA0077A181 /* zoomGloass.png */; };
-		4A2ED82D15ABD3EA0077A181 /* 书城icon press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED81915ABD3EA0077A181 /* 书城icon press.png */; };
-		4A2ED82E15ABD3EA0077A181 /* 书城icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED81A15ABD3EA0077A181 /* 书城icon.png */; };
-		4A2ED82F15ABD3EA0077A181 /* 书架.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED81B15ABD3EA0077A181 /* 书架.png */; };
-		4A2ED83015ABD3EA0077A181 /* 书架背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED81C15ABD3EA0077A181 /* 书架背景.png */; };
-		4A2ED83115ABD3EA0077A181 /* 书架（长）.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED81D15ABD3EA0077A181 /* 书架（长）.png */; };
-		4A2ED83215ABD3EA0077A181 /* 删除.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED81E15ABD3EA0077A181 /* 删除.png */; };
-		4A2ED83315ABD3EA0077A181 /* 删除icon press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED81F15ABD3EA0077A181 /* 删除icon press.png */; };
-		4A2ED83415ABD3EA0077A181 /* 删除icon大.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED82015ABD3EA0077A181 /* 删除icon大.png */; };
-		4A2ED83515ABD3EA0077A181 /* 删除icon小.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED82115ABD3EA0077A181 /* 删除icon小.png */; };
-		4A2ED83615ABD3EA0077A181 /* 删除press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED82215ABD3EA0077A181 /* 删除press.png */; };
-		4A2ED83715ABD3EA0077A181 /* 删除背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED82315ABD3EA0077A181 /* 删除背景.png */; };
-		4A2ED83815ABD3EA0077A181 /* 取消.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED82415ABD3EA0077A181 /* 取消.png */; };
-		4A2ED83915ABD3EA0077A181 /* 取消press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED82515ABD3EA0077A181 /* 取消press.png */; };
-		4A2ED83A15ABD3EA0077A181 /* 标记.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED82615ABD3EA0077A181 /* 标记.png */; };
-		4A2ED83B15ABD3EA0077A181 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED82715ABD3EA0077A181 /* Settings.png */; };
-		4A2ED83C15ABD3EA0077A181 /* SettingsPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED82815ABD3EA0077A181 /* SettingsPressed.png */; };
 		4A2ED85A15ABF7700077A181 /* 伴奏.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED84715ABF7700077A181 /* 伴奏.png */; };
 		4A2ED85B15ABF7700077A181 /* 伴奏选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED84815ABF7700077A181 /* 伴奏选中.png */; };
 		4A2ED85C15ABF7700077A181 /* musicPicture2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED84915ABF7700077A181 /* musicPicture2@2x.jpg */; };
@@ -94,7 +74,6 @@
 		4A2ED87115ABFA020077A181 /* 关闭按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED87015ABFA000077A181 /* 关闭按钮.png */; };
 		4A4B327B15AC2D57004229AB /* musicInform.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A4B327A15AC2D57004229AB /* musicInform.plist */; };
 		4A4B328C15AC5634004229AB /* MScorePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B328A15AC560D004229AB /* MScorePlayViewController.m */; };
-		4A63C20B15AC77C2006A2DBA /* Deleteicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1F715AC77C2006A2DBA /* Deleteicon.png */; };
 		4A63C20C15AC77C2006A2DBA /* NavigationBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1F815AC77C2006A2DBA /* NavigationBar.png */; };
 		4A63C20D15AC77C2006A2DBA /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1F915AC77C2006A2DBA /* search.png */; };
 		4A63C20E15AC77C2006A2DBA /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1FA15AC77C2006A2DBA /* Settings.png */; };
@@ -255,7 +234,7 @@
 		4A4B328915AC560D004229AB /* MScorePlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MScorePlayViewController.h; sourceTree = "<group>"; };
 		4A4B328A15AC560D004229AB /* MScorePlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MScorePlayViewController.m; sourceTree = "<group>"; };
 		4A4B328B15AC560D004229AB /* MScorePlayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MScorePlayViewController.xib; sourceTree = "<group>"; };
-		4A63C1F715AC77C2006A2DBA /* Deleteicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Deleteicon.png; sourceTree = "<group>"; };
+		4A63C1F715AC77C2006A2DBA /* Deletionicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Deletionicon.png; sourceTree = "<group>"; };
 		4A63C1F815AC77C2006A2DBA /* NavigationBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationBar.png; sourceTree = "<group>"; };
 		4A63C1F915AC77C2006A2DBA /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		4A63C1FA15AC77C2006A2DBA /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
@@ -455,7 +434,7 @@
 		4A63C1F615AC77C2006A2DBA /* BooksshelfIcons */ = {
 			isa = PBXGroup;
 			children = (
-				4A63C1F715AC77C2006A2DBA /* Deleteicon.png */,
+				4A63C1F715AC77C2006A2DBA /* Deletionicon.png */,
 				4A63C1F815AC77C2006A2DBA /* NavigationBar.png */,
 				4A63C1F915AC77C2006A2DBA /* search.png */,
 				4A63C1FA15AC77C2006A2DBA /* Settings.png */,
@@ -811,26 +790,6 @@
 				4A2ED80F15ABD38E0077A181 /* OldBookViewChecked.png in Resources */,
 				4A2ED81015ABD38E0077A181 /* OldBookViewChecked@2x.png in Resources */,
 				4A2ED81215ABD38E0077A181 /* SelectedBookDetailViewController.xib in Resources */,
-				4A2ED82915ABD3EA0077A181 /* Deleteicon.png in Resources */,
-				4A2ED82A15ABD3EA0077A181 /* NavigationBar.png in Resources */,
-				4A2ED82B15ABD3EA0077A181 /* search.png in Resources */,
-				4A2ED82C15ABD3EA0077A181 /* zoomGloass.png in Resources */,
-				4A2ED82D15ABD3EA0077A181 /* 书城icon press.png in Resources */,
-				4A2ED82E15ABD3EA0077A181 /* 书城icon.png in Resources */,
-				4A2ED82F15ABD3EA0077A181 /* 书架.png in Resources */,
-				4A2ED83015ABD3EA0077A181 /* 书架背景.png in Resources */,
-				4A2ED83115ABD3EA0077A181 /* 书架（长）.png in Resources */,
-				4A2ED83215ABD3EA0077A181 /* 删除.png in Resources */,
-				4A2ED83315ABD3EA0077A181 /* 删除icon press.png in Resources */,
-				4A2ED83415ABD3EA0077A181 /* 删除icon大.png in Resources */,
-				4A2ED83515ABD3EA0077A181 /* 删除icon小.png in Resources */,
-				4A2ED83615ABD3EA0077A181 /* 删除press.png in Resources */,
-				4A2ED83715ABD3EA0077A181 /* 删除背景.png in Resources */,
-				4A2ED83815ABD3EA0077A181 /* 取消.png in Resources */,
-				4A2ED83915ABD3EA0077A181 /* 取消press.png in Resources */,
-				4A2ED83A15ABD3EA0077A181 /* 标记.png in Resources */,
-				4A2ED83B15ABD3EA0077A181 /* Settings.png in Resources */,
-				4A2ED83C15ABD3EA0077A181 /* SettingsPressed.png in Resources */,
 				4A2ED85A15ABF7700077A181 /* 伴奏.png in Resources */,
 				4A2ED85B15ABF7700077A181 /* 伴奏选中.png in Resources */,
 				4A2ED85C15ABF7700077A181 /* musicPicture2@2x.jpg in Resources */,
@@ -852,7 +811,6 @@
 				4A2ED86C15ABF7700077A181 /* music2.mp3 in Resources */,
 				4A2ED87115ABFA020077A181 /* 关闭按钮.png in Resources */,
 				4A4B327B15AC2D57004229AB /* musicInform.plist in Resources */,
-				4A63C20B15AC77C2006A2DBA /* Deleteicon.png in Resources */,
 				4A63C20C15AC77C2006A2DBA /* NavigationBar.png in Resources */,
 				4A63C20D15AC77C2006A2DBA /* search.png in Resources */,
 				4A63C20E15AC77C2006A2DBA /* Settings.png in Resources */,
@@ -982,7 +940,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MBook/MBook-Prefix.pch";
 				INFOPLIST_FILE = "MBook/MBook-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -994,7 +952,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MBook/MBook-Prefix.pch";
 				INFOPLIST_FILE = "MBook/MBook-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
