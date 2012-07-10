@@ -73,7 +73,7 @@
     [self.view setBackgroundColor:[UIColor grayColor]];
 
     [musicLabel setText:[NSString stringWithFormat:@"music%d",currentLinkID]];
-//    [progressView setProgress:0.0f];
+    [progressView setProgress:0.0f];
 
     
     [super viewDidLoad];

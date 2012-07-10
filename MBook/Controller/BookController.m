@@ -44,7 +44,7 @@
 -(void)showMScoreViewController{
     
     NSLog(@"retotating now !");
-    MScorePlayViewController *mScorePlayViewController = [[[MScorePlayViewController alloc]initWithLink:1] autorelease];
+    MScorePlayViewController *mScorePlayViewController = [[MScorePlayViewController alloc]initWithNibName:@"MScorePlayViewController" bundle:nil];
     [self.navigationController presentModalViewController:mScorePlayViewController animated:YES];   
 }
 

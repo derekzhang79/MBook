@@ -94,6 +94,7 @@
 		4A63C21D15AC77C2006A2DBA /* 取消press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20915AC77C2006A2DBA /* 取消press.png */; };
 		4A63C21E15AC77C2006A2DBA /* 标记.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C20A15AC77C2006A2DBA /* 标记.png */; };
 		4A63C22D15AC870E006A2DBA /* Deleteicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C22C15AC870E006A2DBA /* Deleteicon.png */; };
+		4A71B60515AC991100598351 /* MScorePlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A4B328B15AC560D004229AB /* MScorePlayViewController.xib */; };
 		CAA8D29B15AB098A00EE67E4 /* Pagination.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA8D29A15AB098A00EE67E4 /* Pagination.m */; };
 		CAA8D2AF15AB0A8400EE67E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA8D2AE15AB0A8400EE67E4 /* QuartzCore.framework */; };
 		CAA8D2C015AB0CDE00EE67E4 /* book_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA8D2B115AB0CDE00EE67E4 /* book_bg@2x.png */; };
@@ -747,7 +748,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAB26F9B15A48721009E4435 /* InfoPlist.strings in Resources */,
-				CAB26FB815A48EBC009E4435 /* BookController.xib in Resources */,
 				CAB26FBA15A48F30009E4435 /* test.txt in Resources */,
 				CAA8D2C015AB0CDE00EE67E4 /* book_bg@2x.png in Resources */,
 				CAA8D2C115AB0CDE00EE67E4 /* bookself_button@2x.png in Resources */,
@@ -764,7 +764,11 @@
 				CAA8D2CE15AB0CDE00EE67E4 /* video_button_press.png in Resources */,
 				CAA8D2E015AB182C00EE67E4 /* bookself_button_press@2x.png in Resources */,
 				CAA8D2F215AB1ACD00EE67E4 /* page_button@2x.png in Resources */,
+				4A71B60515AC991100598351 /* MScorePlayViewController.xib in Resources */,
+				CAB26FB815A48EBC009E4435 /* BookController.xib in Resources */,
 				4A2ED76C15ABBF610077A181 /* MusicScoreViewController.xib in Resources */,
+				4A2ED81215ABD38E0077A181 /* SelectedBookDetailViewController.xib in Resources */,
+				4A2ED80615ABD38E0077A181 /* ViewController.xib in Resources */,
 				4A2ED76F15ABC0800077A181 /* TRACKS1+2.jpg in Resources */,
 				4A2ED7EA15ABD38E0077A181 /* 1.png in Resources */,
 				4A2ED7EB15ABD38E0077A181 /* 11.jpg in Resources */,
@@ -787,10 +791,8 @@
 				4A2ED80115ABD38E0077A181 /* BookStroeButtonpress.png in Resources */,
 				4A2ED80315ABD38E0077A181 /* BookViewChecked.png in Resources */,
 				4A2ED80415ABD38E0077A181 /* comments.png in Resources */,
-				4A2ED80615ABD38E0077A181 /* ViewController.xib in Resources */,
 				4A2ED80F15ABD38E0077A181 /* OldBookViewChecked.png in Resources */,
 				4A2ED81015ABD38E0077A181 /* OldBookViewChecked@2x.png in Resources */,
-				4A2ED81215ABD38E0077A181 /* SelectedBookDetailViewController.xib in Resources */,
 				4A2ED85A15ABF7700077A181 /* 伴奏.png in Resources */,
 				4A2ED85B15ABF7700077A181 /* 伴奏选中.png in Resources */,
 				4A2ED85C15ABF7700077A181 /* musicPicture2@2x.jpg in Resources */,
