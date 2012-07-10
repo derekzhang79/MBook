@@ -43,7 +43,8 @@
 
 -(void)showMScoreViewController{
     
-     MScorePlayViewController *mScorePlayViewController = [[MScorePlayViewController alloc]initWithLink:1];
+    MScorePlayViewController *mScorePlayViewController = [[MScorePlayViewController alloc]initWithNibName:@"MScorePlayViewController" bundle:nil];
+//     MScorePlayViewController *mScorePlayViewController = [[MScorePlayViewController alloc]initWithLink:1];
     
     [self.navigationController presentModalViewController:mScorePlayViewController animated:YES];   
 }
