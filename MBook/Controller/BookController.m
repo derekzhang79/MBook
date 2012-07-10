@@ -45,6 +45,7 @@
     
 
    MScorePlayViewController *mScorePlayViewController = [[MScorePlayViewController alloc]initWithLink:1];
+
     [self.navigationController presentModalViewController:mScorePlayViewController animated:YES];   
 }
 
