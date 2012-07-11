@@ -59,7 +59,20 @@
     if (self.catalogView.hidden) {
         self.catalogView.hidden = NO;
         [self.catalogView setAlpha:1];
+//        self.catalogView.backgroundColor = [UIColor grayColor];
         [self.view bringSubviewToFront:self.catalogView];
+        
+        ////Animations 使得CatalogView 往左右边缓慢移动进入页面
+        CGRect Originframe = CGRectMake(300, 50, 210, 250);
+        [self.catalogView setFrame:Originframe];
+        [self.catalogView.layer  setOpacity:0.0 ];
+        [UIView beginAnimations:@"animation" context:nil];
+        [UIView setAnimationDuration:0.4];
+         Originframe.origin.x -= 300 ;
+        [self.catalogView setFrame:Originframe];
+        [self.catalogView.layer  setOpacity:1.0 ];
+        [UIView commitAnimations];
+        
 //        [self.catalogView reloadData];
     }else{
         self.catalogView.hidden = YES;
@@ -194,9 +207,6 @@
 
 - (void) leavesView:(LeavesView *)leavesView didClickLink:(Link *)link atPageIndex:(NSUInteger)pageIndex
 {
-    
-    
-    
     
     MScorePlayViewController *mc = [[MScorePlayViewController alloc] initWithLink:pageIndex + 2];
     [self presentModalViewController:mc animated:YES];
