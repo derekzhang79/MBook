@@ -43,7 +43,7 @@ typedef enum {
     BOOK_SELECTED
 }BookStatus;
 
-@interface ViewController : UIViewController <GSBookShelfViewDelegate, GSBookShelfViewDataSource>{
+@interface BookShelfViewController : UIViewController <GSBookShelfViewDelegate, GSBookShelfViewDataSource>{
     GSBookShelfView *_bookShelfView;
     
     NSMutableArray *_bookArray;

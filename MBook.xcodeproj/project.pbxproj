@@ -39,7 +39,7 @@
 		4A2ED80215ABD38E0077A181 /* BookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7CB15ABD38E0077A181 /* BookView.m */; };
 		4A2ED80315ABD38E0077A181 /* BookViewChecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7CC15ABD38E0077A181 /* BookViewChecked.png */; };
 		4A2ED80415ABD38E0077A181 /* comments.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7CD15ABD38E0077A181 /* comments.png */; };
-		4A2ED80615ABD38E0077A181 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D015ABD38E0077A181 /* ViewController.xib */; };
+		4A2ED80615ABD38E0077A181 /* BookShelfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D015ABD38E0077A181 /* BookShelfViewController.xib */; };
 		4A2ED80715ABD38E0077A181 /* GSBookShelfView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D415ABD38E0077A181 /* GSBookShelfView.m */; };
 		4A2ED80815ABD38E0077A181 /* GSBookViewContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D715ABD38E0077A181 /* GSBookViewContainerView.m */; };
 		4A2ED80915ABD38E0077A181 /* GSCellContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D915ABD38E0077A181 /* GSCellContainerView.m */; };
@@ -51,7 +51,7 @@
 		4A2ED81015ABD38E0077A181 /* OldBookViewChecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E415ABD38E0077A181 /* OldBookViewChecked@2x.png */; };
 		4A2ED81115ABD38E0077A181 /* SelectedBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E615ABD38E0077A181 /* SelectedBookDetailViewController.m */; };
 		4A2ED81215ABD38E0077A181 /* SelectedBookDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E715ABD38E0077A181 /* SelectedBookDetailViewController.xib */; };
-		4A2ED81315ABD38E0077A181 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E915ABD38E0077A181 /* ViewController.m */; };
+		4A2ED81315ABD38E0077A181 /* BookShelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E915ABD38E0077A181 /* BookShelfViewController.m */; };
 		4A2ED85A15ABF7700077A181 /* 伴奏.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED84715ABF7700077A181 /* 伴奏.png */; };
 		4A2ED85B15ABF7700077A181 /* 伴奏选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED84815ABF7700077A181 /* 伴奏选中.png */; };
 		4A2ED85C15ABF7700077A181 /* musicPicture2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED84915ABF7700077A181 /* musicPicture2@2x.jpg */; };
@@ -168,7 +168,7 @@
 		4A2ED7CB15ABD38E0077A181 /* BookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookView.m; sourceTree = "<group>"; };
 		4A2ED7CC15ABD38E0077A181 /* BookViewChecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookViewChecked.png; sourceTree = "<group>"; };
 		4A2ED7CD15ABD38E0077A181 /* comments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comments.png; sourceTree = "<group>"; };
-		4A2ED7D115ABD38E0077A181 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4A2ED7D115ABD38E0077A181 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BookShelfViewController.xib; sourceTree = "<group>"; };
 		4A2ED7D215ABD38E0077A181 /* GSBookShelfCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBookShelfCell.h; sourceTree = "<group>"; };
 		4A2ED7D315ABD38E0077A181 /* GSBookShelfView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBookShelfView.h; sourceTree = "<group>"; };
 		4A2ED7D415ABD38E0077A181 /* GSBookShelfView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBookShelfView.m; sourceTree = "<group>"; };
@@ -190,8 +190,8 @@
 		4A2ED7E515ABD38E0077A181 /* SelectedBookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedBookDetailViewController.h; sourceTree = "<group>"; };
 		4A2ED7E615ABD38E0077A181 /* SelectedBookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedBookDetailViewController.m; sourceTree = "<group>"; };
 		4A2ED7E715ABD38E0077A181 /* SelectedBookDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectedBookDetailViewController.xib; sourceTree = "<group>"; };
-		4A2ED7E815ABD38E0077A181 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4A2ED7E915ABD38E0077A181 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A2ED7E815ABD38E0077A181 /* BookShelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfViewController.h; sourceTree = "<group>"; };
+		4A2ED7E915ABD38E0077A181 /* BookShelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfViewController.m; sourceTree = "<group>"; };
 		4A2ED81515ABD3EA0077A181 /* Deleteicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Deleteicon.png; sourceTree = "<group>"; };
 		4A2ED81615ABD3EA0077A181 /* NavigationBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationBar.png; sourceTree = "<group>"; };
 		4A2ED81715ABD3EA0077A181 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
@@ -332,18 +332,12 @@
 				4A6CB29415AC0CB5000F3198 /* Utilities */,
 				4A6CB29315AC0C77000F3198 /* image */,
 				4A2ED83F15ABDCB50077A181 /* Views */,
-				4A2ED7E815ABD38E0077A181 /* ViewController.h */,
-				4A2ED7E915ABD38E0077A181 /* ViewController.m */,
-				4A2ED7D015ABD38E0077A181 /* ViewController.xib */,
+				4A2ED7E815ABD38E0077A181 /* BookShelfViewController.h */,
+				4A2ED7E915ABD38E0077A181 /* BookShelfViewController.m */,
+				4A2ED7D015ABD38E0077A181 /* BookShelfViewController.xib */,
 				4A2ED7E515ABD38E0077A181 /* SelectedBookDetailViewController.h */,
 				4A2ED7E615ABD38E0077A181 /* SelectedBookDetailViewController.m */,
 				4A2ED7E715ABD38E0077A181 /* SelectedBookDetailViewController.xib */,
-				4A2ED7DB15ABD38E0077A181 /* MyBelowBottomView.h */,
-				4A2ED7DC15ABD38E0077A181 /* MyBelowBottomView.m */,
-				4A2ED7DD15ABD38E0077A181 /* MyBookView.h */,
-				4A2ED7DE15ABD38E0077A181 /* MyBookView.m */,
-				4A2ED7DF15ABD38E0077A181 /* MyCellView.h */,
-				4A2ED7E015ABD38E0077A181 /* MyCellView.m */,
 			);
 			path = BookShelf;
 			sourceTree = "<group>";
@@ -379,11 +373,17 @@
 		4A2ED83F15ABDCB50077A181 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4A2ED7DB15ABD38E0077A181 /* MyBelowBottomView.h */,
+				4A2ED7DC15ABD38E0077A181 /* MyBelowBottomView.m */,
+				4A2ED7DD15ABD38E0077A181 /* MyBookView.h */,
+				4A2ED7DE15ABD38E0077A181 /* MyBookView.m */,
+				4A2ED7DF15ABD38E0077A181 /* MyCellView.h */,
+				4A2ED7E015ABD38E0077A181 /* MyCellView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
 		};
-		4A2ED84515ABF7230077A181 /* ScoreBookPlayController */ = {
+		4A2ED84515ABF7230077A181 /* MusicScoreBookController */ = {
 			isa = PBXGroup;
 			children = (
 				4A2ED76815ABBF610077A181 /* MusicScoreViewController.h */,
@@ -395,7 +395,7 @@
 				4A2ED86D15ABF7780077A181 /* DemoMusics */,
 				4A2ED84615ABF74F0077A181 /* images */,
 			);
-			name = ScoreBookPlayController;
+			name = MusicScoreBookController;
 			sourceTree = "<group>";
 		};
 		4A2ED84615ABF74F0077A181 /* images */ = {
@@ -680,7 +680,7 @@
 			isa = PBXGroup;
 			children = (
 				4A55FF7C15AD5799004F85C1 /* BookController */,
-				4A2ED84515ABF7230077A181 /* ScoreBookPlayController */,
+				4A2ED84515ABF7230077A181 /* MusicScoreBookController */,
 				4A2ED7AC15ABD38E0077A181 /* BookShelf */,
 			);
 			path = Controller;
@@ -775,7 +775,7 @@
 				CAB26FB815A48EBC009E4435 /* BookController.xib in Resources */,
 				4A2ED76C15ABBF610077A181 /* MusicScoreViewController.xib in Resources */,
 				4A2ED81215ABD38E0077A181 /* SelectedBookDetailViewController.xib in Resources */,
-				4A2ED80615ABD38E0077A181 /* ViewController.xib in Resources */,
+				4A2ED80615ABD38E0077A181 /* BookShelfViewController.xib in Resources */,
 				4A2ED76F15ABC0800077A181 /* TRACKS1+2.jpg in Resources */,
 				4A2ED7EA15ABD38E0077A181 /* 1.png in Resources */,
 				4A2ED7EB15ABD38E0077A181 /* 11.jpg in Resources */,
@@ -877,19 +877,19 @@
 				4A2ED80D15ABD38E0077A181 /* MyCellView.m in Sources */,
 				4A2ED80E15ABD38E0077A181 /* NSMutableArray+Rearrange.m in Sources */,
 				4A2ED81115ABD38E0077A181 /* SelectedBookDetailViewController.m in Sources */,
-				4A2ED81315ABD38E0077A181 /* ViewController.m in Sources */,
+				4A2ED81315ABD38E0077A181 /* BookShelfViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4A2ED7D015ABD38E0077A181 /* ViewController.xib */ = {
+		4A2ED7D015ABD38E0077A181 /* BookShelfViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4A2ED7D115ABD38E0077A181 /* en */,
 			);
-			name = ViewController.xib;
+			name = BookShelfViewController.xib;
 			sourceTree = "<group>";
 		};
 		CAB26F9915A48721009E4435 /* InfoPlist.strings */ = {

@@ -33,7 +33,7 @@
  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#import "ViewController.h"
+#import "BookShelfViewController.h"
 
 #import "MyCellView.h"
 #import "MyBookView.h"
@@ -43,7 +43,7 @@
 
 #define CELL_HEIGHT 125
 
-@implementation ViewController
+@implementation BookShelfViewController
 
 
 

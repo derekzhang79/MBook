@@ -16,7 +16,7 @@
 
 
 #import "MusicScoreViewController.h"
-#import "ViewController.h"
+#import "BookShelfViewController.h"
 #import "MScorePlayViewController.h"
 
 @implementation BookController
