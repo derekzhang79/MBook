@@ -141,7 +141,7 @@
         [self.audioPlayer pause];
         [self.backgroundPlayer pause];
 //        [self dismissModalViewControllerAnimated:YES];
-
+       
         return (interfaceOrientation== UIInterfaceOrientationPortrait||
                 interfaceOrientation==UIInterfaceOrientationPortraitUpsideDown);
     }

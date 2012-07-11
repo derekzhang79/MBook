@@ -198,7 +198,7 @@
     
     
     
-    MScorePlayViewController *mc = [[MScorePlayViewController alloc] initWithLink:pageIndex + 1];
+    MScorePlayViewController *mc = [[MScorePlayViewController alloc] initWithLink:pageIndex + 2];
     [self presentModalViewController:mc animated:YES];
     [mc release];
     
