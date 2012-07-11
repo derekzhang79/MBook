@@ -433,6 +433,16 @@
 			name = DemoMusics;
 			sourceTree = "<group>";
 		};
+		4A55FF7C15AD5799004F85C1 /* BookController */ = {
+			isa = PBXGroup;
+			children = (
+				CAB26FB315A48EBC009E4435 /* BookController.h */,
+				CAB26FB415A48EBC009E4435 /* BookController.m */,
+				CAB26FB515A48EBC009E4435 /* BookController.xib */,
+			);
+			name = BookController;
+			sourceTree = "<group>";
+		};
 		4A63C1F615AC77C2006A2DBA /* BooksshelfIcons */ = {
 			isa = PBXGroup;
 			children = (
@@ -669,9 +679,7 @@
 		CAB26FB215A48EBC009E4435 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CAB26FB315A48EBC009E4435 /* BookController.h */,
-				CAB26FB415A48EBC009E4435 /* BookController.m */,
-				CAB26FB515A48EBC009E4435 /* BookController.xib */,
+				4A55FF7C15AD5799004F85C1 /* BookController */,
 				4A2ED84515ABF7230077A181 /* ScoreBookPlayController */,
 				4A2ED7AC15ABD38E0077A181 /* BookShelf */,
 			);
