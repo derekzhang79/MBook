@@ -53,8 +53,6 @@
 }
 
 @property (nonatomic, retain) IBOutlet UIButton *playButton;
-@property (nonatomic, retain) AVAudioPlayer *audioPlayer;
-@property (nonatomic, retain) AVAudioPlayer *backgroundPlayer;
 @property (nonatomic, retain) IBOutlet UIProgressView *progressView;
 @property (nonatomic, retain) IBOutlet UISlider *voiceView;
 @property (nonatomic, retain) IBOutlet UIScrollView *scroller;
@@ -62,6 +60,9 @@
 @property (nonatomic, retain) IBOutlet UIButton *preSong;
 @property (nonatomic, retain) IBOutlet UIButton *nextSong;
 @property (nonatomic, retain) IBOutlet UILabel *musicLabel;
+
+@property (nonatomic, retain) AVAudioPlayer *audioPlayer;
+@property (nonatomic, retain) AVAudioPlayer *backgroundPlayer;
 
 -(id)initWithLink:(NSInteger)linkId;
 

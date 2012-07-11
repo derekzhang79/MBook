@@ -45,34 +45,15 @@
     if (interfaceOrientation ==UIInterfaceOrientationLandscapeLeft||interfaceOrientation==UIInterfaceOrientationLandscapeRight) {
 
         [self.navigationController popViewControllerAnimated:YES];
-        NSLog(@"UIInterfaceOrientationLandscapeLeft and UIInterfaceOrientationLandscapeRight");
-        
-        if (delegate && [delegate respondsToSelector:@selector(showMScoreViewController)]){
-            
+                if (delegate && [delegate respondsToSelector:@selector(showMScoreViewController)]){
             [delegate showMScoreViewController];
-            
         }
-        
-        
     }else {
         NSLog(@"man man man man man ");
     }
     
-    
-    
     return (interfaceOrientation == UIInterfaceOrientationPortrait||interfaceOrientation== UIInterfaceOrientationLandscapeLeft||interfaceOrientation==UIInterfaceOrientationLandscapeRight);
 }
-
-//-(void)showMScoreViewController{
-//
-//
-//    NSLog(@"retotating now !");
-//    MScorePlayViewController *mScorePlayViewController = [[MScorePlayViewController alloc]initWithNibName:@"MScorePlayViewController" bundle:nil];
-//    [self.navigationController pushViewController :mScorePlayViewController animated:YES];
-//    [mScorePlayViewController release];
-//    
-//    
-//}
 
 - (IBAction)backButton:(id)sender {
     

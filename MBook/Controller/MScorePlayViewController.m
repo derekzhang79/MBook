@@ -96,6 +96,18 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    
+    self.playButton= nil;
+    self.progressView = nil;
+    self.voiceView = nil;
+    
+    self.scroller =nil;
+    self.accompanyButton =nil;
+    self.preSong = nil;
+    
+    self.nextSong = nil;
+    self.musicLabel =nil;
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -122,14 +134,22 @@
 {
     // Return YES for supported orientations
     //return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    
+    ///竖直屏幕模式的时候
     if (interfaceOrientation ==UIInterfaceOrientationPortrait ||interfaceOrientation==UIInterfaceOrientationPortraitUpsideDown) {
         
         [self.audioPlayer pause];
         [self.backgroundPlayer pause];
-        [self dismissModalViewControllerAnimated:YES];
+//        [self dismissModalViewControllerAnimated:YES];
 
+        return (interfaceOrientation== UIInterfaceOrientationPortrait||
+                interfaceOrientation==UIInterfaceOrientationPortraitUpsideDown);
     }
+    ///横屏模式的时候
+    else {
     
+    
+    }
     return (interfaceOrientation== UIInterfaceOrientationLandscapeLeft||
             interfaceOrientation==UIInterfaceOrientationLandscapeRight);
 }
@@ -570,5 +590,7 @@ int drapCount=0;
     timeInteval=(currentTimeInterval-currentIntervalMovedTime)>=timeIntervalConstant?timeIntervalConstant:currentTimeInterval-currentIntervalMovedTime;
     speed=(currentTimeInterval-currentIntervalMovedTime)>=timeIntervalConstant?currentLength/(currentTimeInterval*constant):currentLength;
 }
+
+
 
 @end

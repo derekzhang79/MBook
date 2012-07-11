@@ -39,7 +39,6 @@
 		4A2ED80215ABD38E0077A181 /* BookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7CB15ABD38E0077A181 /* BookView.m */; };
 		4A2ED80315ABD38E0077A181 /* BookViewChecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7CC15ABD38E0077A181 /* BookViewChecked.png */; };
 		4A2ED80415ABD38E0077A181 /* comments.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7CD15ABD38E0077A181 /* comments.png */; };
-		4A2ED80615ABD38E0077A181 /* BookShelfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D015ABD38E0077A181 /* BookShelfViewController.xib */; };
 		4A2ED80715ABD38E0077A181 /* GSBookShelfView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D415ABD38E0077A181 /* GSBookShelfView.m */; };
 		4A2ED80815ABD38E0077A181 /* GSBookViewContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D715ABD38E0077A181 /* GSBookViewContainerView.m */; };
 		4A2ED80915ABD38E0077A181 /* GSCellContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D915ABD38E0077A181 /* GSCellContainerView.m */; };
@@ -74,6 +73,7 @@
 		4A2ED87115ABFA020077A181 /* 关闭按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED87015ABFA000077A181 /* 关闭按钮.png */; };
 		4A4B327B15AC2D57004229AB /* musicInform.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A4B327A15AC2D57004229AB /* musicInform.plist */; };
 		4A4B328C15AC5634004229AB /* MScorePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B328A15AC560D004229AB /* MScorePlayViewController.m */; };
+		4A55FF8815AD853F004F85C1 /* BookShelfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D015ABD38E0077A181 /* BookShelfViewController.xib */; };
 		4A63C20C15AC77C2006A2DBA /* NavigationBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1F815AC77C2006A2DBA /* NavigationBar.png */; };
 		4A63C20D15AC77C2006A2DBA /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1F915AC77C2006A2DBA /* search.png */; };
 		4A63C20E15AC77C2006A2DBA /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63C1FA15AC77C2006A2DBA /* Settings.png */; };
@@ -326,6 +326,7 @@
 		4A2ED7AC15ABD38E0077A181 /* BookShelf */ = {
 			isa = PBXGroup;
 			children = (
+				4A63C1F615AC77C2006A2DBA /* BooksshelfIcons */,
 				4A6CB29715AC0E03000F3198 /* Useless */,
 				4A6CB29615AC0CF4000F3198 /* Public */,
 				4A6CB29515AC0CD9000F3198 /* Priviate */,
@@ -468,7 +469,7 @@
 				4A63C20A15AC77C2006A2DBA /* 标记.png */,
 			);
 			name = BooksshelfIcons;
-			path = Manager/BooksshelfIcons;
+			path = ../../Manager/BooksshelfIcons;
 			sourceTree = "<group>";
 		};
 		4A6CB29315AC0C77000F3198 /* image */ = {
@@ -653,7 +654,6 @@
 		CAB26F9615A48720009E4435 /* MBook */ = {
 			isa = PBXGroup;
 			children = (
-				4A63C1F615AC77C2006A2DBA /* BooksshelfIcons */,
 				CAA8D2B015AB0CDD00EE67E4 /* Image */,
 				CAB26FCA15A498A6009E4435 /* Util */,
 				CAB26FB215A48EBC009E4435 /* Controller */,
@@ -755,6 +755,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A55FF8815AD853F004F85C1 /* BookShelfViewController.xib in Resources */,
 				CAB26F9B15A48721009E4435 /* InfoPlist.strings in Resources */,
 				CAB26FBA15A48F30009E4435 /* test.txt in Resources */,
 				CAA8D2C015AB0CDE00EE67E4 /* book_bg@2x.png in Resources */,
@@ -775,7 +776,7 @@
 				CAB26FB815A48EBC009E4435 /* BookController.xib in Resources */,
 				4A2ED76C15ABBF610077A181 /* MusicScoreViewController.xib in Resources */,
 				4A2ED81215ABD38E0077A181 /* SelectedBookDetailViewController.xib in Resources */,
-				4A2ED80615ABD38E0077A181 /* BookShelfViewController.xib in Resources */,
+				C64E7DE615ACA34300F6D8D0 /* MScorePlayViewController.xib in Resources */,
 				4A2ED76F15ABC0800077A181 /* TRACKS1+2.jpg in Resources */,
 				4A2ED7EA15ABD38E0077A181 /* 1.png in Resources */,
 				4A2ED7EB15ABD38E0077A181 /* 11.jpg in Resources */,
@@ -841,7 +842,6 @@
 				4A63C21D15AC77C2006A2DBA /* 取消press.png in Resources */,
 				4A63C21E15AC77C2006A2DBA /* 标记.png in Resources */,
 				4A63C22D15AC870E006A2DBA /* Deleteicon.png in Resources */,
-				C64E7DE615ACA34300F6D8D0 /* MScorePlayViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

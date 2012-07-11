@@ -52,14 +52,7 @@
 
 
 - (void)clickBookself:(id)sender {
-    
     [self.navigationController popViewControllerAnimated:YES];
-//    ViewController *viewController = [[ViewController alloc]initWithNibName:@"ViewController" bundle:nil];
-//      
-//     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
-//    [self.navigationController presentModalViewController:navController animated:YES];
-//    [viewController release];
-
 }
 
 - (void)clickCatalog:(id)sender {
@@ -201,9 +194,15 @@
 
 - (void) leavesView:(LeavesView *)leavesView didClickLink:(Link *)link atPageIndex:(NSUInteger)pageIndex
 {
+    
+    
+    
+    
     MScorePlayViewController *mc = [[MScorePlayViewController alloc] initWithLink:pageIndex + 1];
     [self presentModalViewController:mc animated:YES];
     [mc release];
+    
+    
     // TODO show the music playing controller
 //    NSLog(@"Click %d page link!",pageIndex);
 //    MusicScoreViewController *musicScoreController = [[MusicScoreViewController alloc]initWithNibName:@"MusicScoreViewController" bundle:nil];
