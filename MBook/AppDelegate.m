@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "BookController.h"
-
+#import "ViewController.h"
 
 @implementation AppDelegate
 
@@ -27,7 +27,7 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
 
     
-    BookController *bookController = [[[BookController alloc] init] autorelease];
+    ViewController *bookController = [[[ViewController alloc] init] autorelease];
     self.navigationController = [[[UINavigationController alloc] initWithRootViewController:bookController] autorelease];
     [self.navigationController setNavigationBarHidden:NO];
     self.window.rootViewController = self.navigationController;

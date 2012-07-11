@@ -38,7 +38,7 @@
 #import "MyCellView.h"
 #import "MyBookView.h"
 #import "MyBelowBottomView.h"
-
+#import "BookController.h"
 
 
 #define CELL_HEIGHT 125
@@ -172,6 +172,13 @@
     [_bookShelfView scrollToRow:34 animate:YES];
 }
 
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
+    [super viewWillAppear:animated];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -208,7 +215,7 @@
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
-    return YES;
+    return NO;
 }
 
 - (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
@@ -276,7 +283,7 @@
         [_searchBar setFrame:CGRectMake(180, 0, 300, 44)];
     }
     else {
-      [_searchBar setFrame:CGRectMake(100, 0, 220, 44)];
+      [_searchBar setFrame:CGRectMake(0, 0, 320, 44)];
         _searchBar.text = @"请输入要搜索书名";
 //      [_searchBar setImage:[UIImage imageNamed:@"search.png"] forSearchBarIcon:UISearchBarIconResultsList state:UIControlStateNormal];
       [_searchBar setBackgroundImage:[UIImage imageNamed:@"search.png"]];
@@ -342,7 +349,7 @@
 #pragma mark - BarButtonListener 
 
 - (void)editButtonClicked:(id)sender {
-    [self switchToEditMode];
+//    [self switchToEditMode];
 }
 
 - (void)cancleButtonClicked:(id)sender {
@@ -390,8 +397,11 @@
     else {
         [bookView setSelected:NO];
         NSLog(@"i was clicked at index ,%d",bookView.index);
-        UIViewController *selectedBookDetailViewController = [[UIViewController alloc]initWithNibName:@"SelectedBookDetailViewController" bundle:nil];
-        [self.navigationController pushViewController:selectedBookDetailViewController animated:YES];
+        BookController *bc = [[BookController alloc] init];
+        [self.navigationController pushViewController:bc animated:YES];
+        [bc release];
+//        UIViewController *selectedBookDetailViewController = [[UIViewController alloc]initWithNibName:@"SelectedBookDetailViewController" bundle:nil];
+//        [self.navigationController pushViewController:selectedBookDetailViewController animated:YES];
     }
 }
 

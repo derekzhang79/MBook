@@ -31,7 +31,7 @@
 
 #define BOOKSELF_FRAME CGRectMake(230, 20, 71, 37)
 #define CATALOG_FRAME CGRectMake(12, 12, 54, 54)
-#define CATALOG_VIEW_FRAME CGRectMake(25, 60, 160, 300)
+#define CATALOG_VIEW_FRAME CGRectMake(25, 60, 220, 300)
 #define PAGE_NUMBER_FRAME CGRectMake(150, 440, 30, 30)
 //#define MUSIC_DEMO_FRAME CGRectMake(0, 350, 76, 40)
 //#define VIDEO_DEMO_FRAME CGRectMake(0, 190, 76, 40)
@@ -54,11 +54,11 @@
 - (void)clickBookself:(id)sender {
     
     [self.navigationController popViewControllerAnimated:YES];
-    ViewController *viewController = [[ViewController alloc]initWithNibName:@"ViewController" bundle:nil];
-      
-     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
-    [self.navigationController presentModalViewController:navController animated:YES];
-    [viewController release];
+//    ViewController *viewController = [[ViewController alloc]initWithNibName:@"ViewController" bundle:nil];
+//      
+//     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
+//    [self.navigationController presentModalViewController:navController animated:YES];
+//    [viewController release];
 
 }
 
@@ -95,11 +95,18 @@
     //init catalog table view.
     self.catalogView = [[CatalogView alloc] initWithFrame:CATALOG_VIEW_FRAME];
     NSMutableArray *array = [NSMutableArray array];
-    for (int i = 0; i < pagination.totalPageCount; i += 2) {
-        NSString *chapter = [NSString stringWithFormat:@"第 %d 章",i+1];
-        Catalog *c = [Catalog catalogWithIndex:i chapter:chapter];
-        [array addObject:c];
-    }
+    
+    Catalog *c1 = [Catalog catalogWithIndex:0 chapter:@"第一章 音的概念"];
+    Catalog *c2 = [Catalog catalogWithIndex:2 chapter:@"第二章 乐音体系和音级"];
+    Catalog *c3 = [Catalog catalogWithIndex:3 chapter:@"第三章 半音和全音"];
+    Catalog *c4 = [Catalog catalogWithIndex:3 chapter:@"第四章 音名和唱名"];
+    Catalog *c5 = [Catalog catalogWithIndex:4 chapter:@"第五章 基本音级与变化音级"];
+
+    [array addObject:c1];
+    [array addObject:c2];
+    [array addObject:c3];
+    [array addObject:c4];
+    [array addObject:c5];
     self.catalogView.catalogList = array;
     self.catalogView.catalogViewDelegate = self;
     
@@ -110,7 +117,7 @@
     NSString *contentPath = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"txt"];
 	NSString *txtContent = [NSString stringWithContentsOfFile:contentPath encoding:NSUTF8StringEncoding error:nil];
 	pagination = [[Pagination alloc] initWithContent:txtContent withFont:SHOW_FONT inRect:SHOW_BOUNDS];
-    [self.navigationController setNavigationBarHidden:YES];
+//    [self.navigationController setNavigationBarHidden:YES];
     [super viewDidLoad];
     [leavesView setPreferredTargetWidth:PERFORM_WIDTH];
     [self initViews];
@@ -118,8 +125,9 @@
     [self.view addSubview:catalog];
     [self.view addSubview:self.catalogView];
     [self.catalogView setHidden:YES];
-    
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
 }
+
 
 #pragma mark - button animation.
 #define HIDE_ANIMATION_ID @"HideButton"
@@ -193,12 +201,15 @@
 
 - (void) leavesView:(LeavesView *)leavesView didClickLink:(Link *)link atPageIndex:(NSUInteger)pageIndex
 {
+    MScorePlayViewController *mc = [[MScorePlayViewController alloc] initWithLink:pageIndex + 1];
+    [self presentModalViewController:mc animated:YES];
+    [mc release];
     // TODO show the music playing controller
-    NSLog(@"Click %d page link!",pageIndex);
-    MusicScoreViewController *musicScoreController = [[MusicScoreViewController alloc]initWithNibName:@"MusicScoreViewController" bundle:nil];
-    musicScoreController.delegate = self;
-    
-    [self.navigationController pushViewController:musicScoreController animated:YES];
+//    NSLog(@"Click %d page link!",pageIndex);
+//    MusicScoreViewController *musicScoreController = [[MusicScoreViewController alloc]initWithNibName:@"MusicScoreViewController" bundle:nil];
+//    musicScoreController.delegate = self;
+//    
+//    [self.navigationController pushViewController:musicScoreController animated:YES];
 }
 
 

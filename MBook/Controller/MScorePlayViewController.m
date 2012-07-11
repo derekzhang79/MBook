@@ -67,11 +67,23 @@
     [super dealloc];
 }
 
+- (void)updateMusicLabel
+{
+    if (currentLinkID == 1) {
+        [musicLabel setText:@"卡农"];        
+    }else if(currentLinkID == 2){
+        [musicLabel setText:@"爱的罗曼史"];        
+    }else{
+        [musicLabel setText:@"没有选中音乐"];        
+    }
+}
+
 - (void)viewDidLoad
 {    
     [self.view setBackgroundColor:[UIColor grayColor]];
 
-    [musicLabel setText:[NSString stringWithFormat:@"music%d",currentLinkID]];
+//    [musicLabel setText:[NSString stringWithFormat:@"music%d",currentLinkID]];
+    [self updateMusicLabel];
     [progressView setProgress:0.0f];
 
     
@@ -200,7 +212,8 @@
     }
     
     // 设置标题
-    [musicLabel setText:[NSString stringWithFormat:@"music%d",currentLinkID]];
+//    [musicLabel setText:[NSString stringWithFormat:@"music%d",currentLinkID]];
+    [self updateMusicLabel];
     
     // 设置按钮
     [playButton setBackgroundImage:[UIImage imageNamed:@"play.png"] forState:UIControlStateNormal];
