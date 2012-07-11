@@ -335,15 +335,15 @@
 				4A2ED7E815ABD38E0077A181 /* ViewController.h */,
 				4A2ED7E915ABD38E0077A181 /* ViewController.m */,
 				4A2ED7D015ABD38E0077A181 /* ViewController.xib */,
+				4A2ED7E515ABD38E0077A181 /* SelectedBookDetailViewController.h */,
+				4A2ED7E615ABD38E0077A181 /* SelectedBookDetailViewController.m */,
+				4A2ED7E715ABD38E0077A181 /* SelectedBookDetailViewController.xib */,
 				4A2ED7DB15ABD38E0077A181 /* MyBelowBottomView.h */,
 				4A2ED7DC15ABD38E0077A181 /* MyBelowBottomView.m */,
 				4A2ED7DD15ABD38E0077A181 /* MyBookView.h */,
 				4A2ED7DE15ABD38E0077A181 /* MyBookView.m */,
 				4A2ED7DF15ABD38E0077A181 /* MyCellView.h */,
 				4A2ED7E015ABD38E0077A181 /* MyCellView.m */,
-				4A2ED7E515ABD38E0077A181 /* SelectedBookDetailViewController.h */,
-				4A2ED7E615ABD38E0077A181 /* SelectedBookDetailViewController.m */,
-				4A2ED7E715ABD38E0077A181 /* SelectedBookDetailViewController.xib */,
 			);
 			path = BookShelf;
 			sourceTree = "<group>";
@@ -386,14 +386,14 @@
 		4A2ED84515ABF7230077A181 /* ScoreBookPlayController */ = {
 			isa = PBXGroup;
 			children = (
-				4A2ED86D15ABF7780077A181 /* DemoMusics */,
-				4A2ED84615ABF74F0077A181 /* images */,
 				4A2ED76815ABBF610077A181 /* MusicScoreViewController.h */,
 				4A2ED76915ABBF610077A181 /* MusicScoreViewController.m */,
 				4A2ED76A15ABBF610077A181 /* MusicScoreViewController.xib */,
 				4A4B328915AC560D004229AB /* MScorePlayViewController.h */,
 				4A4B328A15AC560D004229AB /* MScorePlayViewController.m */,
 				C64E7DE515ACA34300F6D8D0 /* MScorePlayViewController.xib */,
+				4A2ED86D15ABF7780077A181 /* DemoMusics */,
+				4A2ED84615ABF74F0077A181 /* images */,
 			);
 			name = ScoreBookPlayController;
 			sourceTree = "<group>";
@@ -669,11 +669,11 @@
 		CAB26FB215A48EBC009E4435 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4A2ED84515ABF7230077A181 /* ScoreBookPlayController */,
-				4A2ED7AC15ABD38E0077A181 /* BookShelf */,
 				CAB26FB315A48EBC009E4435 /* BookController.h */,
 				CAB26FB415A48EBC009E4435 /* BookController.m */,
 				CAB26FB515A48EBC009E4435 /* BookController.xib */,
+				4A2ED84515ABF7230077A181 /* ScoreBookPlayController */,
+				4A2ED7AC15ABD38E0077A181 /* BookShelf */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
