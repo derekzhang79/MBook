@@ -74,6 +74,7 @@
 		4A4B327B15AC2D57004229AB /* musicInform.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A4B327A15AC2D57004229AB /* musicInform.plist */; };
 		4A4B328C15AC5634004229AB /* MScorePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B328A15AC560D004229AB /* MScorePlayViewController.m */; };
 		4A55FF8815AD853F004F85C1 /* BookShelfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D015ABD38E0077A181 /* BookShelfViewController.xib */; };
+		4A821D7F15AEC22900537BE8 /* TRACKS1+2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A821D7E15AEC22700537BE8 /* TRACKS1+2.jpg */; };
 		C64E7DE615ACA34300F6D8D0 /* MScorePlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C64E7DE515ACA34300F6D8D0 /* MScorePlayViewController.xib */; };
 		CAA8D29B15AB098A00EE67E4 /* Pagination.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA8D29A15AB098A00EE67E4 /* Pagination.m */; };
 		CAA8D2AF15AB0A8400EE67E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA8D2AE15AB0A8400EE67E4 /* QuartzCore.framework */; };
@@ -195,6 +196,7 @@
 		4A4B327A15AC2D57004229AB /* musicInform.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = musicInform.plist; sourceTree = "<group>"; };
 		4A4B328915AC560D004229AB /* MScorePlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MScorePlayViewController.h; sourceTree = "<group>"; };
 		4A4B328A15AC560D004229AB /* MScorePlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MScorePlayViewController.m; sourceTree = "<group>"; };
+		4A821D7E15AEC22700537BE8 /* TRACKS1+2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TRACKS1+2.jpg"; sourceTree = "<group>"; };
 		C64E7DE515ACA34300F6D8D0 /* MScorePlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MScorePlayViewController.xib; sourceTree = "<group>"; };
 		CAA8D29915AB098A00EE67E4 /* Pagination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pagination.h; sourceTree = "<group>"; };
 		CAA8D29A15AB098A00EE67E4 /* Pagination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pagination.m; sourceTree = "<group>"; };
@@ -306,18 +308,19 @@
 				4A4B328A15AC560D004229AB /* MScorePlayViewController.m */,
 				C64E7DE515ACA34300F6D8D0 /* MScorePlayViewController.xib */,
 				4A2ED86D15ABF7780077A181 /* DemoMusics */,
-				4A2ED84615ABF74F0077A181 /* images */,
+				4A2ED84615ABF74F0077A181 /* Demoimages */,
 			);
 			name = MusicScoreBookController;
 			sourceTree = "<group>";
 		};
-		4A2ED84615ABF74F0077A181 /* images */ = {
+		4A2ED84615ABF74F0077A181 /* Demoimages */ = {
 			isa = PBXGroup;
 			children = (
 				4A4B327A15AC2D57004229AB /* musicInform.plist */,
 				4A2ED87015ABFA000077A181 /* 关闭按钮.png */,
 				4A2ED84715ABF7700077A181 /* 伴奏.png */,
 				4A2ED84815ABF7700077A181 /* 伴奏选中.png */,
+				4A821D7E15AEC22700537BE8 /* TRACKS1+2.jpg */,
 				4A2ED84915ABF7700077A181 /* musicPicture2@2x.jpg */,
 				4A2ED84C15ABF7700077A181 /* musicPicture@2x.jpg */,
 				4A2ED84D15ABF7700077A181 /* 示范.png */,
@@ -332,7 +335,7 @@
 				4A2ED85615ABF7700077A181 /* row_file.txt */,
 				4A2ED85715ABF7700077A181 /* text.txt */,
 			);
-			name = images;
+			name = Demoimages;
 			sourceTree = "<group>";
 		};
 		4A2ED86D15ABF7780077A181 /* DemoMusics */ = {
@@ -713,6 +716,7 @@
 				4A2ED86C15ABF7700077A181 /* music2.mp3 in Resources */,
 				4A2ED87115ABFA020077A181 /* 关闭按钮.png in Resources */,
 				4A4B327B15AC2D57004229AB /* musicInform.plist in Resources */,
+				4A821D7F15AEC22900537BE8 /* TRACKS1+2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

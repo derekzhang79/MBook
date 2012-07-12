@@ -170,6 +170,7 @@
 						<string key="NSFrame">{{419, 265}, {35, 30}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
@@ -256,7 +257,7 @@
 					<object class="IBUIButton" id="533876602">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">289</int>
-						<string key="NSFrame">{{394, 1}, {72, 41}}</string>
+						<string key="NSFrame">{{418, 1}, {62, 40}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="1024041038"/>
@@ -264,7 +265,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<string key="IBUINormalTitle">退出</string>
+						<string key="IBUINormalTitle">关闭</string>
 						<reference key="IBUIHighlightedTitleColor" ref="1031359189"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>

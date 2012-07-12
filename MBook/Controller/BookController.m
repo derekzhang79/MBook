@@ -57,25 +57,25 @@
 
 - (void)clickBookself:(id)sender {
     
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    [UIView beginAnimations:nil context:context];
-    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
-    [UIView setAnimationDuration:kDuration];
-    [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self.view cache:YES];
-    [UIView setAnimationDelegate:self];
-    
-    // 动画完毕后调用某个方法
-    [UIView setAnimationDidStopSelector:@selector(animationFinished:)];
-    [UIView commitAnimations];
-    
-    
-
-}
-
--(void)animationFinished:(id)sender{
+//    CGContextRef context = UIGraphicsGetCurrentContext();
+//    [UIView beginAnimations:nil context:context];
+//    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+//    [UIView setAnimationDuration:kDuration];
+//    [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self.view cache:YES];
+//    [UIView setAnimationDelegate:self];
+//    
+//    // 动画完毕后调用某个方法
+//    [UIView setAnimationDidStopSelector:@selector(animationFinished:)];
+//    [UIView commitAnimations];
     
     [self.navigationController popViewControllerAnimated:YES];
+
+
 }
+
+//-(void)animationFinished:(id)sender{
+//    
+//}
 
 
 - (void)clickCatalog:(id)sender {
@@ -84,7 +84,8 @@
         [self.catalogView setAlpha:1];
 //        self.catalogView.backgroundColor = [UIColor grayColor];
         [self.view bringSubviewToFront:self.catalogView];
-        
+        [self.catalogView reloadData];
+
         ////Animations 使得CatalogView 往左右边缓慢移动进入页面
         CGRect Originframe = CGRectMake(300, 50, 210, 250);
         [self.catalogView setFrame:Originframe];
@@ -96,7 +97,6 @@
         [self.catalogView.layer  setOpacity:1.0 ];
         [UIView commitAnimations];
         
-//        [self.catalogView reloadData];
     }else{
         self.catalogView.hidden = YES;
     }
@@ -232,7 +232,7 @@
 {
     
     MScorePlayViewController *mc = [[MScorePlayViewController alloc] initWithLink:pageIndex + 2];
-    [self presentModalViewController:mc animated:YES];
+    [self.navigationController pushViewController:mc animated:YES];
     [mc release];
     
     

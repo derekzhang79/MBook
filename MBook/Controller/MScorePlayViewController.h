@@ -50,6 +50,11 @@
     NSLock *lock;
     
     BOOL playFlag;
+    
+    UIImageView *_demoCoverView;
+    
+    
+    
 }
 
 @property (nonatomic, retain) IBOutlet UIButton *playButton;
@@ -63,6 +68,8 @@
 
 @property (nonatomic, retain) AVAudioPlayer *audioPlayer;
 @property (nonatomic, retain) AVAudioPlayer *backgroundPlayer;
+
+@property (nonatomic, retain) UIImageView *demoCoverView;
 
 -(id)initWithLink:(NSInteger)linkId;
 
