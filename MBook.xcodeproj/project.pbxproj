@@ -283,14 +283,6 @@
 			path = BookShelf;
 			sourceTree = "<group>";
 		};
-		4A2ED81415ABD3EA0077A181 /* BooksshelfIcons */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = BooksshelfIcons;
-			path = ../../../../Documents/Study/GitTomCallon/GSBookShelf/BooksshelfIcons;
-			sourceTree = "<group>";
-		};
 		4A2ED83F15ABDCB50077A181 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -589,7 +581,6 @@
 		CAB26FB615A48EBC009E4435 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				4A2ED81415ABD3EA0077A181 /* BooksshelfIcons */,
 				4A2ED76E15ABC0800077A181 /* TRACKS1+2.jpg */,
 				CAB26FB915A48F30009E4435 /* test.txt */,
 			);
