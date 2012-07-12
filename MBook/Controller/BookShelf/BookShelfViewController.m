@@ -398,6 +398,7 @@
         [bookView setSelected:NO];
         NSLog(@"i was clicked at index ,%d",bookView.index);
         BookController *bc = [[BookController alloc] init];
+//        [self.navigationController pushViewController:bc animated:YES];
         [self.navigationController pushViewController:bc animated:YES];
         [bc release];
 //        UIViewController *selectedBookDetailViewController = [[UIViewController alloc]initWithNibName:@"SelectedBookDetailViewController" bundle:nil];

@@ -16,13 +16,13 @@
 
 
 #import "MusicScoreViewController.h"
-#import "BookShelfViewController.h"
 #import "MScorePlayViewController.h"
 
 @implementation BookController
 @synthesize catalog;
 @synthesize bookself;
 @synthesize catalogView;
+
 
 #define SHOW_FONT    [UIFont systemFontOfSize:16]
 #define SHOW_BOUNDS CGRectMake(0, 0, 265, 390)
@@ -39,6 +39,10 @@
 #define PERFORM_WIDTH 120
 #define ANIMATION_DURATION 0.6
 
+#define kDuration 0.7  // 立体翻页动画持续时间(秒)
+ 
+
+ 
 
 
 -(void)showMScoreViewController{
@@ -52,8 +56,27 @@
 
 
 - (void)clickBookself:(id)sender {
+    
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    [UIView beginAnimations:nil context:context];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+    [UIView setAnimationDuration:kDuration];
+    [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self.view cache:YES];
+    [UIView setAnimationDelegate:self];
+    
+    // 动画完毕后调用某个方法
+    [UIView setAnimationDidStopSelector:@selector(animationFinished:)];
+    [UIView commitAnimations];
+    
+    
+
+}
+
+-(void)animationFinished:(id)sender{
+    
     [self.navigationController popViewControllerAnimated:YES];
 }
+
 
 - (void)clickCatalog:(id)sender {
     if (self.catalogView.hidden) {
