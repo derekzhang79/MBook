@@ -104,13 +104,16 @@
     if (orientation == UIDeviceOrientationPortrait ||orientation == UIDeviceOrientationPortraitUpsideDown)
     {
         NSLog(@"Landscape Left! and PortraitUpsideDown");
-       
+        
+        
+        
+          //如果playFlag 是YES 证明音乐是在播放中，然后要
+        if ( playFlag == YES) [self pauseMusic];
+        
         [self.view addSubview:_demoCoverView];
 
     }else {
-        
-        [_demoCoverView removeFromSuperview];
-        
+                
     }
 }
 
@@ -417,6 +420,30 @@
 }
 
 -(IBAction)play {
+    
+    [self playMusic];
+}
+
+-(void)pauseMusic{
+    
+    if (playFlag ==YES) {
+        currentTime=haveAccompany?self.backgroundPlayer.currentTime: self.audioPlayer.currentTime;
+        if (haveAccompany) [self.backgroundPlayer stop];
+        else [self.audioPlayer stop];
+        
+        playFlag=NO;
+        
+        [playTimer invalidate];
+        [scrollMoveTimer invalidate];
+        playTimer=nil;
+        scrollMoveTimer=nil;
+        
+        [playButton setBackgroundImage:[UIImage imageNamed:@"play.png"] forState:UIControlStateNormal];
+    }
+}
+
+-(void)playMusic{
+    
     if (playFlag==NO) {
         //确认声音播放时间点在开始的位置  
         if (currentTime==0) {
@@ -450,6 +477,9 @@
         [playButton setBackgroundImage:[UIImage imageNamed:@"play.png"] forState:UIControlStateNormal];
     }
 }
+
+
+
 
 -(void)voiceChange:(id)sender{
     UISlider *tempSlider=(UISlider *)sender;
