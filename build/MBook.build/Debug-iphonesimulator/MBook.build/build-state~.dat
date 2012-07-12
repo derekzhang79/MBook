@@ -1,284 +1,0 @@
-TMBook
-v4
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/Info.plist MBook/MBook-Info.plist
-cProcessPCH /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-dufmivyayqvkaydvmyviewawyovb/MBook-Prefix.pch.pth MBook/MBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/main.o /Learn/Test/MBook/MBook/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/AppDelegate.o /Learn/Test/MBook/MBook/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/ViewController.o /Learn/Test/MBook/MBook/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/BookController.o /Learn/Test/MBook/MBook/BookController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/MBook normal i386
-cGenerateDSYMFile /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app.dSYM /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/MBook
-cCopyStringsFile /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/en.lproj/InfoPlist.strings MBook/en.lproj/InfoPlist.strings
-cCompileXIB /Learn/Test/MBook/MBook/en.lproj/ViewController.xib
-cCompileXIB /Learn/Test/MBook/MBook/BookController.xib
-cTouch /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app
-
-N/Learn/Test/MBook/MBook/AppDelegate.m
-c000000004FF452000000000000000B2B
-t1341411840
-s2859
-
-N/Learn/Test/MBook/MBook/BookController.m
-c000000004FF45111000000000000046A
-t1341411601
-s1130
-
-N/Learn/Test/MBook/MBook/BookController.xib
-c000000004FF45111000000000000142E
-t1341411601
-s5166
-
-N/Learn/Test/MBook/MBook/MBook-Prefix.pch
-c000000004FF44FA10000000000000139
-t1341411233
-s313
-
-N/Learn/Test/MBook/MBook/ViewController.m
-c000000004FF44FA10000000000000499
-t1341411233
-s1177
-
-N/Learn/Test/MBook/MBook/en.lproj/InfoPlist.strings
-c000000004FF44FA0000000000000002D
-t1341411232
-s45
-
-N/Learn/Test/MBook/MBook/en.lproj/ViewController.xib
-c000000004FF44FA1000000000000146B
-t1341411233
-s5227
-
-N/Learn/Test/MBook/MBook/main.m
-c000000004FF44FA1000000000000014B
-t1341411233
-s331
-
-N/Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app.dSYM
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/BookController.nib
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/Info.plist
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/MBook
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/PkgInfo
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/en.lproj/ViewController.nib
-t2
-s0
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/AppDelegate.o
-t2
-s0
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/BookController.o
-t2
-s0
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/MBook.LinkFileList
-c000000004FF45204000000000000019F
-t1341411844
-s415
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/ViewController.o
-t2
-s0
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-dufmivyayqvkaydvmyviewawyovb/MBook-Prefix.pch.pth
-t2
-s0
-
-N/xcode5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
-c000000004EA11CBF0000000000000110
-t1319181503
-s272
-
-N/xcode5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004E72F1CC0000000000245480
-t1316155852
-s2380928
-
-N/xcode5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004E72F2960000000000353830
-t1316156054
-s3487792
-
-N/xcode5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004E7806AB00000000008F7390
-t1316488875
-s9401232
-
-NMBook/MBook-Info.plist
-c000000004FF44FA000000000000004BC
-t1341411232
-s1212
-
-CBuild AST from /Learn/Test/MBook/MBook/AppDelegate.m
-r0
-
-CBuild AST from /Learn/Test/MBook/MBook/BookController.m
-r0
-
-CBuild AST from /Learn/Test/MBook/MBook/ViewController.m
-r0
-
-CBuild AST from /Learn/Test/MBook/MBook/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7214308489a4b541^1459738489a4b541^---0#1#0#--18"Check dependencies36"F3EB5276-8C9E-49E9-9D8B-296133BBD7DA-
-
-CCompileC build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/AppDelegate.o /Learn/Test/MBook/MBook/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363104648.066468
-e363104648.472355
-r1
-xCompileC
-xbuild/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/AppDelegate.o
-x/Learn/Test/MBook/MBook/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Compile /Learn/Test/MBook/MBook/AppDelegate.m6422118889a4b541^f1f6788889a4b541^---0#0#0#-19%DVTDocumentLocation2@53"file://localhost/Learn/Test/MBook/MBook/AppDelegate.m0000000000000000^2335"CompileC build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/AppDelegate.o MBook/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphonesimulator/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/DerivedSources/i386 -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphonesimulator -include /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-dufmivyayqvkaydvmyviewawyovb/MBook-Prefix.pch -MMD -MT dependencies -MF /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/AppDelegate.d -c /Learn/Test/MBook/MBook/AppDelegate.m -o /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/AppDelegate.o36"667D3785-E0EA-4791-A5FF-064B974679BE-
-
-CCompileC build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/BookController.o /Learn/Test/MBook/MBook/BookController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363104648.474004
-e363104648.569413
-r1
-xCompileC
-xbuild/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/BookController.o
-x/Learn/Test/MBook/MBook/BookController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Compile /Learn/Test/MBook/MBook/BookController.m3aaf798889a4b541^e7c5918889a4b541^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Learn/Test/MBook/MBook/BookController.m0000000000000000^2350"CompileC build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/BookController.o MBook/BookController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphonesimulator/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/DerivedSources/i386 -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphonesimulator -include /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-dufmivyayqvkaydvmyviewawyovb/MBook-Prefix.pch -MMD -MT dependencies -MF /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/BookController.d -c /Learn/Test/MBook/MBook/BookController.m -o /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/BookController.o36"E2E4E57A-9E04-4C8E-826E-3BB882D63196-
-
-CCompileC build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/ViewController.o /Learn/Test/MBook/MBook/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363104648.462678
-e363104648.556556
-r1
-xCompileC
-xbuild/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/ViewController.o
-x/Learn/Test/MBook/MBook/ViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Compile /Learn/Test/MBook/MBook/ViewController.m9791768889a4b541^c6868e8889a4b541^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Learn/Test/MBook/MBook/ViewController.m0000000000000000^2350"CompileC build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/ViewController.o MBook/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphonesimulator/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/DerivedSources/i386 -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphonesimulator -include /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-dufmivyayqvkaydvmyviewawyovb/MBook-Prefix.pch -MMD -MT dependencies -MF /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/ViewController.d -c /Learn/Test/MBook/MBook/ViewController.m -o /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/ViewController.o36"2F181B7B-391A-4445-BD26-D6BCBC1BF4EF-
-
-CCompileC build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/main.o /Learn/Test/MBook/MBook/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363104648.063762
-e363104648.461252
-r1
-xCompileC
-xbuild/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/main.o
-x/Learn/Test/MBook/MBook/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Compile /Learn/Test/MBook/MBook/main.mf372108889a4b541^d02b768889a4b541^---0#0#0#-19%DVTDocumentLocation2@46"file://localhost/Learn/Test/MBook/MBook/main.m0000000000000000^2300"CompileC build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/main.o MBook/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphonesimulator/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/DerivedSources/i386 -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphonesimulator -include /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-dufmivyayqvkaydvmyviewawyovb/MBook-Prefix.pch -MMD -MT dependencies -MF /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/main.d -c /Learn/Test/MBook/MBook/main.m -o /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/main.o36"D0469DF8-C37D-4D57-8B3A-8A16B63064B1-
-
-CCompileXIB /Learn/Test/MBook/MBook/BookController.xib
-s363104649.371015
-e363104651.026342
-r1
-xCompileXIB
-x/Learn/Test/MBook/MBook/BookController.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Compiling /Learn/Test/MBook/MBook/BookController.xiba1125f8989a4b541^a86d078b89a4b541^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Learn/Test/MBook/MBook/BookController.xib0000000000000000^598"CompileXIB MBook/BookController.xib    cd /Learn/Test/MBook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /xcode5/usr/bin/..    /xcode5/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/BookController.nib /Learn/Test/MBook/MBook/BookController.xib --sdk /xcode5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"CB37DA7C-66CC-4275-A66E-A0AC86A0C1FC-
-
-CCompileXIB /Learn/Test/MBook/MBook/en.lproj/ViewController.xib
-s363104649.355012
-e363104651.012228
-r1
-xCompileXIB
-x/Learn/Test/MBook/MBook/en.lproj/ViewController.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compiling /Learn/Test/MBook/MBook/en.lproj/ViewController.xib94fa5a8989a4b541^802d038b89a4b541^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Learn/Test/MBook/MBook/en.lproj/ViewController.xib0000000000000000^625"CompileXIB MBook/en.lproj/ViewController.xib    cd /Learn/Test/MBook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /xcode5/usr/bin/..    /xcode5/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/en.lproj/ViewController.nib /Learn/Test/MBook/MBook/en.lproj/ViewController.xib --sdk /xcode5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"5918D1F9-8D7F-4ACE-ABDB-E5D8517434C6-
-
-CCopyStringsFile /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/en.lproj/InfoPlist.strings MBook/en.lproj/InfoPlist.strings
-s363104649.353527
-e363104649.369812
-r1
-xCopyStringsFile
-x/Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/en.lproj/InfoPlist.strings
-xMBook/en.lproj/InfoPlist.strings
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy MBook/en.lproj/InfoPlist.stringsa0a65a8989a4b541^3fad5e8989a4b541^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Learn/Test/MBook/MBook/en.lproj/InfoPlist.strings0000000000000000^455"CopyStringsFile build/Debug-iphonesimulator/MBook.app/en.lproj/InfoPlist.strings MBook/en.lproj/InfoPlist.strings    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/en.lproj -- MBook/en.lproj/InfoPlist.strings36"38B56DC3-E5F4-45FA-A04D-BB000A7253EB-
-
-CGenerateDSYMFile /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app.dSYM /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/MBook
-s363104649.281508
-e363104649.349381
-r1
-xGenerateDSYMFile
-x/Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app.dSYM
-x/Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/MBook
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Generating /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app.dSYMab26488989a4b541^cf85598989a4b541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app.dSYM00f8fc33dcffdf42^409"GenerateDSYMFile build/Debug-iphonesimulator/MBook.app.dSYM build/Debug-iphonesimulator/MBook.app/MBook    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/usr/bin/dsymutil /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/MBook -o /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app.dSYM36"2640ABB5-E3A7-4DFA-8C03-411E0BB802DF-
-
-CLd /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/MBook normal i386
-s363104648.571180
-e363104649.279235
-r1
-xLd
-x/Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/MBook
-xnormal
-xi386
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Link /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/MBook8350928889a4b541^4a7f478989a4b541^---0#0#0#--900"Ld build/Debug-iphonesimulator/MBook.app/MBook normal i386    cd /Learn/Test/MBook    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /xcode5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Learn/Test/MBook/build/Debug-iphonesimulator -F/Learn/Test/MBook/build/Debug-iphonesimulator -filelist /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/Objects-normal/i386/MBook.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework UIKit -framework Foundation -framework CoreGraphics -o /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/MBook36"D20FE7D9-BC37-4B36-B2B9-1C84DF72B035-
-
-CProcessInfoPlistFile /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/Info.plist MBook/MBook-Info.plist
-s363104644.493069
-e363104644.499683
-r1
-xProcessInfoPlistFile
-x/Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/Info.plist
-xMBook/MBook-Info.plist
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process MBook/MBook-Info.plist82587e8489a4b541^e8f97f8489a4b541^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Learn/Test/MBook/MBook/MBook-Info.plist0000000000000000^503"ProcessInfoPlistFile build/Debug-iphonesimulator/MBook.app/Info.plist MBook/MBook-Info.plist    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MBook/MBook-Info.plist -genpkginfo /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app/Info.plist36"022AA267-680B-4420-A032-64A6B68E57AF-
-
-CProcessPCH /Users/qqn_pipi/Library/Developer/Xcode/DerivedData/MBook-bcxtfxytklguwjhixsdpcqogusco/Index/PrecompiledHeaders/MBook-Prefix-bzdimaswhkycgvbdcsfhmxxbxlui_ast/MBook-Prefix.pch.pth MBook/MBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-dufmivyayqvkaydvmyviewawyovb/MBook-Prefix.pch.pth MBook/MBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363104644.502759
-e363104648.061610
-r1
-xProcessPCH
-x/var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-dufmivyayqvkaydvmyviewawyovb/MBook-Prefix.pch.pth
-xMBook/MBook-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile MBook/MBook-Prefix.pch69e3808489a4b541^76c60f8889a4b541^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Learn/Test/MBook/MBook/MBook-Prefix.pch0000000000000000^2371"ProcessPCH /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-dufmivyayqvkaydvmyviewawyovb/MBook-Prefix.pch.pth MBook/MBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphonesimulator/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/DerivedSources/i386 -I/Learn/Test/MBook/build/MBook.build/Debug-iphonesimulator/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphonesimulator -c /Learn/Test/MBook/MBook/MBook-Prefix.pch -o /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-dufmivyayqvkaydvmyviewawyovb/MBook-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-dufmivyayqvkaydvmyviewawyovb/MBook-Prefix.pch.d36"579C001E-5F01-4068-BDB9-0675940D7253-
-
-CTouch /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app
-s363104651.029037
-e363104651.082055
-r1
-xTouch
-x/Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Touch /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.appd5b0078b89a4b541^8812158b89a4b541^---0#0#0#--272"Touch build/Debug-iphonesimulator/MBook.app    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Learn/Test/MBook/build/Debug-iphonesimulator/MBook.app36"FB9AEE6C-BD36-47D1-AAE3-81FF8FB8DFB6-
-
