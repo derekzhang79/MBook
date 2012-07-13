@@ -7,30 +7,48 @@
 //
 
 #import "AppDelegate.h"
-#import "BookController.h"
+
+//书架
 #import "BookShelfViewController.h"
+
+//书店
+#import "BookStroeViewController.h"
+
+//设置
+
+#import "SettingViewController.h"
+
 
 @implementation AppDelegate
 
 @synthesize window = _window;
 @synthesize navigationController = _navigationController;
+@synthesize tabBarController =_tabBarController;
 
 - (void)dealloc
 {
     [_window release];
     [_navigationController release];
+    [_tabBarController release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    BookShelfViewController *bookController = [[[BookShelfViewController alloc] init] autorelease];
-    self.navigationController = [[[UINavigationController alloc] initWithRootViewController:bookController] autorelease];
-    [self.navigationController setNavigationBarHidden:NO];
-    self.window.rootViewController = self.navigationController;
+    
+    //书架
+    BookShelfViewController *bShelfVC = [[[BookShelfViewController alloc] init] autorelease];
+    //书城
+    BookStroeViewController *bStroreVC = [[[BookStroeViewController alloc]initWithNibName:@"BookStroeViewController" bundle:nil]autorelease];
+    //设置
+    SettingViewController *settingVC = [[SettingViewController alloc]initWithNibName:@"SettingViewController" bundle:nil];
     
 
+    self.tabBarController = [[UITabBarController alloc]init];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:bShelfVC,bStroreVC,settingVC,nil];
+   self.navigationController = [[[UINavigationController alloc]initWithRootViewController:self.tabBarController] autorelease];
+    self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }

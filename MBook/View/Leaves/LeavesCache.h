@@ -23,6 +23,7 @@
 - (CGImageRef) cachedImageForPageIndex:(NSUInteger)pageIndex;
 - (void) precacheImageForPageIndex:(NSUInteger)pageIndex;
 - (void) minimizeToPageIndex:(NSUInteger)pageIndex;
+- (void) setPageSize:(CGSize)value;
 - (void) flush;
 
 @end

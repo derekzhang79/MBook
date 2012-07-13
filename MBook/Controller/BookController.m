@@ -146,7 +146,6 @@
     NSString *contentPath = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"txt"];
 	NSString *txtContent = [NSString stringWithContentsOfFile:contentPath encoding:NSUTF8StringEncoding error:nil];
 	pagination = [[Pagination alloc] initWithContent:txtContent withFont:SHOW_FONT inRect:SHOW_BOUNDS];
-//    [self.navigationController setNavigationBarHidden:YES];
     [super viewDidLoad];
     [leavesView setPreferredTargetWidth:PERFORM_WIDTH];
     [self initViews];

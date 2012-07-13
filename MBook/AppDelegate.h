@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,UITabBarControllerDelegate>
 
 @property (retain, nonatomic) UIWindow *window;
 
 @property (retain, nonatomic) UINavigationController *navigationController;
+@property (retain, nonatomic) UITabBarController *tabBarController;
+
 
 @end

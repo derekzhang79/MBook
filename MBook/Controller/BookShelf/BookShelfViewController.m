@@ -46,6 +46,18 @@
 @implementation BookShelfViewController
 
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+        self.title = NSLocalizedString(@"我的书架", @"我的书架");
+        
+    }
+    return self;
+}
+
+
 
 
 - (void)didReceiveMemoryWarning
@@ -55,7 +67,7 @@
 }
 
 - (void)initBooks {
-    NSInteger numberOfBooks = 100;
+    NSInteger numberOfBooks = 6;
     _bookArray = [[NSMutableArray alloc] initWithCapacity:numberOfBooks];
     _bookStatus = [[NSMutableArray alloc] initWithCapacity:numberOfBooks];
     for (int i = 0; i < numberOfBooks; i++) {
@@ -75,13 +87,9 @@
     _addBarButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addButtonClicked:)];
    
     
-//    
 //    [self setRightBarButton]; 
 //    [self setLeftBarButton];
-   self.navigationController.navigationBar.barStyle =UIBarStyleBlack;
     
-    
-//    [buttomToolBar setAlpha:0.1];    
     
 }
 - (void)setLeftBarButton
@@ -99,14 +107,9 @@
     [refleshButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [refleshButton addTarget:self action:@selector(trashButtonClicked :) forControlEvents:UIControlEventTouchUpInside];
     [rightButtonView addSubview:refleshButton];
-    //    [refleshButton release];
     UIBarButtonItem *rightBarButton = [[UIBarButtonItem alloc] initWithCustomView:rightButtonView];
-    //    [rightButtonView release];
-    
-//    [self.navigationItem  setleftBarButtonItem: rightBarButton];
-       [self.navigationItem setLeftBarButtonItem:rightBarButton];
+    [self.navigationController.navigationItem setLeftBarButtonItem:rightBarButton];
     _editBarButton = rightBarButton;
-    //    [rightBarButton release];
     
     
     
@@ -126,13 +129,9 @@
     [refleshButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [refleshButton addTarget:self action:@selector(addButtonClicked :) forControlEvents:UIControlEventTouchUpInside];
     [rightButtonView addSubview:refleshButton];
-//    [refleshButton release];
     UIBarButtonItem *rightBarButton = [[UIBarButtonItem alloc] initWithCustomView:rightButtonView];
-//    [rightButtonView release];
-    
     [self.navigationItem  setRightBarButtonItem: rightBarButton];
     _bookStoreBarButton = rightBarButton;
-//    [rightBarButton release];
     
 
     
@@ -200,9 +199,6 @@
     [_setttingButton setTitle:@"设置" forState:UIControlStateNormal];
     [_setttingButton setBackgroundImage:[UIImage imageNamed:@"Settings.png"] forState:UIControlStateNormal];
     [_setttingButton setBackgroundImage:[UIImage imageNamed:@"SettingsPressed.png"] forState:UIControlStateSelected];
-
-        
-    
     
     
 }
@@ -278,9 +274,7 @@
     else {
       [_searchBar setFrame:CGRectMake(0, 0, 320, 44)];
         _searchBar.text = @"请输入要搜索书名";
-//      [_searchBar setImage:[UIImage imageNamed:@"search.png"] forSearchBarIcon:UISearchBarIconResultsList state:UIControlStateNormal];
       [_searchBar setBackgroundImage:[UIImage imageNamed:@"search.png"]];
-//      [_setttingButton setFrame:CGRectMake(10, 0, 80, 45)];
     }
     
     return _searchBar;
@@ -390,11 +384,9 @@
     else {
         [bookView setSelected:NO];
         NSLog(@"i was clicked at index ,%d",bookView.index);
-        BookController *bc = [[BookController alloc] init];
-//        [self.navigationController pushViewController:bc animated:YES];
+         BookController *bc = [[BookController alloc] init];
         [self.navigationController pushViewController:bc animated:YES];
-//        UIViewController *selectedBookDetailViewController = [[UIViewController alloc]initWithNibName:@"SelectedBookDetailViewController" bundle:nil];
-//        [self.navigationController pushViewController:selectedBookDetailViewController animated:YES];
+
     }
 }
 

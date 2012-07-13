@@ -73,6 +73,10 @@
 		4A4B328C15AC5634004229AB /* MScorePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B328A15AC560D004229AB /* MScorePlayViewController.m */; };
 		4A55FF8815AD853F004F85C1 /* BookShelfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D015ABD38E0077A181 /* BookShelfViewController.xib */; };
 		4A821D7F15AEC22900537BE8 /* TRACKS1+2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A821D7E15AEC22700537BE8 /* TRACKS1+2.jpg */; };
+		4AA4540F15B057EA000A7E7D /* BookStroeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4540D15B057EA000A7E7D /* BookStroeViewController.m */; };
+		4AA4541015B057EA000A7E7D /* BookStroeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA4540E15B057EA000A7E7D /* BookStroeViewController.xib */; };
+		4AA4541515B05925000A7E7D /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4541315B05925000A7E7D /* SettingViewController.m */; };
+		4AA4541615B05925000A7E7D /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA4541415B05925000A7E7D /* SettingViewController.xib */; };
 		C64E7DE615ACA34300F6D8D0 /* MScorePlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C64E7DE515ACA34300F6D8D0 /* MScorePlayViewController.xib */; };
 		CAA8D29B15AB098A00EE67E4 /* Pagination.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA8D29A15AB098A00EE67E4 /* Pagination.m */; };
 		CAA8D2AF15AB0A8400EE67E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA8D2AE15AB0A8400EE67E4 /* QuartzCore.framework */; };
@@ -195,6 +199,12 @@
 		4A4B328915AC560D004229AB /* MScorePlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MScorePlayViewController.h; sourceTree = "<group>"; };
 		4A4B328A15AC560D004229AB /* MScorePlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MScorePlayViewController.m; sourceTree = "<group>"; };
 		4A821D7E15AEC22700537BE8 /* TRACKS1+2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TRACKS1+2.jpg"; sourceTree = "<group>"; };
+		4AA4540C15B057EA000A7E7D /* BookStroeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStroeViewController.h; sourceTree = "<group>"; };
+		4AA4540D15B057EA000A7E7D /* BookStroeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStroeViewController.m; sourceTree = "<group>"; };
+		4AA4540E15B057EA000A7E7D /* BookStroeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookStroeViewController.xib; sourceTree = "<group>"; };
+		4AA4541215B05925000A7E7D /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		4AA4541315B05925000A7E7D /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		4AA4541415B05925000A7E7D /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
 		C64E7DE515ACA34300F6D8D0 /* MScorePlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MScorePlayViewController.xib; sourceTree = "<group>"; };
 		CAA8D29915AB098A00EE67E4 /* Pagination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pagination.h; sourceTree = "<group>"; };
 		CAA8D29A15AB098A00EE67E4 /* Pagination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pagination.m; sourceTree = "<group>"; };
@@ -441,6 +451,26 @@
 			name = Useless;
 			sourceTree = "<group>";
 		};
+		4AA4540B15B057C9000A7E7D /* StoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4AA4540C15B057EA000A7E7D /* BookStroeViewController.h */,
+				4AA4540D15B057EA000A7E7D /* BookStroeViewController.m */,
+				4AA4540E15B057EA000A7E7D /* BookStroeViewController.xib */,
+			);
+			name = StoreViewController;
+			sourceTree = "<group>";
+		};
+		4AA4541115B058E9000A7E7D /* SettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4AA4541215B05925000A7E7D /* SettingViewController.h */,
+				4AA4541315B05925000A7E7D /* SettingViewController.m */,
+				4AA4541415B05925000A7E7D /* SettingViewController.xib */,
+			);
+			name = SettingViewController;
+			sourceTree = "<group>";
+		};
 		CAA8D2B015AB0CDD00EE67E4 /* Image */ = {
 			isa = PBXGroup;
 			children = (
@@ -572,6 +602,8 @@
 		CAB26FB215A48EBC009E4435 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4AA4541115B058E9000A7E7D /* SettingViewController */,
+				4AA4540B15B057C9000A7E7D /* StoreViewController */,
 				4A55FF7C15AD5799004F85C1 /* BookController */,
 				4A2ED84515ABF7230077A181 /* MusicScoreBookController */,
 				4A2ED7AC15ABD38E0077A181 /* BookShelf */,
@@ -713,6 +745,8 @@
 				4A2ED87115ABFA020077A181 /* 关闭按钮.png in Resources */,
 				4A4B327B15AC2D57004229AB /* musicInform.plist in Resources */,
 				4A821D7F15AEC22900537BE8 /* TRACKS1+2.jpg in Resources */,
+				4AA4541015B057EA000A7E7D /* BookStroeViewController.xib in Resources */,
+				4AA4541615B05925000A7E7D /* SettingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -749,6 +783,8 @@
 				4A2ED80E15ABD38E0077A181 /* NSMutableArray+Rearrange.m in Sources */,
 				4A2ED81115ABD38E0077A181 /* SelectedBookDetailViewController.m in Sources */,
 				4A2ED81315ABD38E0077A181 /* BookShelfViewController.m in Sources */,
+				4AA4540F15B057EA000A7E7D /* BookStroeViewController.m in Sources */,
+				4AA4541515B05925000A7E7D /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -780,7 +816,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
 					armv7,
-					arm6,
+					armv6,
 				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -807,7 +843,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
 					armv7,
-					arm6,
+					armv6,
 				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
