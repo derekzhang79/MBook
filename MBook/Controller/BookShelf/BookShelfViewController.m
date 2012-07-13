@@ -205,6 +205,7 @@
    _belowBottomView = [[MyBelowBottomView alloc] initWithFrame:CGRectMake(0, 0, 320, CELL_HEIGHT * 2)];
     
 //   MyBelowBottomView *belowBottom = [[MyBelowBottomView alloc] initWithFrame:CGRectMake(0, 0, 320, CELL_HEIGHT * 2)];
+ 
     
     _bookShelfView = [[GSBookShelfView alloc] initWithFrame:CGRectMake(0, 0, 320, 460 - 44 )];
     [_bookShelfView setDataSource:self];
@@ -214,12 +215,7 @@
     
     //[self performSelector:@selector(testScrollToRow) withObject:self afterDelay:3];
     
-    
-    _setttingButton = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 80, 45)];
-    [_setttingButton setTitle:@"设置" forState:UIControlStateNormal];
-    [_setttingButton setBackgroundImage:[UIImage imageNamed:@"Settings.png"] forState:UIControlStateNormal];
-    [_setttingButton setBackgroundImage:[UIImage imageNamed:@"SettingsPressed.png"] forState:UIControlStateSelected];
-    
+        
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
     
     
@@ -228,7 +224,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
     
-    return NO;
+    return YES;
 }
 
 - (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
@@ -283,7 +279,13 @@
 }
 
 - (UIView *)aboveTopViewOfBookShelfView:(GSBookShelfView *)bookShelfView {
-    return nil;
+    ///设定刷新的位置
+
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 320, 50)];
+    [label setText:@"亲！！！下拉刷新"];
+    label.textAlignment = UITextAlignmentCenter;
+    label.backgroundColor = [UIColor clearColor];
+    return label;
 }
 
 - (UIView *)belowBottomViewOfBookShelfView:(GSBookShelfView *)bookShelfView {
@@ -292,16 +294,28 @@
 
 - (UIView *)headerViewOfBookShelfView:(GSBookShelfView *)bookShelfView {
     UIDeviceOrientation orientation = [UIDevice currentDevice].orientation;
+    
+    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 320, 44)];
     if (UIDeviceOrientationIsLandscape(orientation)) {
         [_searchBar setFrame:CGRectMake(180, 0, 300, 44)];
     }
     else {
-      [_searchBar setFrame:CGRectMake(0, 0, 320, 44)];
+      [_searchBar setFrame:CGRectMake(100, 0, 220, 44)];
         _searchBar.text = @"请输入要搜索书名";
-      [_searchBar setBackgroundImage:[UIImage imageNamed:@"search.png"]];
+        [_searchBar setBackgroundImage:[UIImage imageNamed:@"search.png"]];
+        _setttingButton = [[UIButton alloc]initWithFrame:CGRectMake(10, 0, 80, 45)];
+        [_setttingButton setTitle:@"设置" forState:UIControlStateNormal];
+        [_setttingButton setBackgroundImage:[UIImage imageNamed:@"Settings.png"] forState:UIControlStateNormal];
+        [_setttingButton setBackgroundImage:[UIImage imageNamed:@"SettingsPressed.png"] forState:UIControlStateSelected];
+
+        
+        [view addSubview:_setttingButton];
+        [view addSubview:_searchBar];
+        
+    
     }
     
-    return _searchBar;
+    return view;
 }
 
 - (CGFloat)cellHeightOfBookShelfView:(GSBookShelfView *)bookShelfView {
