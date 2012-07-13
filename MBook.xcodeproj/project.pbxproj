@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4A2ED76B15ABBF610077A181 /* MusicScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED76915ABBF610077A181 /* MusicScoreViewController.m */; };
 		4A2ED76C15ABBF610077A181 /* MusicScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED76A15ABBF610077A181 /* MusicScoreViewController.xib */; };
-		4A2ED76F15ABC0800077A181 /* TRACKS1+2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED76E15ABC0800077A181 /* TRACKS1+2.jpg */; };
 		4A2ED7A015ABCDCC0077A181 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2ED79F15ABCDCC0077A181 /* AudioToolbox.framework */; };
 		4A2ED7A215ABCDD70077A181 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2ED7A115ABCDD70077A181 /* MediaPlayer.framework */; };
 		4A2ED7A415ABCDE20077A181 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2ED7A315ABCDE20077A181 /* CoreMedia.framework */; };
@@ -29,28 +28,28 @@
 		4A2ED7F615ABD38E0077A181 /* 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7B915ABD38E0077A181 /* 3@2x.png */; };
 		4A2ED7F715ABD38E0077A181 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7BA15ABD38E0077A181 /* 4.png */; };
 		4A2ED7F815ABD38E0077A181 /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7BB15ABD38E0077A181 /* 4@2x.png */; };
-		4A2ED7F915ABD38E0077A181 /* AboveTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7BD15ABD38E0077A181 /* AboveTopView.m */; };
-		4A2ED7FB15ABD38E0077A181 /* BelowBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C115ABD38E0077A181 /* BelowBottomView.m */; };
+		4A2ED7F915ABD38E0077A181 /* AboveTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7BD15ABD38E0077A181 /* AboveTopView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4A2ED7FB15ABD38E0077A181 /* BelowBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C115ABD38E0077A181 /* BelowBottomView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4A2ED7FD15ABD38E0077A181 /* BookShelfCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C415ABD38E0077A181 /* BookShelfCell.png */; };
 		4A2ED7FE15ABD38E0077A181 /* BookShelfCell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C515ABD38E0077A181 /* BookShelfCell@2x.png */; };
-		4A2ED7FF15ABD38E0077A181 /* BookShelfCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C715ABD38E0077A181 /* BookShelfCellView.m */; };
+		4A2ED7FF15ABD38E0077A181 /* BookShelfCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C715ABD38E0077A181 /* BookShelfCellView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4A2ED80015ABD38E0077A181 /* BookStroeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C815ABD38E0077A181 /* BookStroeButton.png */; };
 		4A2ED80115ABD38E0077A181 /* BookStroeButtonpress.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C915ABD38E0077A181 /* BookStroeButtonpress.png */; };
-		4A2ED80215ABD38E0077A181 /* BookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7CB15ABD38E0077A181 /* BookView.m */; };
+		4A2ED80215ABD38E0077A181 /* BookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7CB15ABD38E0077A181 /* BookView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4A2ED80315ABD38E0077A181 /* BookViewChecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7CC15ABD38E0077A181 /* BookViewChecked.png */; };
 		4A2ED80415ABD38E0077A181 /* comments.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7CD15ABD38E0077A181 /* comments.png */; };
-		4A2ED80715ABD38E0077A181 /* GSBookShelfView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D415ABD38E0077A181 /* GSBookShelfView.m */; };
-		4A2ED80815ABD38E0077A181 /* GSBookViewContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D715ABD38E0077A181 /* GSBookViewContainerView.m */; };
-		4A2ED80915ABD38E0077A181 /* GSCellContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D915ABD38E0077A181 /* GSCellContainerView.m */; };
-		4A2ED80B15ABD38E0077A181 /* MyBelowBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7DC15ABD38E0077A181 /* MyBelowBottomView.m */; };
-		4A2ED80C15ABD38E0077A181 /* MyBookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7DE15ABD38E0077A181 /* MyBookView.m */; };
-		4A2ED80D15ABD38E0077A181 /* MyCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E015ABD38E0077A181 /* MyCellView.m */; };
-		4A2ED80E15ABD38E0077A181 /* NSMutableArray+Rearrange.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E215ABD38E0077A181 /* NSMutableArray+Rearrange.m */; };
+		4A2ED80715ABD38E0077A181 /* GSBookShelfView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D415ABD38E0077A181 /* GSBookShelfView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4A2ED80815ABD38E0077A181 /* GSBookViewContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D715ABD38E0077A181 /* GSBookViewContainerView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4A2ED80915ABD38E0077A181 /* GSCellContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D915ABD38E0077A181 /* GSCellContainerView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4A2ED80B15ABD38E0077A181 /* MyBelowBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7DC15ABD38E0077A181 /* MyBelowBottomView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4A2ED80C15ABD38E0077A181 /* MyBookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7DE15ABD38E0077A181 /* MyBookView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4A2ED80D15ABD38E0077A181 /* MyCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E015ABD38E0077A181 /* MyCellView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4A2ED80E15ABD38E0077A181 /* NSMutableArray+Rearrange.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E215ABD38E0077A181 /* NSMutableArray+Rearrange.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4A2ED80F15ABD38E0077A181 /* OldBookViewChecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E315ABD38E0077A181 /* OldBookViewChecked.png */; };
 		4A2ED81015ABD38E0077A181 /* OldBookViewChecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E415ABD38E0077A181 /* OldBookViewChecked@2x.png */; };
 		4A2ED81115ABD38E0077A181 /* SelectedBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E615ABD38E0077A181 /* SelectedBookDetailViewController.m */; };
 		4A2ED81215ABD38E0077A181 /* SelectedBookDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E715ABD38E0077A181 /* SelectedBookDetailViewController.xib */; };
-		4A2ED81315ABD38E0077A181 /* BookShelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E915ABD38E0077A181 /* BookShelfViewController.m */; };
+		4A2ED81315ABD38E0077A181 /* BookShelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7E915ABD38E0077A181 /* BookShelfViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4A2ED85A15ABF7700077A181 /* 伴奏.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED84715ABF7700077A181 /* 伴奏.png */; };
 		4A2ED85B15ABF7700077A181 /* 伴奏选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED84815ABF7700077A181 /* 伴奏选中.png */; };
 		4A2ED85C15ABF7700077A181 /* musicPicture2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED84915ABF7700077A181 /* musicPicture2@2x.jpg */; };
@@ -67,7 +66,6 @@
 		4A2ED86715ABF7700077A181 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED85415ABF7700077A181 /* pause.png */; };
 		4A2ED86815ABF7700077A181 /* 乐谱按钮背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED85515ABF7700077A181 /* 乐谱按钮背景.png */; };
 		4A2ED86915ABF7700077A181 /* row_file.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED85615ABF7700077A181 /* row_file.txt */; };
-		4A2ED86A15ABF7700077A181 /* text.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED85715ABF7700077A181 /* text.txt */; };
 		4A2ED86B15ABF7700077A181 /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED85815ABF7700077A181 /* music1.mp3 */; };
 		4A2ED86C15ABF7700077A181 /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED85915ABF7700077A181 /* music2.mp3 */; };
 		4A2ED87115ABFA020077A181 /* 关闭按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED87015ABFA000077A181 /* 关闭按钮.png */; };
@@ -671,7 +669,6 @@
 				4A2ED76C15ABBF610077A181 /* MusicScoreViewController.xib in Resources */,
 				4A2ED81215ABD38E0077A181 /* SelectedBookDetailViewController.xib in Resources */,
 				C64E7DE615ACA34300F6D8D0 /* MScorePlayViewController.xib in Resources */,
-				4A2ED76F15ABC0800077A181 /* TRACKS1+2.jpg in Resources */,
 				4A2ED7EA15ABD38E0077A181 /* 1.png in Resources */,
 				4A2ED7EB15ABD38E0077A181 /* 11.jpg in Resources */,
 				4A2ED7EC15ABD38E0077A181 /* 12.jpg in Resources */,
@@ -711,7 +708,6 @@
 				4A2ED86715ABF7700077A181 /* pause.png in Resources */,
 				4A2ED86815ABF7700077A181 /* 乐谱按钮背景.png in Resources */,
 				4A2ED86915ABF7700077A181 /* row_file.txt in Resources */,
-				4A2ED86A15ABF7700077A181 /* text.txt in Resources */,
 				4A2ED86B15ABF7700077A181 /* music1.mp3 in Resources */,
 				4A2ED86C15ABF7700077A181 /* music2.mp3 in Resources */,
 				4A2ED87115ABFA020077A181 /* 关闭按钮.png in Resources */,

@@ -47,14 +47,7 @@
 
 
 
--(void)dealloc{
 
-    [super dealloc];
-    [_setttingButton release];
-    [_searchBar release];
-
-
-}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -349,7 +342,7 @@
 #pragma mark - BarButtonListener 
 
 - (void)editButtonClicked:(id)sender {
-//    [self switchToEditMode];
+   [self switchToEditMode];
 }
 
 - (void)cancleButtonClicked:(id)sender {
@@ -400,7 +393,6 @@
         BookController *bc = [[BookController alloc] init];
 //        [self.navigationController pushViewController:bc animated:YES];
         [self.navigationController pushViewController:bc animated:YES];
-        [bc release];
 //        UIViewController *selectedBookDetailViewController = [[UIViewController alloc]initWithNibName:@"SelectedBookDetailViewController" bundle:nil];
 //        [self.navigationController pushViewController:selectedBookDetailViewController animated:YES];
     }
