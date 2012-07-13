@@ -78,7 +78,7 @@
 //    
 //    [self setRightBarButton]; 
 //    [self setLeftBarButton];
-//    self.navigationController.navigationBar.barStyle =UIBarStyleBlack;
+   self.navigationController.navigationBar.barStyle =UIBarStyleBlack;
     
     
 //    [buttomToolBar setAlpha:0.1];    
