@@ -113,6 +113,8 @@
         [self.view addSubview:_demoCoverView];
 
     }else {
+        [_demoCoverView removeFromSuperview];
+
                 
     }
 }
@@ -162,9 +164,6 @@
 {
 	[super viewDidDisappear:animated];
 }
-
-
-
 
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

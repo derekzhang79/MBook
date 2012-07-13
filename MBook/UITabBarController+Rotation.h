@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UITabBarController (Rotation)
-
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation;
 @end

@@ -77,6 +77,7 @@
 		4AA4541015B057EA000A7E7D /* BookStroeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA4540E15B057EA000A7E7D /* BookStroeViewController.xib */; };
 		4AA4541515B05925000A7E7D /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4541315B05925000A7E7D /* SettingViewController.m */; };
 		4AA4541615B05925000A7E7D /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA4541415B05925000A7E7D /* SettingViewController.xib */; };
+		4AA4541915B0792A000A7E7D /* UITabBarController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4541815B0792A000A7E7D /* UITabBarController+Rotation.m */; };
 		C64E7DE615ACA34300F6D8D0 /* MScorePlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C64E7DE515ACA34300F6D8D0 /* MScorePlayViewController.xib */; };
 		CAA8D29B15AB098A00EE67E4 /* Pagination.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA8D29A15AB098A00EE67E4 /* Pagination.m */; };
 		CAA8D2AF15AB0A8400EE67E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA8D2AE15AB0A8400EE67E4 /* QuartzCore.framework */; };
@@ -205,6 +206,8 @@
 		4AA4541215B05925000A7E7D /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		4AA4541315B05925000A7E7D /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		4AA4541415B05925000A7E7D /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		4AA4541715B07929000A7E7D /* UITabBarController+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+Rotation.h"; sourceTree = "<group>"; };
+		4AA4541815B0792A000A7E7D /* UITabBarController+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Rotation.m"; sourceTree = "<group>"; };
 		C64E7DE515ACA34300F6D8D0 /* MScorePlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MScorePlayViewController.xib; sourceTree = "<group>"; };
 		CAA8D29915AB098A00EE67E4 /* Pagination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pagination.h; sourceTree = "<group>"; };
 		CAA8D29A15AB098A00EE67E4 /* Pagination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pagination.m; sourceTree = "<group>"; };
@@ -583,6 +586,8 @@
 				CAB26FB615A48EBC009E4435 /* Resource */,
 				CAB26F9F15A48721009E4435 /* AppDelegate.h */,
 				CAB26FA015A48721009E4435 /* AppDelegate.m */,
+				4AA4541715B07929000A7E7D /* UITabBarController+Rotation.h */,
+				4AA4541815B0792A000A7E7D /* UITabBarController+Rotation.m */,
 				CAB26F9715A48720009E4435 /* Supporting Files */,
 			);
 			path = MBook;
@@ -785,6 +790,7 @@
 				4A2ED81315ABD38E0077A181 /* BookShelfViewController.m in Sources */,
 				4AA4540F15B057EA000A7E7D /* BookStroeViewController.m in Sources */,
 				4AA4541515B05925000A7E7D /* SettingViewController.m in Sources */,
+				4AA4541915B0792A000A7E7D /* UITabBarController+Rotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
