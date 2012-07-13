@@ -49,7 +49,6 @@
     
     self.tabBarController = [[UITabBarController alloc]init];
     self.tabBarController.viewControllers = [NSArray arrayWithObjects:self.navigationController,bStroreVC,settingVC,nil];
-   
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;

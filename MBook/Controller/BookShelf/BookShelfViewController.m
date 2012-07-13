@@ -164,10 +164,30 @@
     [_bookShelfView scrollToRow:34 animate:YES];
 }
 
+#pragma mark - showTabBarAniamtion
+
+- (void)showTabBar {
+    UITabBar *tabBar = self.tabBarController.tabBar;
+    UIView *parent = tabBar.superview; // UILayoutContainerView
+    UIView *content = [parent.subviews objectAtIndex:0];  // UITransitionView
+    UIView *window = parent.superview;
+    
+    [UIView animateWithDuration:0.5
+                     animations:^{
+                         CGRect tabFrame = tabBar.frame;
+                         tabFrame.origin.y = CGRectGetMaxY(window.bounds) - CGRectGetHeight(tabBar.frame);
+                         tabBar.frame = tabFrame;
+                         
+                         CGRect contentFrame = content.frame;
+                         contentFrame.size.height -= tabFrame.size.height;
+                     }];
+}
+
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [self.navigationController setNavigationBarHidden:NO animated:YES];
+    [self showTabBar];
     [super viewWillAppear:animated];
 }
 
@@ -199,6 +219,8 @@
     [_setttingButton setTitle:@"设置" forState:UIControlStateNormal];
     [_setttingButton setBackgroundImage:[UIImage imageNamed:@"Settings.png"] forState:UIControlStateNormal];
     [_setttingButton setBackgroundImage:[UIImage imageNamed:@"SettingsPressed.png"] forState:UIControlStateSelected];
+    
+    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
     
     
 }
