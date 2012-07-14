@@ -10,5 +10,8 @@
 
 @interface SettingViewController : UIViewController
 @property(nonatomic,retain)IBOutlet UILabel *showSwitchValue;
-
+@property(nonatomic,retain)IBOutlet UILabel *message;
+@property(nonatomic,retain)IBOutlet UILabel *downLoad;
+-(IBAction)messageAcction:(id)sender;
+-(IBAction)downLoadAcction:(id)sender;
 @end
