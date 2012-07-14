@@ -21,6 +21,7 @@
         // Custom initialization
         self.title = NSLocalizedString(@"设置", @"设置");
 
+
     }
     return self;
 }

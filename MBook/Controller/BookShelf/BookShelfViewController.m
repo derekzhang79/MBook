@@ -196,7 +196,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     [self initBarButtons];
     [self switchToNormalMode];
     

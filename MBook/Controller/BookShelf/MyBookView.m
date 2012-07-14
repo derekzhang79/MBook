@@ -47,8 +47,8 @@
     if (self) {
         _checkedImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"BookViewChecked.png"]];
         [_checkedImageView setHidden:YES];
+        [_checkedImageView setCenter:CGPointMake(22, 13)];
         [self addSubview:_checkedImageView];
-        
         [self addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
     }
     return self;
