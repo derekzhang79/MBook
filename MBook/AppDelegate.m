@@ -42,13 +42,13 @@
     //书城
     BookStroeViewController *bStroreVC = [[[BookStroeViewController alloc]initWithNibName:@"BookStroeViewController" bundle:nil]autorelease];
     //设置
-    SettingViewController *settingVC = [[[SettingViewController alloc]initWithNibName:@"SettingViewController" bundle:nil] autorelease];
+//    SettingViewController *settingVC = [[[SettingViewController alloc]initWithNibName:@"SettingViewController" bundle:nil] autorelease];
     
 
     self.navigationController = [[[UINavigationController alloc]initWithRootViewController:bShelfVC] autorelease];
     
     self.tabBarController = [[UITabBarController alloc]init];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:self.navigationController,bStroreVC,settingVC,nil];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:self.navigationController,bStroreVC,nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
