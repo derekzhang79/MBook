@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface SettingViewController : UIViewController
+@property(nonatomic,retain)IBOutlet UILabel *showSwitchValue;
 
 @end

@@ -13,6 +13,7 @@
 @end
 
 @implementation SettingViewController
+@synthesize showSwitchValue;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,6 +30,19 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    UISwitch *switchButton  = [[UISwitch alloc]initWithFrame:CGRectMake(203, 13, 79, 27)];
+    [switchButton setOn:NO];
+    [switchButton addTarget:self action:@selector(switchAction:) forControlEvents:UIControlEventValueChanged];
+    [self.view addSubview:switchButton];
+}
+-(void)switchAction:(id)sender{
+    UISwitch *switchButton = (UISwitch*)sender;
+    BOOL isButtonOn = [switchButton isOn];
+    if (isButtonOn) {
+        showSwitchValue.text = @"是";
+    }else {
+        showSwitchValue.text = @"否";
+    }
 }
 
 - (void)viewDidUnload
