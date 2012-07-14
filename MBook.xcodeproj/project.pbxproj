@@ -14,7 +14,6 @@
 		4A2ED7A415ABCDE20077A181 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2ED7A315ABCDE20077A181 /* CoreMedia.framework */; };
 		4A2ED7A615ABCDF00077A181 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2ED7A515ABCDF00077A181 /* AVFoundation.framework */; };
 		4A2ED7EA15ABD38E0077A181 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7AD15ABD38E0077A181 /* 1.png */; };
-		4A2ED7EB15ABD38E0077A181 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7AE15ABD38E0077A181 /* 11.jpg */; };
 		4A2ED7EC15ABD38E0077A181 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7AF15ABD38E0077A181 /* 12.jpg */; };
 		4A2ED7ED15ABD38E0077A181 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7B015ABD38E0077A181 /* 13.jpg */; };
 		4A2ED7EE15ABD38E0077A181 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7B115ABD38E0077A181 /* 14.jpg */; };
@@ -30,8 +29,8 @@
 		4A2ED7F815ABD38E0077A181 /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7BB15ABD38E0077A181 /* 4@2x.png */; };
 		4A2ED7F915ABD38E0077A181 /* AboveTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7BD15ABD38E0077A181 /* AboveTopView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4A2ED7FB15ABD38E0077A181 /* BelowBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C115ABD38E0077A181 /* BelowBottomView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		4A2ED7FD15ABD38E0077A181 /* BookShelfCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C415ABD38E0077A181 /* BookShelfCell.png */; };
-		4A2ED7FE15ABD38E0077A181 /* BookShelfCell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C515ABD38E0077A181 /* BookShelfCell@2x.png */; };
+		4A2ED7FD15ABD38E0077A181 /* OldBookShelfCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C415ABD38E0077A181 /* OldBookShelfCell.png */; };
+		4A2ED7FE15ABD38E0077A181 /* OldBookShelfCell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C515ABD38E0077A181 /* OldBookShelfCell@2x.png */; };
 		4A2ED7FF15ABD38E0077A181 /* BookShelfCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C715ABD38E0077A181 /* BookShelfCellView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4A2ED80015ABD38E0077A181 /* BookStroeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C815ABD38E0077A181 /* BookStroeButton.png */; };
 		4A2ED80115ABD38E0077A181 /* BookStroeButtonpress.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7C915ABD38E0077A181 /* BookStroeButtonpress.png */; };
@@ -72,6 +71,27 @@
 		4A4B327B15AC2D57004229AB /* musicInform.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A4B327A15AC2D57004229AB /* musicInform.plist */; };
 		4A4B328C15AC5634004229AB /* MScorePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B328A15AC560D004229AB /* MScorePlayViewController.m */; };
 		4A55FF8815AD853F004F85C1 /* BookShelfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2ED7D015ABD38E0077A181 /* BookShelfViewController.xib */; };
+		4A5A5F3B15B11F21009C2A54 /* 书城icon press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F2715B11F21009C2A54 /* 书城icon press.png */; };
+		4A5A5F3C15B11F21009C2A54 /* 书城icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F2815B11F21009C2A54 /* 书城icon.png */; };
+		4A5A5F3D15B11F21009C2A54 /* BookShelfCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F2915B11F21009C2A54 /* BookShelfCell.png */; };
+		4A5A5F3E15B11F21009C2A54 /* BookShelfCell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F2A15B11F21009C2A54 /* BookShelfCell@2x.png */; };
+		4A5A5F3F15B11F21009C2A54 /* BookShelfBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F2B15B11F21009C2A54 /* BookShelfBackground.png */; };
+		4A5A5F4015B11F21009C2A54 /* 任务栏.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F2C15B11F21009C2A54 /* 任务栏.png */; };
+		4A5A5F4115B11F21009C2A54 /* 删除.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F2D15B11F21009C2A54 /* 删除.png */; };
+		4A5A5F4215B11F21009C2A54 /* 删除icon press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F2E15B11F21009C2A54 /* 删除icon press.png */; };
+		4A5A5F4315B11F21009C2A54 /* 删除icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F2F15B11F21009C2A54 /* 删除icon.png */; };
+		4A5A5F4415B11F21009C2A54 /* 删除icon大.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F3015B11F21009C2A54 /* 删除icon大.png */; };
+		4A5A5F4515B11F21009C2A54 /* 删除icon小.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F3115B11F21009C2A54 /* 删除icon小.png */; };
+		4A5A5F4615B11F21009C2A54 /* 删除press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F3215B11F21009C2A54 /* 删除press.png */; };
+		4A5A5F4715B11F21009C2A54 /* 删除背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F3315B11F21009C2A54 /* 删除背景.png */; };
+		4A5A5F4815B11F21009C2A54 /* 取消.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F3415B11F21009C2A54 /* 取消.png */; };
+		4A5A5F4915B11F21009C2A54 /* 取消press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F3515B11F21009C2A54 /* 取消press.png */; };
+		4A5A5F4A15B11F21009C2A54 /* 搜索框.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F3615B11F21009C2A54 /* 搜索框.png */; };
+		4A5A5F4B15B11F21009C2A54 /* 放大锯.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F3715B11F21009C2A54 /* 放大锯.png */; };
+		4A5A5F4C15B11F21009C2A54 /* 标记.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F3815B11F21009C2A54 /* 标记.png */; };
+		4A5A5F4D15B11F21009C2A54 /* 设置.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F3915B11F21009C2A54 /* 设置.png */; };
+		4A5A5F4E15B11F21009C2A54 /* 设置press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F3A15B11F21009C2A54 /* 设置press.png */; };
+		4A5A5F5015B1249D009C2A54 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F4F15B1249B009C2A54 /* 11.jpg */; };
 		4A821D7F15AEC22900537BE8 /* TRACKS1+2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A821D7E15AEC22700537BE8 /* TRACKS1+2.jpg */; };
 		4AA4540F15B057EA000A7E7D /* BookStroeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4540D15B057EA000A7E7D /* BookStroeViewController.m */; };
 		4AA4541015B057EA000A7E7D /* BookStroeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA4540E15B057EA000A7E7D /* BookStroeViewController.xib */; };
@@ -118,13 +138,11 @@
 		4A2ED76815ABBF610077A181 /* MusicScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicScoreViewController.h; sourceTree = "<group>"; };
 		4A2ED76915ABBF610077A181 /* MusicScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicScoreViewController.m; sourceTree = "<group>"; };
 		4A2ED76A15ABBF610077A181 /* MusicScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicScoreViewController.xib; sourceTree = "<group>"; };
-		4A2ED76E15ABC0800077A181 /* TRACKS1+2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "TRACKS1+2.jpg"; path = "../Model/TRACKS1+2.jpg"; sourceTree = "<group>"; };
 		4A2ED79F15ABCDCC0077A181 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4A2ED7A115ABCDD70077A181 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		4A2ED7A315ABCDE20077A181 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		4A2ED7A515ABCDF00077A181 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4A2ED7AD15ABD38E0077A181 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		4A2ED7AE15ABD38E0077A181 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
 		4A2ED7AF15ABD38E0077A181 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
 		4A2ED7B015ABD38E0077A181 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
 		4A2ED7B115ABD38E0077A181 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
@@ -142,8 +160,8 @@
 		4A2ED7BD15ABD38E0077A181 /* AboveTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboveTopView.m; sourceTree = "<group>"; };
 		4A2ED7C015ABD38E0077A181 /* BelowBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BelowBottomView.h; sourceTree = "<group>"; };
 		4A2ED7C115ABD38E0077A181 /* BelowBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BelowBottomView.m; sourceTree = "<group>"; };
-		4A2ED7C415ABD38E0077A181 /* BookShelfCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookShelfCell.png; sourceTree = "<group>"; };
-		4A2ED7C515ABD38E0077A181 /* BookShelfCell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BookShelfCell@2x.png"; sourceTree = "<group>"; };
+		4A2ED7C415ABD38E0077A181 /* OldBookShelfCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OldBookShelfCell.png; sourceTree = "<group>"; };
+		4A2ED7C515ABD38E0077A181 /* OldBookShelfCell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OldBookShelfCell@2x.png"; sourceTree = "<group>"; };
 		4A2ED7C615ABD38E0077A181 /* BookShelfCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfCellView.h; sourceTree = "<group>"; };
 		4A2ED7C715ABD38E0077A181 /* BookShelfCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfCellView.m; sourceTree = "<group>"; };
 		4A2ED7C815ABD38E0077A181 /* BookStroeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookStroeButton.png; sourceTree = "<group>"; };
@@ -199,6 +217,27 @@
 		4A4B327A15AC2D57004229AB /* musicInform.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = musicInform.plist; sourceTree = "<group>"; };
 		4A4B328915AC560D004229AB /* MScorePlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MScorePlayViewController.h; sourceTree = "<group>"; };
 		4A4B328A15AC560D004229AB /* MScorePlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MScorePlayViewController.m; sourceTree = "<group>"; };
+		4A5A5F2715B11F21009C2A54 /* 书城icon press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "书城icon press.png"; sourceTree = "<group>"; };
+		4A5A5F2815B11F21009C2A54 /* 书城icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "书城icon.png"; sourceTree = "<group>"; };
+		4A5A5F2915B11F21009C2A54 /* BookShelfCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookShelfCell.png; sourceTree = "<group>"; };
+		4A5A5F2A15B11F21009C2A54 /* BookShelfCell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BookShelfCell@2x.png"; sourceTree = "<group>"; };
+		4A5A5F2B15B11F21009C2A54 /* BookShelfBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookShelfBackground.png; sourceTree = "<group>"; };
+		4A5A5F2C15B11F21009C2A54 /* 任务栏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "任务栏.png"; sourceTree = "<group>"; };
+		4A5A5F2D15B11F21009C2A54 /* 删除.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除.png"; sourceTree = "<group>"; };
+		4A5A5F2E15B11F21009C2A54 /* 删除icon press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除icon press.png"; sourceTree = "<group>"; };
+		4A5A5F2F15B11F21009C2A54 /* 删除icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除icon.png"; sourceTree = "<group>"; };
+		4A5A5F3015B11F21009C2A54 /* 删除icon大.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除icon大.png"; sourceTree = "<group>"; };
+		4A5A5F3115B11F21009C2A54 /* 删除icon小.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除icon小.png"; sourceTree = "<group>"; };
+		4A5A5F3215B11F21009C2A54 /* 删除press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除press.png"; sourceTree = "<group>"; };
+		4A5A5F3315B11F21009C2A54 /* 删除背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除背景.png"; sourceTree = "<group>"; };
+		4A5A5F3415B11F21009C2A54 /* 取消.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消.png"; sourceTree = "<group>"; };
+		4A5A5F3515B11F21009C2A54 /* 取消press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消press.png"; sourceTree = "<group>"; };
+		4A5A5F3615B11F21009C2A54 /* 搜索框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索框.png"; sourceTree = "<group>"; };
+		4A5A5F3715B11F21009C2A54 /* 放大锯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "放大锯.png"; sourceTree = "<group>"; };
+		4A5A5F3815B11F21009C2A54 /* 标记.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标记.png"; sourceTree = "<group>"; };
+		4A5A5F3915B11F21009C2A54 /* 设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置.png"; sourceTree = "<group>"; };
+		4A5A5F3A15B11F21009C2A54 /* 设置press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置press.png"; sourceTree = "<group>"; };
+		4A5A5F4F15B1249B009C2A54 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
 		4A821D7E15AEC22700537BE8 /* TRACKS1+2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TRACKS1+2.jpg"; sourceTree = "<group>"; };
 		4AA4540C15B057EA000A7E7D /* BookStroeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStroeViewController.h; sourceTree = "<group>"; };
 		4AA4540D15B057EA000A7E7D /* BookStroeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStroeViewController.m; sourceTree = "<group>"; };
@@ -373,6 +412,26 @@
 		4A63C1F615AC77C2006A2DBA /* BooksshelfIcons */ = {
 			isa = PBXGroup;
 			children = (
+				4A5A5F2715B11F21009C2A54 /* 书城icon press.png */,
+				4A5A5F2815B11F21009C2A54 /* 书城icon.png */,
+				4A5A5F2915B11F21009C2A54 /* BookShelfCell.png */,
+				4A5A5F2A15B11F21009C2A54 /* BookShelfCell@2x.png */,
+				4A5A5F2B15B11F21009C2A54 /* BookShelfBackground.png */,
+				4A5A5F2C15B11F21009C2A54 /* 任务栏.png */,
+				4A5A5F2D15B11F21009C2A54 /* 删除.png */,
+				4A5A5F2E15B11F21009C2A54 /* 删除icon press.png */,
+				4A5A5F2F15B11F21009C2A54 /* 删除icon.png */,
+				4A5A5F3015B11F21009C2A54 /* 删除icon大.png */,
+				4A5A5F3115B11F21009C2A54 /* 删除icon小.png */,
+				4A5A5F3215B11F21009C2A54 /* 删除press.png */,
+				4A5A5F3315B11F21009C2A54 /* 删除背景.png */,
+				4A5A5F3415B11F21009C2A54 /* 取消.png */,
+				4A5A5F3515B11F21009C2A54 /* 取消press.png */,
+				4A5A5F3615B11F21009C2A54 /* 搜索框.png */,
+				4A5A5F3715B11F21009C2A54 /* 放大锯.png */,
+				4A5A5F3815B11F21009C2A54 /* 标记.png */,
+				4A5A5F3915B11F21009C2A54 /* 设置.png */,
+				4A5A5F3A15B11F21009C2A54 /* 设置press.png */,
 			);
 			name = BooksshelfIcons;
 			path = ../../Manager/BooksshelfIcons;
@@ -381,7 +440,7 @@
 		4A6CB29315AC0C77000F3198 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				4A2ED7AE15ABD38E0077A181 /* 11.jpg */,
+				4A5A5F4F15B1249B009C2A54 /* 11.jpg */,
 				4A2ED7AF15ABD38E0077A181 /* 12.jpg */,
 				4A2ED7B015ABD38E0077A181 /* 13.jpg */,
 				4A2ED7B115ABD38E0077A181 /* 14.jpg */,
@@ -402,8 +461,8 @@
 				4A2ED7CD15ABD38E0077A181 /* comments.png */,
 				4A2ED7E315ABD38E0077A181 /* BookViewChecked.png */,
 				4A2ED7E415ABD38E0077A181 /* BookViewChecked@2x.png */,
-				4A2ED7C415ABD38E0077A181 /* BookShelfCell.png */,
-				4A2ED7C515ABD38E0077A181 /* BookShelfCell@2x.png */,
+				4A2ED7C415ABD38E0077A181 /* OldBookShelfCell.png */,
+				4A2ED7C515ABD38E0077A181 /* OldBookShelfCell@2x.png */,
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -619,7 +678,6 @@
 		CAB26FB615A48EBC009E4435 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				4A2ED76E15ABC0800077A181 /* TRACKS1+2.jpg */,
 				CAB26FB915A48F30009E4435 /* test.txt */,
 			);
 			path = Resource;
@@ -707,7 +765,6 @@
 				4A2ED81215ABD38E0077A181 /* SelectedBookDetailViewController.xib in Resources */,
 				C64E7DE615ACA34300F6D8D0 /* MScorePlayViewController.xib in Resources */,
 				4A2ED7EA15ABD38E0077A181 /* 1.png in Resources */,
-				4A2ED7EB15ABD38E0077A181 /* 11.jpg in Resources */,
 				4A2ED7EC15ABD38E0077A181 /* 12.jpg in Resources */,
 				4A2ED7ED15ABD38E0077A181 /* 13.jpg in Resources */,
 				4A2ED7EE15ABD38E0077A181 /* 14.jpg in Resources */,
@@ -721,8 +778,8 @@
 				4A2ED7F615ABD38E0077A181 /* 3@2x.png in Resources */,
 				4A2ED7F715ABD38E0077A181 /* 4.png in Resources */,
 				4A2ED7F815ABD38E0077A181 /* 4@2x.png in Resources */,
-				4A2ED7FD15ABD38E0077A181 /* BookShelfCell.png in Resources */,
-				4A2ED7FE15ABD38E0077A181 /* BookShelfCell@2x.png in Resources */,
+				4A2ED7FD15ABD38E0077A181 /* OldBookShelfCell.png in Resources */,
+				4A2ED7FE15ABD38E0077A181 /* OldBookShelfCell@2x.png in Resources */,
 				4A2ED80015ABD38E0077A181 /* BookStroeButton.png in Resources */,
 				4A2ED80115ABD38E0077A181 /* BookStroeButtonpress.png in Resources */,
 				4A2ED80315ABD38E0077A181 /* GreenBookViewChecked@2x.png in Resources */,
@@ -752,6 +809,27 @@
 				4A821D7F15AEC22900537BE8 /* TRACKS1+2.jpg in Resources */,
 				4AA4541015B057EA000A7E7D /* BookStroeViewController.xib in Resources */,
 				4AA4541615B05925000A7E7D /* SettingViewController.xib in Resources */,
+				4A5A5F3B15B11F21009C2A54 /* 书城icon press.png in Resources */,
+				4A5A5F3C15B11F21009C2A54 /* 书城icon.png in Resources */,
+				4A5A5F3D15B11F21009C2A54 /* BookShelfCell.png in Resources */,
+				4A5A5F3E15B11F21009C2A54 /* BookShelfCell@2x.png in Resources */,
+				4A5A5F3F15B11F21009C2A54 /* BookShelfBackground.png in Resources */,
+				4A5A5F4015B11F21009C2A54 /* 任务栏.png in Resources */,
+				4A5A5F4115B11F21009C2A54 /* 删除.png in Resources */,
+				4A5A5F4215B11F21009C2A54 /* 删除icon press.png in Resources */,
+				4A5A5F4315B11F21009C2A54 /* 删除icon.png in Resources */,
+				4A5A5F4415B11F21009C2A54 /* 删除icon大.png in Resources */,
+				4A5A5F4515B11F21009C2A54 /* 删除icon小.png in Resources */,
+				4A5A5F4615B11F21009C2A54 /* 删除press.png in Resources */,
+				4A5A5F4715B11F21009C2A54 /* 删除背景.png in Resources */,
+				4A5A5F4815B11F21009C2A54 /* 取消.png in Resources */,
+				4A5A5F4915B11F21009C2A54 /* 取消press.png in Resources */,
+				4A5A5F4A15B11F21009C2A54 /* 搜索框.png in Resources */,
+				4A5A5F4B15B11F21009C2A54 /* 放大锯.png in Resources */,
+				4A5A5F4C15B11F21009C2A54 /* 标记.png in Resources */,
+				4A5A5F4D15B11F21009C2A54 /* 设置.png in Resources */,
+				4A5A5F4E15B11F21009C2A54 /* 设置press.png in Resources */,
+				4A5A5F5015B1249D009C2A54 /* 11.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
