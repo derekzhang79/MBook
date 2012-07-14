@@ -21,6 +21,8 @@
 @synthesize nextSong;
 @synthesize musicLabel;
 
+@synthesize demoCoverView =_demoCoverView;
+
 #define timeIntervalConstant 0.1
 #define constant 10
 
@@ -34,7 +36,7 @@
     self = [super initWithNibName:@"MScorePlayViewController" bundle:nil];
     if (self) {
         // Custom initialization
-    }
+  }
     return self;
 }
 
@@ -60,6 +62,7 @@
     [preSong release];
     [nextSong release];
     [musicLabel release];
+    [_demoCoverView release];
     
     free(timeArray);
     free(lenghtArray);
@@ -70,9 +73,9 @@
 - (void)updateMusicLabel
 {
     if (currentLinkID == 1) {
-        [musicLabel setText:@"卡农"];        
+        [musicLabel setText:@"曲目1 《卡农》"];        
     }else if(currentLinkID == 2){
-        [musicLabel setText:@"爱的罗曼史"];        
+        [musicLabel setText:@"曲目2《爱的罗曼史》"];        
     }else{
         [musicLabel setText:@"没有选中音乐"];        
     }
@@ -80,15 +83,40 @@
 
 - (void)viewDidLoad
 {    
-    [self.view setBackgroundColor:[UIColor grayColor]];
+   
+    [self.view setBackgroundColor:[UIColor whiteColor]];
 
 //    [musicLabel setText:[NSString stringWithFormat:@"music%d",currentLinkID]];
     [self updateMusicLabel];
     [progressView setProgress:0.0f];
-
+    
+        
+    //检测当前orientation 情况
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didRotate:) name:@"UIDeviceOrientationDidChangeNotification" object:nil];
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+- (void) didRotate:(NSNotification *)notification
+{   
+    UIDeviceOrientation orientation = [[UIDevice currentDevice] orientation];
+    
+    if (orientation == UIDeviceOrientationPortrait ||orientation == UIDeviceOrientationPortraitUpsideDown)
+    {
+        NSLog(@"Landscape Left! and PortraitUpsideDown");
+        
+        
+        
+          //如果playFlag 是YES 证明音乐是在播放中，然后要
+        if ( playFlag == YES) [self pauseMusic];
+        
+        [self.view addSubview:_demoCoverView];
+
+    }else {
+        [_demoCoverView removeFromSuperview];
+
+                
+    }
 }
 
 - (void)viewDidUnload
@@ -96,11 +124,30 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    
+    self.playButton= nil;
+    self.progressView = nil;
+    self.voiceView = nil;
+    
+    self.scroller =nil;
+    self.accompanyButton =nil;
+    self.preSong = nil;
+    
+    self.nextSong = nil;
+    self.musicLabel =nil;
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    //添加demo 的乐谱图片,覆盖播放的页面
+    _demoCoverView  = [[UIImageView alloc]initWithImage: [UIImage imageNamed:@"TRACKS1+2.jpg"]];
+    _demoCoverView.userInteractionEnabled = YES;
+    [_demoCoverView setFrame:CGRectMake(0, 44, 320, 436)];
+    [self.view addSubview:_demoCoverView];
+
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -118,21 +165,29 @@
 	[super viewDidDisappear:animated];
 }
 
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
     //return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-    if (interfaceOrientation ==UIInterfaceOrientationPortrait ||interfaceOrientation==UIInterfaceOrientationPortraitUpsideDown) {
-        
-        [self.audioPlayer pause];
-        [self.backgroundPlayer pause];
-        [self dismissModalViewControllerAnimated:YES];
+    
+     ///竖直屏幕模式的时候
+    if (interfaceOrientation ==UIInterfaceOrientationPortrait  || interfaceOrientation==UIInterfaceOrientationPortraitUpsideDown) {
+        NSLog(@"竖屏");
+    }
+    ///横屏模式的时候
+     if(interfaceOrientation==UIInterfaceOrientationLandscapeLeft || interfaceOrientation==UIInterfaceOrientationLandscapeRight)
+    {
+        NSLog(@"横屏");
+        [_demoCoverView removeFromSuperview];
 
     }
-    
+        
     return (interfaceOrientation== UIInterfaceOrientationLandscapeLeft||
-            interfaceOrientation==UIInterfaceOrientationLandscapeRight);
+            interfaceOrientation==UIInterfaceOrientationLandscapeRight ||interfaceOrientation== UIInterfaceOrientationPortrait ||interfaceOrientation ==UIInterfaceOrientationPortraitUpsideDown);
+
 }
+
 
 #pragma function
 -(void)clean{
@@ -182,9 +237,8 @@
 
 - (IBAction)backButton:(id)sender {
     
-    [self.audioPlayer pause];
-    [self.backgroundPlayer pause];
-    [self dismissModalViewControllerAnimated:YES];
+    [self clean];
+    [self.navigationController popViewControllerAnimated :YES];
 }
 
 -(id)initWithLink:(NSInteger)linkId{
@@ -201,7 +255,7 @@
     
     // just for demo
     if (currentLinkID>2 || currentLinkID<1) {
-        UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"这demo没有此歌" message:nil delegate:nil cancelButtonTitle: nil   otherButtonTitles:@"确定", nil];
+        UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"亲！这demo中只有两首歌哦！" message:nil delegate:nil cancelButtonTitle: nil   otherButtonTitles:@"确定", nil];
         [alert show];
         [alert release];
         
@@ -365,6 +419,30 @@
 }
 
 -(IBAction)play {
+    
+    [self playMusic];
+}
+
+-(void)pauseMusic{
+    
+    if (playFlag ==YES) {
+        currentTime=haveAccompany?self.backgroundPlayer.currentTime: self.audioPlayer.currentTime;
+        if (haveAccompany) [self.backgroundPlayer stop];
+        else [self.audioPlayer stop];
+        
+        playFlag=NO;
+        
+        [playTimer invalidate];
+        [scrollMoveTimer invalidate];
+        playTimer=nil;
+        scrollMoveTimer=nil;
+        
+        [playButton setBackgroundImage:[UIImage imageNamed:@"play.png"] forState:UIControlStateNormal];
+    }
+}
+
+-(void)playMusic{
+    
     if (playFlag==NO) {
         //确认声音播放时间点在开始的位置  
         if (currentTime==0) {
@@ -398,6 +476,9 @@
         [playButton setBackgroundImage:[UIImage imageNamed:@"play.png"] forState:UIControlStateNormal];
     }
 }
+
+
+
 
 -(void)voiceChange:(id)sender{
     UISlider *tempSlider=(UISlider *)sender;
@@ -570,5 +651,7 @@ int drapCount=0;
     timeInteval=(currentTimeInterval-currentIntervalMovedTime)>=timeIntervalConstant?timeIntervalConstant:currentTimeInterval-currentIntervalMovedTime;
     speed=(currentTimeInterval-currentIntervalMovedTime)>=timeIntervalConstant?currentLength/(currentTimeInterval*constant):currentLength;
 }
+
+
 
 @end

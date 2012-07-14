@@ -1,809 +1,0 @@
-TMBook
-v4
-r1
-cCheck dependencies
-cCpResource /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/MBook.app/ResourceRules.plist
-cProcessInfoPlistFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/Info.plist MBook/MBook-Info.plist
-cProcessPCH /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch.pth MBook/MBook-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/main.o /Learn/Test/MBook/MBook/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/AppDelegate.o /Learn/Test/MBook/MBook/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/BookController.o /Learn/Test/MBook/MBook/Controller/BookController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/Pagination.o /Learn/Test/MBook/MBook/Util/Pagination.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesCache.o /Learn/Test/MBook/MBook/View/Leaves/LeavesCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesView.o /Learn/Test/MBook/MBook/View/Leaves/LeavesView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesViewController.o /Learn/Test/MBook/MBook/View/Leaves/LeavesViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/ImageManager.o /Learn/Test/MBook/MBook/Manager/ImageManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/CatalogView.o /Learn/Test/MBook/MBook/View/CatalogView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/Catalog.o /Learn/Test/MBook/MBook/Model/Catalog.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/MBook normal armv7
-cGenerateDSYMFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app.dSYM /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/MBook
-cCopyStringsFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/en.lproj/InfoPlist.strings MBook/en.lproj/InfoPlist.strings
-cCompileXIB /Learn/Test/MBook/MBook/Controller/BookController.xib
-cCpResource MBook/Resource/test.txt build/Debug-iphoneos/MBook.app/test.txt
-cCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/book_bg@2x.png MBook/Image/book_bg@2x.png
-cCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/bookself_button@2x.png MBook/Image/bookself_button@2x.png
-cCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/close@2x.png MBook/Image/close@2x.png
-cCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/close_press@2x.png MBook/Image/close_press@2x.png
-cCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music@2x.png MBook/Image/music@2x.png
-cCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music_bg@2x.png MBook/Image/music_bg@2x.png
-cCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music_button@2x.png MBook/Image/music_button@2x.png
-cCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music_button_press@2x.png MBook/Image/music_button_press@2x.png
-cCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/page_button_press@2x.png MBook/Image/page_button_press@2x.png
-cCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/tips@2x.png MBook/Image/tips@2x.png
-cCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/video@2x.png MBook/Image/video@2x.png
-cCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/video_button@2x.png MBook/Image/video_button@2x.png
-cCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/video_button_press.png MBook/Image/video_button_press.png
-cCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/bookself_button_press@2x.png MBook/Image/bookself_button_press@2x.png
-cCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/page_button@2x.png MBook/Image/page_button@2x.png
-cProcessProductPackaging "/Users/qqn_pipi/Library/MobileDevice/Provisioning Profiles/7794B171-C647-457F-A08B-69FF1F835785.mobileprovision" /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/embedded.mobileprovision
-cProcessProductPackaging "/Users/qqn_pipi/Library/MobileDevice/Provisioning Profiles/7794B171-C647-457F-A08B-69FF1F835785.mobileprovision" /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/embedded.mobileprovision
-cTouch /Learn/Test/MBook/build/Debug-iphoneos/MBook.app
-cProcessProductPackaging /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook.xcent
-cCodeSign /Learn/Test/MBook/build/Debug-iphoneos/MBook.app
-
-N/Learn/Test/MBook/MBook/AppDelegate.m
-c000000004FF454C30000000000000A84
-t1341412547
-s2692
-
-N/Learn/Test/MBook/MBook/Controller/BookController.m
-c000000004FFB04480000000000001980
-t1341850696
-s6528
-
-N/Learn/Test/MBook/MBook/Controller/BookController.xib
-c000000004FFAE5180000000000002F53
-t1341842712
-s12115
-
-N/Learn/Test/MBook/MBook/Image/book_bg@2x.png
-c000000004FF3C59B000000000004A09D
-t1341375899
-s303261
-
-N/Learn/Test/MBook/MBook/Image/bookself_button@2x.png
-c000000004FF3C59B000000000000131D
-t1341375899
-s4893
-
-N/Learn/Test/MBook/MBook/Image/bookself_button_press@2x.png
-c000000004FFAE1C700000000000015F6
-t1341841863
-s5622
-
-N/Learn/Test/MBook/MBook/Image/close@2x.png
-c000000004FF3C59B0000000000001450
-t1341375899
-s5200
-
-N/Learn/Test/MBook/MBook/Image/close_press@2x.png
-c000000004FF3C59B0000000000001A5F
-t1341375899
-s6751
-
-N/Learn/Test/MBook/MBook/Image/music@2x.png
-c000000004FF3C59B000000000000177D
-t1341375899
-s6013
-
-N/Learn/Test/MBook/MBook/Image/music_bg@2x.png
-c000000004FF3C59B00000000000057D0
-t1341375899
-s22480
-
-N/Learn/Test/MBook/MBook/Image/music_button@2x.png
-c000000004FF3C59B0000000000002D40
-t1341375899
-s11584
-
-N/Learn/Test/MBook/MBook/Image/music_button_press@2x.png
-c000000004FF3C59B00000000000028B7
-t1341375899
-s10423
-
-N/Learn/Test/MBook/MBook/Image/page_button@2x.png
-c000000004FF3C59B000000000000162F
-t1341375899
-s5679
-
-N/Learn/Test/MBook/MBook/Image/page_button_press@2x.png
-c000000004FF3C59B00000000000013E3
-t1341375899
-s5091
-
-N/Learn/Test/MBook/MBook/Image/tips@2x.png
-c000000004FF3C59B0000000000001B89
-t1341375899
-s7049
-
-N/Learn/Test/MBook/MBook/Image/video@2x.png
-c000000004FF3C59B000000000000161A
-t1341375899
-s5658
-
-N/Learn/Test/MBook/MBook/Image/video_button@2x.png
-c000000004FF3C59B0000000000002BC2
-t1341375899
-s11202
-
-N/Learn/Test/MBook/MBook/Image/video_button_press.png
-c000000004FF3C59B00000000000027E7
-t1341375899
-s10215
-
-N/Learn/Test/MBook/MBook/MBook-Prefix.pch
-c000000004FF44FA10000000000000139
-t1341411233
-s313
-
-N/Learn/Test/MBook/MBook/Manager/ImageManager.m
-c000000004FFAE6690000000000000364
-t1341843049
-s868
-
-N/Learn/Test/MBook/MBook/Model/Catalog.m
-c000000004FFAF9870000000000000294
-t1341847943
-s660
-
-N/Learn/Test/MBook/MBook/Resource/test.txt
-c000000004FF4564D0000000000001B24
-t1341412941
-s6948
-
-N/Learn/Test/MBook/MBook/Util/Pagination.m
-c000000004FF45D010000000000000C9B
-t1341414657
-s3227
-
-N/Learn/Test/MBook/MBook/View/CatalogView.m
-c000000004FFB00E000000000000007F4
-t1341849824
-s2036
-
-N/Learn/Test/MBook/MBook/View/Leaves/LeavesCache.m
-c000000004FEB2E0F0000000000000A40
-t1340812815
-s2624
-
-N/Learn/Test/MBook/MBook/View/Leaves/LeavesView.m
-c000000004FFAF0C60000000000002BD7
-t1341845702
-s11223
-
-N/Learn/Test/MBook/MBook/View/Leaves/LeavesViewController.m
-c000000004FFADB5C00000000000004FD
-t1341840220
-s1277
-
-N/Learn/Test/MBook/MBook/en.lproj/InfoPlist.strings
-c000000004FF44FA0000000000000002D
-t1341411232
-s45
-
-N/Learn/Test/MBook/MBook/main.m
-c000000004FF44FA1000000000000014B
-t1341411233
-s331
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app.dSYM
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/BookController.nib
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/Info.plist
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/MBook
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/PkgInfo
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/ResourceRules.plist
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/book_bg@2x.png
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/bookself_button@2x.png
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/bookself_button_press@2x.png
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/close@2x.png
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/close_press@2x.png
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/embedded.mobileprovision
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music@2x.png
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music_bg@2x.png
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music_button@2x.png
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music_button_press@2x.png
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/page_button@2x.png
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/page_button_press@2x.png
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/test.txt
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/tips@2x.png
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/video@2x.png
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/video_button@2x.png
-t2
-s0
-
-N/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/video_button_press.png
-t2
-s0
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook.xcent
-t2
-s0
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/AppDelegate.o
-t2
-s0
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/BookController.o
-t2
-s0
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/Catalog.o
-t2
-s0
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/CatalogView.o
-t2
-s0
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/ImageManager.o
-t2
-s0
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesCache.o
-t2
-s0
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesView.o
-t2
-s0
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesViewController.o
-t2
-s0
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/MBook.LinkFileList
-c000000004FFB049B00000000000003D4
-t1341850779
-s980
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/Pagination.o
-t2
-s0
-
-N/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/main.o
-t2
-s0
-
-N/Users/qqn_pipi/Library/MobileDevice/Provisioning Profiles/7794B171-C647-457F-A08B-69FF1F835785.mobileprovision
-c000000004FAA8959000000000000224D
-t1336576345
-s8781
-
-N/var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch.pth
-t2
-s0
-
-N/xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
-c000000004E7840290000000000000110
-t1316503593
-s272
-
-N/xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
-c000000004E5C595800000000000001A7
-t1314675032
-s423
-
-N/xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
-c000000004E5C595800000000000001E5
-t1314675032
-s485
-
-N/xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004E72F28700000000003AB0A0
-t1316156039
-s3846304
-
-N/xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004E72F3440000000000529540
-t1316156228
-s5412160
-
-N/xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004E72F8910000000000173260
-t1316157585
-s1520224
-
-N/xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004E7808C7000000000078BE50
-t1316489415
-s7913040
-
-NMBook/MBook-Info.plist
-c000000004FF44FA000000000000004BC
-t1341411232
-s1212
-
-CBuild AST from /Learn/Test/MBook/MBook/AppDelegate.m
-r0
-
-CBuild AST from /Learn/Test/MBook/MBook/Controller/BookController.m
-r0
-
-CBuild AST from /Learn/Test/MBook/MBook/Manager/ImageManager.m
-r0
-
-CBuild AST from /Learn/Test/MBook/MBook/Model/Catalog.m
-r0
-
-CBuild AST from /Learn/Test/MBook/MBook/Util/Pagination.m
-r0
-
-CBuild AST from /Learn/Test/MBook/MBook/View/CatalogView.m
-r0
-
-CBuild AST from /Learn/Test/MBook/MBook/View/Leaves/LeavesCache.m
-r0
-
-CBuild AST from /Learn/Test/MBook/MBook/View/Leaves/LeavesView.m
-r0
-
-CBuild AST from /Learn/Test/MBook/MBook/View/Leaves/LeavesViewController.m
-r0
-
-CBuild AST from /Learn/Test/MBook/MBook/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies82e20b1b3cabb541^0f995a1b3cabb541^---0#1#0#--18"Check dependencies36"68E9C121-8402-434C-9BF6-92D228845E53-
-
-CCodeSign /Learn/Test/MBook/build/Debug-iphoneos/MBook.app
-s363543597.905860
-e363543598.701202
-r1
-xCodeSign
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"CodeSign build/Debug-iphoneos/MBook.appf4fae72d3cabb541^4390b32e3cabb541^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/0000000000000000^592"CodeSign build/Debug-iphoneos/MBook.app    cd /Learn/Test/MBook    setenv CODESIGN_ALLOCATE /xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign "iPhone Developer: Lingzhe Peng (9WG829Y3AG)" --resource-rules=/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/ResourceRules.plist --entitlements /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook.xcent /Learn/Test/MBook/build/Debug-iphoneos/MBook.app36"B993AA4A-BA64-4F17-B6B7-EF4F66FC5B1C-
-
-CCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/AppDelegate.o /Learn/Test/MBook/MBook/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363543583.407184
-e363543584.124085
-r1
-xCompileC
-xbuild/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/AppDelegate.o
-x/Learn/Test/MBook/MBook/AppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Compile /Learn/Test/MBook/MBook/AppDelegate.mfa0a6a1f3cabb541^c1c41f203cabb541^---0#0#0#-19%DVTDocumentLocation2@53"file://localhost/Learn/Test/MBook/MBook/AppDelegate.m0000000000000000^2134"CompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/AppDelegate.o MBook/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphoneos/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources/armv7 -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphoneos -include /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch -MMD -MT dependencies -MF /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/AppDelegate.d -c /Learn/Test/MBook/MBook/AppDelegate.m -o /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/AppDelegate.o36"005B06A2-D0DD-43BD-8355-C78260BCE879-
-
-CCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/BookController.o /Learn/Test/MBook/MBook/Controller/BookController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363543584.091007
-e363543584.493178
-r1
-xCompileC
-xbuild/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/BookController.o
-x/Learn/Test/MBook/MBook/Controller/BookController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Learn/Test/MBook/MBook/Controller/BookController.m:193:37: warning: local declaration of 'catalog' hides instance variable [3]
-o     [leavesView setCurrentPageIndex:catalog.index];
-o                                     ^
-o1 warning generated.
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Learn/Test/MBook/MBook/Controller/BookController.m8b8b17203cabb541^f04e7e203cabb541^-241"/Learn/Test/MBook/MBook/Controller/BookController.m:193:37: warning: local declaration of 'catalog' hides instance variable [3]     [leavesView setCurrentPageIndex:catalog.index];                                     ^1 warning generated.1(21%IDEActivityLogMessage2@54"Local declaration of 'catalog' hides instance variable-363543584#0#128#-1#-23%DVTTextDocumentLocation3@67"file://localhost/Learn/Test/MBook/MBook/Controller/BookController.m0000000000000000^192#36#192#36#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@67"file://localhost/Learn/Test/MBook/MBook/Controller/BookController.m0000000000000000^2171"CompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/BookController.o MBook/Controller/BookController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphoneos/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources/armv7 -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphoneos -include /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch -MMD -MT dependencies -MF /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/BookController.d -c /Learn/Test/MBook/MBook/Controller/BookController.m -o /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/BookController.o36"C6B9ACA6-3FCD-47D3-83FC-5384B1C0EBF9-
-
-CCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/Catalog.o /Learn/Test/MBook/MBook/Model/Catalog.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363543585.227250
-e363543585.286879
-r1
-xCompileC
-xbuild/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/Catalog.o
-x/Learn/Test/MBook/MBook/Model/Catalog.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Compile /Learn/Test/MBook/MBook/Model/Catalog.me0653a213cabb541^f5be49213cabb541^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Learn/Test/MBook/MBook/Model/Catalog.m0000000000000000^2126"CompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/Catalog.o MBook/Model/Catalog.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphoneos/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources/armv7 -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphoneos -include /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch -MMD -MT dependencies -MF /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/Catalog.d -c /Learn/Test/MBook/MBook/Model/Catalog.m -o /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/Catalog.o36"FAA7F6AD-48B6-4352-A67C-CA34E65C25F9-
-
-CCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/CatalogView.o /Learn/Test/MBook/MBook/View/CatalogView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363543585.042306
-e363543585.225885
-r1
-xCompileC
-xbuild/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/CatalogView.o
-x/Learn/Test/MBook/MBook/View/CatalogView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Learn/Test/MBook/MBook/View/CatalogView.m9b1b0b213cabb541^a56b3a213cabb541^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Learn/Test/MBook/MBook/View/CatalogView.m0000000000000000^2144"CompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/CatalogView.o MBook/View/CatalogView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphoneos/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources/armv7 -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphoneos -include /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch -MMD -MT dependencies -MF /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/CatalogView.d -c /Learn/Test/MBook/MBook/View/CatalogView.m -o /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/CatalogView.o36"A707648C-381D-4162-AA9E-F346FBF460CF-
-
-CCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/ImageManager.o /Learn/Test/MBook/MBook/Manager/ImageManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363543584.932493
-e363543585.038473
-r1
-xCompileC
-xbuild/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/ImageManager.o
-x/Learn/Test/MBook/MBook/Manager/ImageManager.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Compile /Learn/Test/MBook/MBook/Manager/ImageManager.m14edee203cabb541^fbe709213cabb541^---0#0#0#-19%DVTDocumentLocation2@62"file://localhost/Learn/Test/MBook/MBook/Manager/ImageManager.m0000000000000000^2155"CompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/ImageManager.o MBook/Manager/ImageManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphoneos/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources/armv7 -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphoneos -include /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch -MMD -MT dependencies -MF /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/ImageManager.d -c /Learn/Test/MBook/MBook/Manager/ImageManager.m -o /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/ImageManager.o36"39EC31DB-7F12-4B7A-824D-B6B4B381C6A7-
-
-CCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesCache.o /Learn/Test/MBook/MBook/View/Leaves/LeavesCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363543584.446208
-e363543584.638805
-r1
-xCompileC
-xbuild/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesCache.o
-x/Learn/Test/MBook/MBook/View/Leaves/LeavesCache.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Learn/Test/MBook/MBook/View/Leaves/LeavesCache.m:100:1: warning: writable atomic property 'pageSize' cannot pair a synthesized setter/getter with a user defined setter/getter [3]
-o - (void) setPageSize:(CGSize)value {
-o ^
-o/Learn/Test/MBook/MBook/View/Leaves/LeavesCache.h:19:27: note: property declared here [3]
-o @property (assign) CGSize pageSize;
-o                           ^
-o1 warning generated.
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Learn/Test/MBook/MBook/View/Leaves/LeavesCache.m7a7172203cabb541^97feb1203cabb541^-398"/Learn/Test/MBook/MBook/View/Leaves/LeavesCache.m:100:1: warning: writable atomic property 'pageSize' cannot pair a synthesized setter/getter with a user defined setter/getter [3] - (void) setPageSize:(CGSize)value { ^/Learn/Test/MBook/MBook/View/Leaves/LeavesCache.h:19:27: note: property declared here [3] @property (assign) CGSize pageSize;                           ^1 warning generated.1(21%IDEActivityLogMessage2@109"Writable atomic property 'pageSize' cannot pair a synthesized setter/getter with a user defined setter/getter-363543584#0#180#1(2@22"Property declared here-363543584#221#90#-0#-23%DVTTextDocumentLocation3@65"file://localhost/Learn/Test/MBook/MBook/View/Leaves/LeavesCache.h0000000000000000^18#26#18#26#18446744073709551615#0#14"Semantic Issue--1#-3@65"file://localhost/Learn/Test/MBook/MBook/View/Leaves/LeavesCache.m0000000000000000^99#0#99#0#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@65"file://localhost/Learn/Test/MBook/MBook/View/Leaves/LeavesCache.m0000000000000000^2158"CompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesCache.o MBook/View/Leaves/LeavesCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphoneos/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources/armv7 -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphoneos -include /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch -MMD -MT dependencies -MF /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesCache.d -c /Learn/Test/MBook/MBook/View/Leaves/LeavesCache.m -o /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesCache.o36"DAB1E2B4-2A1D-4244-A12F-5EE6F7F5D2A0-
-
-CCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesView.o /Learn/Test/MBook/MBook/View/Leaves/LeavesView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363543584.494424
-e363543585.346781
-r1
-xCompileC
-xbuild/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesView.o
-x/Learn/Test/MBook/MBook/View/Leaves/LeavesView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Learn/Test/MBook/MBook/View/Leaves/LeavesView.m66da7e203cabb541^73d558213cabb541^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Learn/Test/MBook/MBook/View/Leaves/LeavesView.m0000000000000000^2153"CompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesView.o MBook/View/Leaves/LeavesView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphoneos/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources/armv7 -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphoneos -include /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch -MMD -MT dependencies -MF /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesView.d -c /Learn/Test/MBook/MBook/View/Leaves/LeavesView.m -o /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesView.o36"37485586-5A65-490A-A4BF-04556592E5CF-
-
-CCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesViewController.o /Learn/Test/MBook/MBook/View/Leaves/LeavesViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363543584.640082
-e363543584.931242
-r1
-xCompileC
-xbuild/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesViewController.o
-x/Learn/Test/MBook/MBook/View/Leaves/LeavesViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Learn/Test/MBook/MBook/View/Leaves/LeavesViewController.m2716a4203cabb541^ab3ef3203cabb541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Learn/Test/MBook/MBook/View/Leaves/LeavesViewController.m0000000000000000^2203"CompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesViewController.o MBook/View/Leaves/LeavesViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphoneos/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources/armv7 -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphoneos -include /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch -MMD -MT dependencies -MF /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesViewController.d -c /Learn/Test/MBook/MBook/View/Leaves/LeavesViewController.m -o /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/LeavesViewController.o36"5BCFB28C-8F4F-445B-AE16-189768AB3816-
-
-CCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/Pagination.o /Learn/Test/MBook/MBook/Util/Pagination.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363543584.125340
-e363543584.444969
-r1
-xCompileC
-xbuild/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/Pagination.o
-x/Learn/Test/MBook/MBook/Util/Pagination.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Learn/Test/MBook/MBook/Util/Pagination.m045420203cabb541^c6f771203cabb541^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Learn/Test/MBook/MBook/Util/Pagination.m0000000000000000^2139"CompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/Pagination.o MBook/Util/Pagination.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphoneos/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources/armv7 -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphoneos -include /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch -MMD -MT dependencies -MF /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/Pagination.d -c /Learn/Test/MBook/MBook/Util/Pagination.m -o /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/Pagination.o36"CBAC8E09-EF9F-44DE-B332-E75A167540E3-
-
-CCompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/main.o /Learn/Test/MBook/MBook/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363543583.406402
-e363543584.089776
-r1
-xCompileC
-xbuild/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/main.o
-x/Learn/Test/MBook/MBook/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Compile /Learn/Test/MBook/MBook/main.ma92e681f3cabb541^54fd16203cabb541^---0#0#0#-19%DVTDocumentLocation2@46"file://localhost/Learn/Test/MBook/MBook/main.m0000000000000000^2099"CompileC build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/main.o MBook/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphoneos/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources/armv7 -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphoneos -include /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch -MMD -MT dependencies -MF /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/main.d -c /Learn/Test/MBook/MBook/main.m -o /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/main.o36"FFF30E03-3B46-4EDA-AD20-CB064F2313D1-
-
-CCompileXIB /Learn/Test/MBook/MBook/Controller/BookController.xib
-s363543586.974982
-e363543595.564622
-r1
-xCompileXIB
-x/Learn/Test/MBook/MBook/Controller/BookController.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compiling /Learn/Test/MBook/MBook/Controller/BookController.xibc0aff9223cabb541^828c902b3cabb541^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Learn/Test/MBook/MBook/Controller/BookController.xib0000000000000000^592"CompileXIB MBook/Controller/BookController.xib    cd /Learn/Test/MBook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /xcode5/usr/bin/..    /xcode5/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/BookController.nib /Learn/Test/MBook/MBook/Controller/BookController.xib --sdk /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"85A65980-9749-40A7-9B4B-F56B243FE5E0-
-
-CCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/book_bg@2x.png MBook/Image/book_bg@2x.png
-s363543587.095108
-e363543597.741260
-r1
-xCopyPNGFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/book_bg@2x.png
-xMBook/Image/book_bg@2x.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile build/Debug-iphoneos/MBook.app/book_bg@2x.png MBook/Image/book_bg@2x.png7b6b18233cabb541^3dd1bd2d3cabb541^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Learn/Test/MBook/MBook/Image/book_bg@2x.png0000000000000000^505"CopyPNGFile "build/Debug-iphoneos/MBook.app/book_bg@2x.png" "MBook/Image/book_bg@2x.png"    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Learn/Test/MBook/MBook/Image/book_bg@2x.png" "/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/book_bg@2x.png"36"BB45AD99-0166-4E39-9DDD-E573FAA8B8C9-
-
-CCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/bookself_button@2x.png MBook/Image/bookself_button@2x.png
-s363543595.566033
-e363543595.616309
-r1
-xCopyPNGFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/bookself_button@2x.png
-xMBook/Image/bookself_button@2x.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile build/Debug-iphoneos/MBook.app/bookself_button@2x.png MBook/Image/bookself_button@2x.png1afd902b3cabb541^bdc79d2b3cabb541^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Learn/Test/MBook/MBook/Image/bookself_button@2x.png0000000000000000^537"CopyPNGFile "build/Debug-iphoneos/MBook.app/bookself_button@2x.png" "MBook/Image/bookself_button@2x.png"    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Learn/Test/MBook/MBook/Image/bookself_button@2x.png" "/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/bookself_button@2x.png"36"A2224027-0BE0-4551-A6E3-ECAE4442B1B0-
-
-CCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/bookself_button_press@2x.png MBook/Image/bookself_button_press@2x.png
-s363543597.330851
-e363543597.440078
-r1
-xCopyPNGFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/bookself_button_press@2x.png
-xMBook/Image/bookself_button_press@2x.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"CopyPNGFile build/Debug-iphoneos/MBook.app/bookself_button_press@2x.png MBook/Image/bookself_button_press@2x.png2ac7542d3cabb541^0491892d3cabb541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Learn/Test/MBook/MBook/Image/bookself_button_press@2x.png0000000000000000^561"CopyPNGFile "build/Debug-iphoneos/MBook.app/bookself_button_press@2x.png" "MBook/Image/bookself_button_press@2x.png"    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Learn/Test/MBook/MBook/Image/bookself_button_press@2x.png" "/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/bookself_button_press@2x.png"36"1D6D9268-CE7A-40E8-BE8F-4BA9DA6BE423-
-
-CCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/close@2x.png MBook/Image/close@2x.png
-s363543595.617558
-e363543595.686095
-r1
-xCopyPNGFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/close@2x.png
-xMBook/Image/close@2x.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/Debug-iphoneos/MBook.app/close@2x.png MBook/Image/close@2x.png863c9e2b3cabb541^c2a5af2b3cabb541^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Learn/Test/MBook/MBook/Image/close@2x.png0000000000000000^497"CopyPNGFile "build/Debug-iphoneos/MBook.app/close@2x.png" "MBook/Image/close@2x.png"    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Learn/Test/MBook/MBook/Image/close@2x.png" "/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/close@2x.png"36"72D2AEB4-9D28-466B-93AF-A80B286EE428-
-
-CCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/close_press@2x.png MBook/Image/close_press@2x.png
-s363543595.687380
-e363543595.817187
-r1
-xCopyPNGFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/close_press@2x.png
-xMBook/Image/close_press@2x.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Debug-iphoneos/MBook.app/close_press@2x.png MBook/Image/close_press@2x.png4110b02b3cabb541^ce34d12b3cabb541^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Learn/Test/MBook/MBook/Image/close_press@2x.png0000000000000000^521"CopyPNGFile "build/Debug-iphoneos/MBook.app/close_press@2x.png" "MBook/Image/close_press@2x.png"    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Learn/Test/MBook/MBook/Image/close_press@2x.png" "/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/close_press@2x.png"36"CE69471E-59C5-4D67-88F4-0BBC17E31C85-
-
-CCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music@2x.png MBook/Image/music@2x.png
-s363543595.818511
-e363543595.862897
-r1
-xCopyPNGFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music@2x.png
-xMBook/Image/music@2x.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/Debug-iphoneos/MBook.app/music@2x.png MBook/Image/music@2x.png83a2d12b3cabb541^32e8dc2b3cabb541^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Learn/Test/MBook/MBook/Image/music@2x.png0000000000000000^497"CopyPNGFile "build/Debug-iphoneos/MBook.app/music@2x.png" "MBook/Image/music@2x.png"    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Learn/Test/MBook/MBook/Image/music@2x.png" "/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music@2x.png"36"BA0BBDD9-55A4-4563-B8E5-79EDDF9534A7-
-
-CCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music_bg@2x.png MBook/Image/music_bg@2x.png
-s363543595.864156
-e363543596.795562
-r1
-xCopyPNGFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music_bg@2x.png
-xMBook/Image/music_bg@2x.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/Debug-iphoneos/MBook.app/music_bg@2x.png MBook/Image/music_bg@2x.png105cdd2b3cabb541^65abcb2c3cabb541^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Learn/Test/MBook/MBook/Image/music_bg@2x.png0000000000000000^509"CopyPNGFile "build/Debug-iphoneos/MBook.app/music_bg@2x.png" "MBook/Image/music_bg@2x.png"    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Learn/Test/MBook/MBook/Image/music_bg@2x.png" "/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music_bg@2x.png"36"8B092B5B-677F-4490-8B79-2E7EC3CB8E09-
-
-CCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music_button@2x.png MBook/Image/music_button@2x.png
-s363543596.796878
-e363543596.882495
-r1
-xCopyPNGFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music_button@2x.png
-xMBook/Image/music_button@2x.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Debug-iphoneos/MBook.app/music_button@2x.png MBook/Image/music_button@2x.png6020cc2c3cabb541^c2f8e12c3cabb541^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Learn/Test/MBook/MBook/Image/music_button@2x.png0000000000000000^525"CopyPNGFile "build/Debug-iphoneos/MBook.app/music_button@2x.png" "MBook/Image/music_button@2x.png"    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Learn/Test/MBook/MBook/Image/music_button@2x.png" "/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music_button@2x.png"36"A00B3C82-458A-4923-B891-08FF025021AD-
-
-CCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music_button_press@2x.png MBook/Image/music_button_press@2x.png
-s363543596.883748
-e363543596.963579
-r1
-xCopyPNGFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music_button_press@2x.png
-xMBook/Image/music_button_press@2x.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile build/Debug-iphoneos/MBook.app/music_button_press@2x.png MBook/Image/music_button_press@2x.pngf052e22c3cabb541^02b7f62c3cabb541^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Learn/Test/MBook/MBook/Image/music_button_press@2x.png0000000000000000^549"CopyPNGFile "build/Debug-iphoneos/MBook.app/music_button_press@2x.png" "MBook/Image/music_button_press@2x.png"    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Learn/Test/MBook/MBook/Image/music_button_press@2x.png" "/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/music_button_press@2x.png"36"6ECD8617-15AB-4426-9434-E07BCC8FF7DF-
-
-CCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/page_button@2x.png MBook/Image/page_button@2x.png
-s363543597.441307
-e363543597.493611
-r1
-xCopyPNGFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/page_button@2x.png
-xMBook/Image/page_button@2x.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Debug-iphoneos/MBook.app/page_button@2x.png MBook/Image/page_button@2x.pnga110712d3cabb541^0399892d3cabb541^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Learn/Test/MBook/MBook/Image/page_button@2x.png0000000000000000^521"CopyPNGFile "build/Debug-iphoneos/MBook.app/page_button@2x.png" "MBook/Image/page_button@2x.png"    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Learn/Test/MBook/MBook/Image/page_button@2x.png" "/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/page_button@2x.png"36"83C31FDB-F5C4-4CAF-9A04-6479BBFDF376-
-
-CCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/page_button_press@2x.png MBook/Image/page_button_press@2x.png
-s363543596.964834
-e363543597.026381
-r1
-xCopyPNGFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/page_button_press@2x.png
-xMBook/Image/page_button_press@2x.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile build/Debug-iphoneos/MBook.app/page_button_press@2x.png MBook/Image/page_button_press@2x.png1e15f72c3cabb541^6ec1062d3cabb541^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Learn/Test/MBook/MBook/Image/page_button_press@2x.png0000000000000000^545"CopyPNGFile "build/Debug-iphoneos/MBook.app/page_button_press@2x.png" "MBook/Image/page_button_press@2x.png"    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Learn/Test/MBook/MBook/Image/page_button_press@2x.png" "/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/page_button_press@2x.png"36"13BA974A-1F94-4C4B-B652-2984234EDC78-
-
-CCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/tips@2x.png MBook/Image/tips@2x.png
-s363543597.027729
-e363543597.105766
-r1
-xCopyPNGFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/tips@2x.png
-xMBook/Image/tips@2x.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"CopyPNGFile build/Debug-iphoneos/MBook.app/tips@2x.png MBook/Image/tips@2x.png4f40072d3cabb541^0e151b2d3cabb541^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Learn/Test/MBook/MBook/Image/tips@2x.png0000000000000000^493"CopyPNGFile "build/Debug-iphoneos/MBook.app/tips@2x.png" "MBook/Image/tips@2x.png"    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Learn/Test/MBook/MBook/Image/tips@2x.png" "/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/tips@2x.png"36"024974DD-5952-4A1D-B734-0E8F7816AB5F-
-
-CCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/video@2x.png MBook/Image/video@2x.png
-s363543597.107039
-e363543597.158071
-r1
-xCopyPNGFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/video@2x.png
-xMBook/Image/video@2x.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/Debug-iphoneos/MBook.app/video@2x.png MBook/Image/video@2x.pngaf7b1b2d3cabb541^e276282d3cabb541^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Learn/Test/MBook/MBook/Image/video@2x.png0000000000000000^497"CopyPNGFile "build/Debug-iphoneos/MBook.app/video@2x.png" "MBook/Image/video@2x.png"    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Learn/Test/MBook/MBook/Image/video@2x.png" "/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/video@2x.png"36"CC70B7F9-F335-469C-8569-C18AFC7A224C-
-
-CCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/video_button@2x.png MBook/Image/video_button@2x.png
-s363543597.159358
-e363543597.243494
-r1
-xCopyPNGFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/video_button@2x.png
-xMBook/Image/video_button@2x.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Debug-iphoneos/MBook.app/video_button@2x.png MBook/Image/video_button@2x.pngd3f9282d3cabb541^58563e2d3cabb541^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Learn/Test/MBook/MBook/Image/video_button@2x.png0000000000000000^525"CopyPNGFile "build/Debug-iphoneos/MBook.app/video_button@2x.png" "MBook/Image/video_button@2x.png"    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Learn/Test/MBook/MBook/Image/video_button@2x.png" "/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/video_button@2x.png"36"CDC1265D-0057-47BB-8996-B2724012DA7F-
-
-CCopyPNGFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/video_button_press.png MBook/Image/video_button_press.png
-s363543597.244711
-e363543597.329640
-r1
-xCopyPNGFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/video_button_press.png
-xMBook/Image/video_button_press.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile build/Debug-iphoneos/MBook.app/video_button_press.png MBook/Image/video_button_press.png80b93e2d3cabb541^8864542d3cabb541^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Learn/Test/MBook/MBook/Image/video_button_press.png0000000000000000^529"CopyPNGFile build/Debug-iphoneos/MBook.app/video_button_press.png MBook/Image/video_button_press.png    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/xcode5/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Learn/Test/MBook/MBook/Image/video_button_press.png /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/video_button_press.png36"EE2AC73F-142C-4B2B-8747-918F26027698-
-
-CCopyStringsFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/en.lproj/InfoPlist.strings MBook/en.lproj/InfoPlist.strings
-s363543586.973831
-e363543587.089889
-r1
-xCopyStringsFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/en.lproj/InfoPlist.strings
-xMBook/en.lproj/InfoPlist.strings
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy MBook/en.lproj/InfoPlist.strings2386f9223cabb541^5a0f17233cabb541^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Learn/Test/MBook/MBook/en.lproj/InfoPlist.strings0000000000000000^434"CopyStringsFile build/Debug-iphoneos/MBook.app/en.lproj/InfoPlist.strings MBook/en.lproj/InfoPlist.strings    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/en.lproj -- MBook/en.lproj/InfoPlist.strings36"A31CF1BF-2F7F-4B27-B926-0C68AA817AD5-
-
-CCpResource /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/MBook.app/ResourceRules.plist
-s363543579.368228
-e363543579.435582
-r1
-xCpResource
-x/xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
-xbuild/Debug-iphoneos/MBook.app/ResourceRules.plist
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphoneos/MBook.app/ResourceRules.plist525f5e1b3cabb541^b9886f1b3cabb541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/ResourceRules.plist00f8fc33dcffdf42^540"CpResource /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/MBook.app/ResourceRules.plist    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist /Learn/Test/MBook/build/Debug-iphoneos/MBook.app36"A9F1891C-20E4-4E2F-8E40-26A0B28DF16F-
-
-CCpResource MBook/Resource/test.txt build/Debug-iphoneos/MBook.app/test.txt
-s363543587.091084
-e363543587.093949
-r1
-xCpResource
-xMBook/Resource/test.txt
-xbuild/Debug-iphoneos/MBook.app/test.txt
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/Debug-iphoneos/MBook.app/test.txtf56317233cabb541^f41518233cabb541^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/test.txt00f8fc33dcffdf42^421"CpResource MBook/Resource/test.txt build/Debug-iphoneos/MBook.app/test.txt    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Learn/Test/MBook/MBook/Resource/test.txt /Learn/Test/MBook/build/Debug-iphoneos/MBook.app36"DB9A0FC0-C7D6-476C-A2AC-2760F6B29BE0-
-
-CGenerateDSYMFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app.dSYM /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/MBook
-s363543586.932323
-e363543586.970612
-r1
-xGenerateDSYMFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app.dSYM
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/MBook
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Generating /Learn/Test/MBook/build/Debug-iphoneos/MBook.app.dSYM09c1ee223cabb541^357bf8223cabb541^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Learn/Test/MBook/build/Debug-iphoneos/MBook.app.dSYM00f8fc33dcffdf42^374"GenerateDSYMFile build/Debug-iphoneos/MBook.app.dSYM build/Debug-iphoneos/MBook.app/MBook    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/usr/bin/dsymutil /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/MBook -o /Learn/Test/MBook/build/Debug-iphoneos/MBook.app.dSYM36"35E87AB6-0948-4D53-B61D-38BDBB4A88C2-
-
-CLd /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/MBook normal armv7
-s363543585.348126
-e363543586.930244
-r1
-xLd
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/MBook
-xnormal
-xarmv7
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Link /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/MBookcb4859213cabb541^ea25ee223cabb541^---0#0#0#--768"Ld build/Debug-iphoneos/MBook.app/MBook normal armv7    cd /Learn/Test/MBook    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Learn/Test/MBook/build/Debug-iphoneos -F/Learn/Test/MBook/build/Debug-iphoneos -filelist /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/Objects-normal/armv7/MBook.LinkFileList -dead_strip -miphoneos-version-min=5.0 -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -o /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/MBook36"3C93BA2F-E8D2-4C8A-B7FA-2F28E3AF2026-
-
-CProcessInfoPlistFile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/Info.plist MBook/MBook-Info.plist
-s363543579.368896
-e363543579.436203
-r1
-xProcessInfoPlistFile
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/Info.plist
-xMBook/MBook-Info.plist
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process MBook/MBook-Info.plist27845e1b3cabb541^c5ac6f1b3cabb541^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Learn/Test/MBook/MBook/MBook-Info.plist0000000000000000^556"ProcessInfoPlistFile build/Debug-iphoneos/MBook.app/Info.plist MBook/MBook-Info.plist    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MBook/MBook-Info.plist -genpkginfo /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/ResourceRules.plist -o /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/Info.plist36"2B1F44F9-0190-4343-977B-B28B66C9881D-
-
-CProcessPCH /Users/qqn_pipi/Library/Developer/Xcode/DerivedData/MBook-bcxtfxytklguwjhixsdpcqogusco/Index/PrecompiledHeaders/MBook-Prefix-cerlzfogvjbuwqfptcgihzmjjscd_ast/MBook-Prefix.pch.pth MBook/MBook-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch.pth MBook/MBook-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363543579.439415
-e363543583.404098
-r1
-xProcessPCH
-x/var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch.pth
-xMBook/MBook-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile MBook/MBook-Prefix.pch29b4701b3cabb541^5874671f3cabb541^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Learn/Test/MBook/MBook/MBook-Prefix.pch0000000000000000^2188"ProcessPCH /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch.pth MBook/MBook-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Learn/Test/MBook    setenv LANG en_US.US-ASCII    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-generated-files.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-own-target-headers.hmap -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-all-target-headers.hmap -iquote /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook-project-headers.hmap -I/Learn/Test/MBook/build/Debug-iphoneos/include -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources/armv7 -I/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/DerivedSources -F/Learn/Test/MBook/build/Debug-iphoneos -c /Learn/Test/MBook/MBook/MBook-Prefix.pch -o /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/xs/xsAEPTMCHFOHhJtgShHO3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MBook-Prefix-acbenwkcbozrticdjwerlkjskxef/MBook-Prefix.pch.d36"1DD598E1-4295-49BC-A15E-A3C87E7C3512-
-
-CProcessProductPackaging "/Users/qqn_pipi/Library/MobileDevice/Provisioning Profiles/7794B171-C647-457F-A08B-69FF1F835785.mobileprovision" /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/embedded.mobileprovision
-s363543597.829306
-e363543597.833505
-r1
-xProcessProductPackaging
-x/Users/qqn_pipi/Library/MobileDevice/Provisioning Profiles/7794B171-C647-457F-A08B-69FF1F835785.mobileprovision
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/embedded.mobileprovision
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection193"ProcessProductPackaging "/Users/qqn_pipi/Library/MobileDevice/Provisioning Profiles/7794B171-C647-457F-A08B-69FF1F835785.mobileprovision" build/Debug-iphoneos/MBook.app/embedded.mobileprovisionbf63d42d3cabb541^b401d82d3cabb541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Learn/Test/MBook/build/Debug-iphoneos/MBook.app/embedded.mobileprovision0000000000000000^564"ProcessProductPackaging "/Users/qqn_pipi/Library/MobileDevice/Provisioning Profiles/7794B171-C647-457F-A08B-69FF1F835785.mobileprovision" build/Debug-iphoneos/MBook.app/embedded.mobileprovision    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/qqn_pipi/Library/MobileDevice/Provisioning Profiles/7794B171-C647-457F-A08B-69FF1F835785.mobileprovision" -o /Learn/Test/MBook/build/Debug-iphoneos/MBook.app/embedded.mobileprovision36"F991825C-FE31-4DFC-92F3-6FEC606279B4-
-
-CProcessProductPackaging /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook.xcent
-s363543597.856925
-e363543597.901576
-r1
-xProcessProductPackaging
-x/xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
-x/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook.xcent
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection166"ProcessProductPackaging /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/MBook.build/Debug-iphoneos/MBook.build/MBook.xcent9b74db2d3cabb541^07d2ed2d3cabb541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook.xcent00f8fc33dcffdf42^536"ProcessProductPackaging /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/MBook.build/Debug-iphoneos/MBook.build/MBook.xcent    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /xcode5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o /Learn/Test/MBook/build/MBook.build/Debug-iphoneos/MBook.build/MBook.xcent36"018FE824-2511-4E35-92B9-F8A31E25DCD1-
-
-CTouch /Learn/Test/MBook/build/Debug-iphoneos/MBook.app
-s363543597.845911
-e363543597.854423
-r1
-xTouch
-x/Learn/Test/MBook/build/Debug-iphoneos/MBook.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Touch /Learn/Test/MBook/build/Debug-iphoneos/MBook.appf99fd82d3cabb541^9bcbed2d3cabb541^---0#0#0#--251"Touch build/Debug-iphoneos/MBook.app    cd /Learn/Test/MBook    setenv PATH "/xcode5/Platforms/iPhoneOS.platform/Developer/usr/bin:/xcode5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Learn/Test/MBook/build/Debug-iphoneos/MBook.app36"96C27033-E4B3-4338-9C14-BB25E7791A29-
-

@@ -16,13 +16,13 @@
 
 
 #import "MusicScoreViewController.h"
-#import "ViewController.h"
 #import "MScorePlayViewController.h"
 
 @implementation BookController
 @synthesize catalog;
 @synthesize bookself;
 @synthesize catalogView;
+
 
 #define SHOW_FONT    [UIFont systemFontOfSize:16]
 #define SHOW_BOUNDS CGRectMake(0, 0, 265, 390)
@@ -39,6 +39,10 @@
 #define PERFORM_WIDTH 120
 #define ANIMATION_DURATION 0.6
 
+#define kDuration 0.7  // 立体翻页动画持续时间(秒)
+ 
+
+ 
 
 
 -(void)showMScoreViewController{
@@ -53,21 +57,46 @@
 
 - (void)clickBookself:(id)sender {
     
+//    CGContextRef context = UIGraphicsGetCurrentContext();
+//    [UIView beginAnimations:nil context:context];
+//    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+//    [UIView setAnimationDuration:kDuration];
+//    [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self.view cache:YES];
+//    [UIView setAnimationDelegate:self];
+//    
+//    // 动画完毕后调用某个方法
+//    [UIView setAnimationDidStopSelector:@selector(animationFinished:)];
+//    [UIView commitAnimations];
+    
     [self.navigationController popViewControllerAnimated:YES];
-//    ViewController *viewController = [[ViewController alloc]initWithNibName:@"ViewController" bundle:nil];
-//      
-//     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
-//    [self.navigationController presentModalViewController:navController animated:YES];
-//    [viewController release];
+
 
 }
+
+//-(void)animationFinished:(id)sender{
+//    
+//}
+
 
 - (void)clickCatalog:(id)sender {
     if (self.catalogView.hidden) {
         self.catalogView.hidden = NO;
         [self.catalogView setAlpha:1];
+//        self.catalogView.backgroundColor = [UIColor grayColor];
         [self.view bringSubviewToFront:self.catalogView];
-//        [self.catalogView reloadData];
+        [self.catalogView reloadData];
+
+        ////Animations 使得CatalogView 往左右边缓慢移动进入页面
+        CGRect Originframe = CGRectMake(300, 50, 210, 250);
+        [self.catalogView setFrame:Originframe];
+        [self.catalogView.layer  setOpacity:0.0 ];
+        [UIView beginAnimations:@"animation" context:nil];
+        [UIView setAnimationDuration:0.4];
+         Originframe.origin.x -= 300 ;
+        [self.catalogView setFrame:Originframe];
+        [self.catalogView.layer  setOpacity:1.0 ];
+        [UIView commitAnimations];
+        
     }else{
         self.catalogView.hidden = YES;
     }
@@ -117,7 +146,6 @@
     NSString *contentPath = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"txt"];
 	NSString *txtContent = [NSString stringWithContentsOfFile:contentPath encoding:NSUTF8StringEncoding error:nil];
 	pagination = [[Pagination alloc] initWithContent:txtContent withFont:SHOW_FONT inRect:SHOW_BOUNDS];
-//    [self.navigationController setNavigationBarHidden:YES];
     [super viewDidLoad];
     [leavesView setPreferredTargetWidth:PERFORM_WIDTH];
     [self initViews];
@@ -126,6 +154,30 @@
     [self.view addSubview:self.catalogView];
     [self.catalogView setHidden:YES];
     [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    
+    [super viewWillAppear:animated];
+    [self hideTabBar];
+
+}
+
+
+- (void)hideTabBar {
+    UITabBar *tabBar = self.tabBarController.tabBar;
+    UIView *parent = tabBar.superview; // UILayoutContainerView
+    UIView *content = [parent.subviews objectAtIndex:0];  // UITransitionView
+    UIView *window = parent.superview;
+    
+    [UIView animateWithDuration:0.5
+                     animations:^{
+                         CGRect tabFrame = tabBar.frame;
+                         tabFrame.origin.y = CGRectGetMaxY(window.bounds);
+                         tabBar.frame = tabFrame;
+                         content.frame = window.bounds;
+                     }];
+    
 }
 
 
@@ -201,9 +253,12 @@
 
 - (void) leavesView:(LeavesView *)leavesView didClickLink:(Link *)link atPageIndex:(NSUInteger)pageIndex
 {
-    MScorePlayViewController *mc = [[MScorePlayViewController alloc] initWithLink:pageIndex + 1];
-    [self presentModalViewController:mc animated:YES];
+    
+    MScorePlayViewController *mc = [[MScorePlayViewController alloc] initWithLink:pageIndex + 2];
+    [self.navigationController pushViewController:mc animated:YES];
     [mc release];
+    
+    
     // TODO show the music playing controller
 //    NSLog(@"Click %d page link!",pageIndex);
 //    MusicScoreViewController *musicScoreController = [[MusicScoreViewController alloc]initWithNibName:@"MusicScoreViewController" bundle:nil];
