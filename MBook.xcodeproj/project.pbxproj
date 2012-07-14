@@ -92,6 +92,12 @@
 		4A5A5F4D15B11F21009C2A54 /* 设置.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F3915B11F21009C2A54 /* 设置.png */; };
 		4A5A5F4E15B11F21009C2A54 /* 设置press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F3A15B11F21009C2A54 /* 设置press.png */; };
 		4A5A5F5015B1249D009C2A54 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F4F15B1249B009C2A54 /* 11.jpg */; };
+		4A5A5F5F15B15B52009C2A54 /* press.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F5915B15B51009C2A54 /* press.png */; };
+		4A5A5F6015B15B52009C2A54 /* 关于我们字样.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F5A15B15B51009C2A54 /* 关于我们字样.png */; };
+		4A5A5F6115B15B52009C2A54 /* 分割线.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F5B15B15B52009C2A54 /* 分割线.png */; };
+		4A5A5F6215B15B52009C2A54 /* 意见反馈.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F5C15B15B52009C2A54 /* 意见反馈.png */; };
+		4A5A5F6315B15B52009C2A54 /* 箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F5D15B15B52009C2A54 /* 箭头.png */; };
+		4A5A5F6415B15B52009C2A54 /* 系统设置.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A5F5E15B15B52009C2A54 /* 系统设置.png */; };
 		4A821D7F15AEC22900537BE8 /* TRACKS1+2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A821D7E15AEC22700537BE8 /* TRACKS1+2.jpg */; };
 		4AA4540F15B057EA000A7E7D /* BookStroeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4540D15B057EA000A7E7D /* BookStroeViewController.m */; };
 		4AA4541015B057EA000A7E7D /* BookStroeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA4540E15B057EA000A7E7D /* BookStroeViewController.xib */; };
@@ -238,6 +244,12 @@
 		4A5A5F3915B11F21009C2A54 /* 设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置.png"; sourceTree = "<group>"; };
 		4A5A5F3A15B11F21009C2A54 /* 设置press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置press.png"; sourceTree = "<group>"; };
 		4A5A5F4F15B1249B009C2A54 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		4A5A5F5915B15B51009C2A54 /* press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = press.png; sourceTree = "<group>"; };
+		4A5A5F5A15B15B51009C2A54 /* 关于我们字样.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于我们字样.png"; sourceTree = "<group>"; };
+		4A5A5F5B15B15B52009C2A54 /* 分割线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分割线.png"; sourceTree = "<group>"; };
+		4A5A5F5C15B15B52009C2A54 /* 意见反馈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "意见反馈.png"; sourceTree = "<group>"; };
+		4A5A5F5D15B15B52009C2A54 /* 箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "箭头.png"; sourceTree = "<group>"; };
+		4A5A5F5E15B15B52009C2A54 /* 系统设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "系统设置.png"; sourceTree = "<group>"; };
 		4A821D7E15AEC22700537BE8 /* TRACKS1+2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TRACKS1+2.jpg"; sourceTree = "<group>"; };
 		4AA4540C15B057EA000A7E7D /* BookStroeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStroeViewController.h; sourceTree = "<group>"; };
 		4AA4540D15B057EA000A7E7D /* BookStroeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStroeViewController.m; sourceTree = "<group>"; };
@@ -529,6 +541,12 @@
 				4AA4541215B05925000A7E7D /* SettingViewController.h */,
 				4AA4541315B05925000A7E7D /* SettingViewController.m */,
 				4AA4541415B05925000A7E7D /* SettingViewController.xib */,
+				4A5A5F5915B15B51009C2A54 /* press.png */,
+				4A5A5F5A15B15B51009C2A54 /* 关于我们字样.png */,
+				4A5A5F5B15B15B52009C2A54 /* 分割线.png */,
+				4A5A5F5C15B15B52009C2A54 /* 意见反馈.png */,
+				4A5A5F5D15B15B52009C2A54 /* 箭头.png */,
+				4A5A5F5E15B15B52009C2A54 /* 系统设置.png */,
 			);
 			name = SettingViewController;
 			sourceTree = "<group>";
@@ -830,6 +848,12 @@
 				4A5A5F4D15B11F21009C2A54 /* 设置.png in Resources */,
 				4A5A5F4E15B11F21009C2A54 /* 设置press.png in Resources */,
 				4A5A5F5015B1249D009C2A54 /* 11.jpg in Resources */,
+				4A5A5F5F15B15B52009C2A54 /* press.png in Resources */,
+				4A5A5F6015B15B52009C2A54 /* 关于我们字样.png in Resources */,
+				4A5A5F6115B15B52009C2A54 /* 分割线.png in Resources */,
+				4A5A5F6215B15B52009C2A54 /* 意见反馈.png in Resources */,
+				4A5A5F6315B15B52009C2A54 /* 箭头.png in Resources */,
+				4A5A5F6415B15B52009C2A54 /* 系统设置.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
