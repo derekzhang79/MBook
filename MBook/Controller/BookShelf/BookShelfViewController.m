@@ -34,6 +34,8 @@
 */
 
 #import "BookShelfViewController.h"
+#import "BookStroeViewController.h"
+#import "SettingViewController.h"
 
 #import "MyCellView.h"
 #import "MyBookView.h"
@@ -307,7 +309,7 @@
         [_setttingButton setTitle:@"设置" forState:UIControlStateNormal];
         [_setttingButton setBackgroundImage:[UIImage imageNamed:@"Settings.png"] forState:UIControlStateNormal];
         [_setttingButton setBackgroundImage:[UIImage imageNamed:@"SettingsPressed.png"] forState:UIControlStateSelected];
-
+        [_setttingButton addTarget:self action:@selector(clickSettingButton:) forControlEvents:UIControlEventTouchUpInside ];
         
         [view addSubview:_setttingButton];
         [view addSubview:_searchBar];
@@ -317,6 +319,19 @@
     
     return view;
 }
+
+-(void)clickSettingButton:(id)sender {
+    
+    SettingViewController *svc = [[SettingViewController alloc]initWithNibName:@"SettingViewController" bundle:nil];
+    [self.navigationController pushViewController:svc animated:YES];
+
+    NSLog(@"self click the SettingButton");
+
+}
+
+
+
+
 
 - (CGFloat)cellHeightOfBookShelfView:(GSBookShelfView *)bookShelfView {
     return 125.0f;
