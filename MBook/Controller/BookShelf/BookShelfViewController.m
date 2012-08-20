@@ -34,6 +34,8 @@
 */
 
 #import "BookShelfViewController.h"
+#import "BookStroeViewController.h"
+#import "SettingViewController.h"
 
 #import "MyCellView.h"
 #import "MyBookView.h"
@@ -194,9 +196,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     [self initBarButtons];
     [self switchToNormalMode];
+
+    UIImageView *bookShelfBackground = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"BookShelfBackground.png"]];
+    
+    [bookShelfBackground setFrame:CGRectMake(0, 0, 320, 436)];
+   [self.view addSubview:bookShelfBackground];
+    
+    
+    [self registerForKeyboardNotifications];
     
 	[self initBooks];
     
@@ -215,16 +224,13 @@
     
     //[self performSelector:@selector(testScrollToRow) withObject:self afterDelay:3];
     
-        
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
-    
     
 }
 
-
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
     
-    return YES;
+    return (toInterfaceOrientation ==UIInterfaceOrientationPortrait);
 }
 
 - (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
@@ -307,7 +313,7 @@
         [_setttingButton setTitle:@"设置" forState:UIControlStateNormal];
         [_setttingButton setBackgroundImage:[UIImage imageNamed:@"Settings.png"] forState:UIControlStateNormal];
         [_setttingButton setBackgroundImage:[UIImage imageNamed:@"SettingsPressed.png"] forState:UIControlStateSelected];
-
+        [_setttingButton addTarget:self action:@selector(clickSettingButton:) forControlEvents:UIControlEventTouchUpInside ];
         
         [view addSubview:_setttingButton];
         [view addSubview:_searchBar];
@@ -317,6 +323,12 @@
     
     return view;
 }
+
+-(void)clickSettingButton:(id)sender {
+    SettingViewController *svc = [[SettingViewController alloc]initWithNibName:@"SettingViewController" bundle:nil];
+    [self.navigationController pushViewController:svc animated:YES];
+}
+
 
 - (CGFloat)cellHeightOfBookShelfView:(GSBookShelfView *)bookShelfView {
     return 125.0f;
@@ -389,13 +401,14 @@
 }
 
 - (void)addButtonClicked:(id)sender {
-    int a[6] = {1, 2, 5, 7, 9, 22};
+//    int a[6] = {1, 2, 5, 7, 9, 22};
+    int a[7] = {1, 2, 3, 4, 5, 6, 7};
     NSMutableIndexSet *indexSet = [NSMutableIndexSet indexSet];
     NSMutableArray *arr = [NSMutableArray array];
     NSMutableArray *stat = [NSMutableArray array];
     for (int i = 0; i < 6; i++) {
         [indexSet addIndex:a[i]];
-        [arr addObject:[NSNumber numberWithInt:1]];
+        [arr addObject:[NSNumber numberWithInt:i]];
         [stat addObject:[NSNumber numberWithInt:BOOK_UNSELECTED]];
     }
     [_bookArray insertObjects:arr atIndexes:indexSet];
@@ -427,6 +440,38 @@
 
     }
 }
+
+
+// Call this method somewhere in your view controller setup code.
+- (void)registerForKeyboardNotifications
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardWasShown:)
+                                                 name:UIKeyboardDidShowNotification object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardWillBeHidden:)
+                                                 name:UIKeyboardWillHideNotification object:nil];
+    
+}
+
+-(void)keyboardWasShown:(NSNotification *)aNotification{
+    
+    NSLog(@"The the keyboard was shown");
+    
+  
+
+
+}
+
+-(void)keyboardWillBeHidden:(NSNotification *)aNotification{
+    
+    NSLog(@"The keyboard will he hidden");
+
+
+}
+
+
 
 
 

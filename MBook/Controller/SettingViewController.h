@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SettingViewController : UIViewController
+@interface SettingViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+{
+    
+    NSArray *_listData;
+   
+}
 
+@property (nonatomic,retain) NSArray *listData;
+
+@property(nonatomic,retain)IBOutlet UILabel *showSwitchValue;
+@property(nonatomic,retain)IBOutlet UILabel *message;
+@property(nonatomic,retain)IBOutlet UILabel *downLoad;
+-(IBAction)messageAcction:(id)sender;
+-(IBAction)downLoadAcction:(id)sender;
 @end
